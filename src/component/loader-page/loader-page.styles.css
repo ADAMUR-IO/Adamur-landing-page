@@ -1,0 +1,42 @@
+.loader-container {
+    background-color: #F2EEE5; 
+    box-sizing: border-box;
+    margin: 0px;
+    width: 100%;
+    height: auto;
+    background-size: cover;
+  }
+  .top-text {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 5px;
+    font-size: 30px;
+  }
+ .text-c {
+    color: red;
+  }
+
+  .box-container {
+    border: 0px solid;
+    align-items: center;
+    margin: 1px;
+    width: 500px;
+    padding: 0px;
+    float: left;
+    margin-left: 5px;
+    font-size: 12px;
+  }
+  .box-container .inspire {
+    font-size: 18px;
+  }
+  .box-container1>:nth-child(1) {
+    border: 1px solid;
+    align-items: center;
+    margin: 1px;
+    height: 250px;
+    width: 300px;
+    padding: 0px;
+    float: right;
+    margin-right: 50px;
+    font-size: 12px;
+  }
