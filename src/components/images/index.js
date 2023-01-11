@@ -6,3 +6,10 @@ export const Col5 = require('./col5/pic 5.png');
 export const Col6 = require('./col6/pic 6.png');
 export const Col7 = require('./col7/pic 7.png');
 export const Col8 = require('./col8/pic 8.png');
+export const image1 = require('./image1/image1.jpeg');
+export const images3 = require('./image1/images3.jpeg');
+export const images = require('./image1/images.jpeg');
+
+
+export const leftArrow = require('./leftArrow/leftArrow.png');
+export const rightArrow = require('./rightArrow/rightArrow.png');

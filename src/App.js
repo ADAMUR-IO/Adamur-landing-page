@@ -1,10 +1,15 @@
 import React from 'react'
-import Hero from './components/hero/Hero'
+import './App.css'
+import Hero from './components/hero/Hero';
+import Team from './components/team/Team';
 
-const App = () => {
+function App ()  {
   return (
+    <div className='App'>
     <Hero />
+    <Team />
+    </div>
   )
 }
 
-export default App
+export default App;

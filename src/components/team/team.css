@@ -1,0 +1,108 @@
+.team-container{
+    background-color: #D9D9D9;
+    height: 36.5rem;
+}
+.team-container p{
+    margin: 1.5rem;
+    font-weight: 500;
+    margin-left: 30rem;
+}
+.image-container{
+    margin-top: 3rem;
+    display: flex;
+    background-color: black;
+    width: 60rem;
+    height: 65vh;
+    margin-bottom: 3rem;
+    margin-left: 10rem;
+    border-radius: 10px;
+}
+
+.left-t{
+    display: flex;
+    height: 0.1rem;
+    gap: 2.5rem;
+    width: 50px;
+    margin-top: 1.5rem;
+    margin-left: 2rem;
+    text-transform: lowercase;
+    color: white;
+}
+.left-t>:nth-child(1){
+    font-weight: 300;
+}
+.left-t>:nth-child(2),
+.left-t>:nth-child(3){
+font-weight: 250;
+font-size: 1.5rem;
+}
+.left-t>:nth-child(4){
+    display: flex;
+    flex-direction: column;
+    text-transform: none;
+    text-align: center;
+    line-height: 20px;
+    width: 40px;
+}
+
+.arrows{
+    display: flex;
+    gap: 1rem;
+    bottom: 1rem;
+    left: 3rem;
+}
+.arrows>img{
+    width: 1.5rem;
+    cursor: pointer;
+}
+.right-t{
+    position: relative;
+}
+
+.right-t>img{
+    position: absolute;
+    width: 15rem;
+    height: 15rem;
+    object-fit: cover;
+    margin-top: 3rem;
+    margin-left: 35rem;
+    border-radius: 10px;
+
+}
+.right-t>:nth-child(1){
+    position: absolute;
+    width: 20px;
+    height: 20rem;
+    right: 9rem;
+    top: 0.9rem;
+}
+.right-t>:nth-child(2){
+    position: absolute;
+    width: 20px;
+    height: 5rem;
+    top: 4rem;
+    right: 7rem;
+}
+.arrows{
+    display: flex;
+    gap: 1rem;
+    position: absolute;
+    bottom: 2rem;
+    margin-left: 25rem;
+}
+.arrows>img{
+    width: 1.5rem;
+    cursor: pointer;
+}
+
+.link a{
+    margin-left: 40rem;
+    font-weight: 400;
+    color: orangered;
+    margin-bottom: 1.5rem;
+}
+.link a:hover{
+    cursor: pointer;
+    color: blue;
+}
+
