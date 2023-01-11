@@ -1,10 +1,32 @@
+.body-container {
+  background-color: #F5F5F5;
+  background-attachment: fixed;
+  margin: 0px;
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+
+}
 .loader-container {
-    background-color: #F2EEE5; 
+    background-color: #F2EEE5;
     box-sizing: border-box;
     margin: 0px;
     width: 100%;
     height: auto;
     background-size: cover;
+  }
+  .bold-t {
+    font-size: 60px;
+    font-weight: bold;
+  }
+  .text {
+    font-size: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 30px;
   }
   .top-text {
     display: flex;
@@ -17,26 +39,200 @@
   }
 
   .box-container {
+    color: #000000;
     border: 0px solid;
     align-items: center;
     margin: 1px;
     width: 500px;
+    height: 400px;
     padding: 0px;
     float: left;
-    margin-left: 5px;
-    font-size: 12px;
-  }
-  .box-container .inspire {
+    margin-left: 30px;
     font-size: 18px;
   }
+  .inspire {
+    font-size: 25px;
+    font-weight: bolder;
+  }
   .box-container1>:nth-child(1) {
+    border: 0px solid;
+    align-items: center;
+    margin: 1px;
+    height: 400px;
+    width: 300px;
+    padding: 0px;
+    float: right;
+    margin-right: 50px;
+    font-size: 12px;
+  }
+  .section-2-container {
+    background-color: white;
+    justify-content: center;
+  }
+  .section-2-container-0>:nth-child(1) {
     border: 1px solid;
     align-items: center;
     margin: 1px;
     height: 250px;
     width: 300px;
     padding: 0px;
-    float: right;
-    margin-right: 50px;
+    float: left;
+    margin-left: 70px;
+    margin-top: 50px;
     font-size: 12px;
+  }
+  .section-2-container-1 {
+    background-color: black;
+    color: white;
+    border: 1px solid;
+    align-items: center;
+    margin: 0px;
+    margin-top: 0px;
+    height: 400px;
+    width: 600px;
+    padding: 0px;
+    float: right;
+    margin-right: 0px;
+    font-size: 16px;
+  }
+  .text-delivery {
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-right: 20px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .delivery {
+    margin-left: 40px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+  }
+  .link-join {
+    font-size: 15px;
+    font-weight: bold;
+    color: whitesmoke;
+    margin-top: 20px;
+    margin-left: 50px;
+    justify-content: center;
+    text-align: center;
+    text-decoration: double;
+    border-radius: 50px 50px 50px 50px;
+    border: 1px solid red;
+    width: 40%;
+  }
+  .section-3-container {
+    justify-content: center;
+    text-align: center;
+    background-color: lightgrey;
+  }
+  .chohort-portfolio {
+    color: #E20044;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  .logo-haba>:nth-child(1),
+  .logo-haba>:nth-child(2)
+   {
+    font-size: 50px;
+    margin-top: 70px;
+    margin-bottom: 100px;
+    align-items: stretch;
+    display: -moz-grid-group;
+    grid-row: span right;
+    padding-inline-start: 100px;
+    width: 250px;
+  } 
+  .section-4-container {
+    align-items: stretch;
+    display: -moz-grid-group;
+    grid-row: span right;
+    padding-inline-start: 100px;
+  }
+  .section-4-container-0 {
+    background-color: black;
+    color: white;
+    border: 1px solid;
+    text-align: center;
+    align-items: center;
+    margin: 0px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    height: 300px;
+    width: 500px;
+    padding: 0px;
+    float: left;
+    margin-left: 0px;
+    font-size: 12px;
+
+  }
+  .section-4-container-1 {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: left;
+
+  }
+  .section-4-container-2 {
+    font-style: normal;
+    font-size: 25px;
+    margin-left: 0px;
+  }
+  .section-4-container-2-link {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .section-4-box-container>:nth-child(1) {
+    border: 0px solid;
+    margin: 1px;
+    height: 250px;
+    width: 500px;
+    padding: 5px;
+    margin-top: 60px;
+    font-size: 40px;
+  }
+  .footer-container {
+    background-color: white;
+    background-size: cover;
+
+  }
+  .footer-title {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 68px;
+    font-weight: bold;
+    width: 100%;
+  }
+  .footer-container-0 {
+    align-items: stretch;
+    display: -moz-grid-group;
+    grid-row: span right;
+    padding-inline-start: 100px;
+    background-color: black;
+    color: white;
+
+  }
+  .adamur-text {
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 50px;
+    color: white;
+    letter-spacing: 5px;
+  }
+  .adamur-logo {
+    background-color: black;
+    color: white;
+    border: 0px solid;
+    align-items: center;
+    margin: 1px;
+    height: 200px;
+    width: 300px;
+    padding: 0px;
+    float: left;
+    margin-right: 10px;
+    font-size: 12px;
+  }
+  a {
+    text-decoration: none;
+    cursor: pointer;
   }
