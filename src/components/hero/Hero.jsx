@@ -27,7 +27,7 @@ const Hero = () => {
       <p>At Adamur we inspire, shape and develop industry grade software engineers, let your career in tech soar to greater heights!</p>
       </div>
     </div>
-    <div className="slant-container">
+    <div className="img-container">
       <div className="img1-container">
         <img src={ Col1 } alt="" />
         <img src={ Col2 } alt="" />
