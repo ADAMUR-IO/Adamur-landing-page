@@ -92,7 +92,7 @@ const Loader = () => {
 
                         <div className='footer-container'>{/* start of footer div */}
                               <div>
-                              <span className='footer-title'>Let's Talk * Ready to join our next cohort?</span>
+                              <h1 className='footer-title'>Let's Talk * Ready to join our next cohort?</h1>
                               </div>
                         <footer className='footer-container-0'>
                           <div className='footer-container-1'>
