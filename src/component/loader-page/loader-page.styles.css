@@ -23,10 +23,10 @@
     font-weight: bold;
   }
   .text {
-    font-size: 60px;
+    font-size: 70px;
     margin-top: 10px;
     margin-bottom: 10px;
-    margin-left: 30px;
+    margin-left: 35px;
   }
   .top-text {
     display: flex;
@@ -47,12 +47,19 @@
     height: 400px;
     padding: 0px;
     float: left;
-    margin-left: 30px;
-    font-size: 18px;
+    margin-left: 40px;
+    font-size: 14px;
+    margin-bottom: 50px;
   }
   .inspire {
-    font-size: 25px;
+    font-size: 40px;
     font-weight: bolder;
+  }
+  .inspire-2 {
+    margin-left: 25px;
+    margin-right: 130px;
+    margin-bottom: 20px;
+
   }
   .box-container1>:nth-child(1) {
     border: 0px solid;
@@ -62,7 +69,7 @@
     width: 300px;
     padding: 0px;
     float: right;
-    margin-right: 50px;
+    margin-right: 300px;
     font-size: 12px;
   }
   .section-2-container {
@@ -70,26 +77,26 @@
     justify-content: center;
   }
   .section-2-container-0>:nth-child(1) {
-    border: 1px solid;
+    border: 0px solid;
     align-items: center;
     margin: 1px;
-    height: 250px;
-    width: 300px;
+    height: 350px;
+    width: 500px;
     padding: 0px;
     float: left;
-    margin-left: 70px;
+    margin-left: 80px;
     margin-top: 50px;
     font-size: 12px;
   }
   .section-2-container-1 {
-    background-color: black;
+    background-color: rgb(2, 2, 2);
     color: white;
     border: 1px solid;
     align-items: center;
     margin: 0px;
     margin-top: 0px;
-    height: 400px;
-    width: 600px;
+    height: 450px;
+    width: 710px;
     padding: 0px;
     float: right;
     margin-right: 0px;
@@ -99,13 +106,15 @@
     margin-top: 10px;
     margin-left: 40px;
     margin-right: 20px;
-    font-size: 20px;
+    font-size: 40px;
     font-weight: bold;
   }
   .delivery {
-    margin-left: 40px;
-    margin-right: 20px;
+    width: 65%;
+    margin-left: 50px;
+    margin-right: 50px;
     margin-bottom: 25px;
+    font-size: 12px;
   }
   .link-join {
     font-size: 15px;
@@ -124,6 +133,10 @@
     justify-content: center;
     text-align: center;
     background-color: lightgrey;
+  }
+  .text-delivery-1 {
+    font-weight: bold;
+    font-size: 20px;
   }
   .chohort-portfolio {
     color: #E20044;
@@ -195,13 +208,7 @@
     background-size: cover;
 
   }
-  /* .footer-title {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-size: 68px;
-    font-weight: bold;
-    width: 100%;
-  } */
+
   .footer-container-0 {
     align-items: stretch;
     display: -moz-grid-group;
@@ -240,11 +247,11 @@
   h1 {
     font-size: 50px!important;
     font-weight: bold!important;
-    letter-spacing: 2px!important;
+    letter-spacing: 3px!important;
     cursor: pointer;
     width: 100%;
-    /* background: linear-gradient(to right, hsl(0, 0%, 30%) 0, hsl(0, 0%, 100%) 10%, hsl(0, 0%, 30%) 20%); */
-    background: linear-gradient(to right, hsl(0, 2%, 8%) 0, hsl(0, 42%, 90%) 10%, hsl(0, 1%, 13%) 20%);
+    background: linear-gradient(to right, hsl(0, 0%, 30%) 0, hsl(0, 18%, 68%) 10%, hsl(0, 0%, 30%) 20%);
+    /* background: linear-gradient(to right, hsl(0, 2%, 8%) 0, hsl(0, 42%, 90%) 10%, hsl(0, 1%, 13%) 20%); */
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: shine 3s infinite linear;
@@ -255,9 +262,142 @@
       background-position: 0;
     }
     60% {
-      background-position: 550px;
+      background-position: 600px;
     }
     100% {
-      background-position: 550px;
+      background-position: 600px;
     }
   }
+  
+  @media screen and (min-width: 320px) and (max-width:481px) {
+    /* For phone: */
+      .bold-t {
+        font-size: 17px;
+        font-weight: bold;
+      }
+      .text {
+        font-size: 24px;
+        margin-top: 10px;
+        margin-bottom: 2px;
+        margin-left: 5px;
+      }
+      .top-text {
+        margin-top: 10px;
+        margin-left: 5px;
+        font-size: 30px;
+      }
+      .box-container {
+        width: 190px;
+        height: auto;
+        margin-left: 5px;
+        font-size: 6.33px;
+        margin-bottom: 10px;
+      }
+      .inspire {
+        font-size: 15px;
+        /* font-weight: bolder; */
+      }
+      .inspire-2 {
+        margin-left: 10px;
+        margin-right: 27.33px;
+        margin-bottom: 5px;
+        font-size: 6px;
+    
+      }
+      .box-container1>:nth-child(1) {
+        height: auto;
+        width: 100px;
+        margin-right: 66.33px;
+      }
+      .section-2-container-0>:nth-child(1) {
+        height: 200px;
+        width: 100px;
+        margin-left: 25px;
+        margin-top: 20px;
+      }
+      .section-2-container-1 {
+        height: auto;
+        width: 247.01px;
+      }
+      .text-delivery {
+        margin-top: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 10px;
+        font-weight: bold;
+      }
+      .delivery {
+        margin-left: 30px;
+        margin-right: 40px;
+        margin-bottom: 10px;
+        font-size: 7px;
+      }
+      .link-join {
+        margin-top: 20px;
+        margin-left: 40px;
+        font-size: 10px;
+      }
+      .text-delivery-1 {
+        font-weight: bold;
+        font-size: 20px;
+      }
+      .chohort-portfolio {
+        font-weight: bold;
+        margin-top: 10px;
+        font-size: 10px;
+      }
+      .logo-haba>:nth-child(1),
+      .logo-haba>:nth-child(2)
+       {
+        margin-top: 20px;
+        padding-inline-start: 10px;
+        width: 70px;
+        margin-bottom: 20px;
+
+      }
+      .bold-t {
+        font-size: 10px;
+        font-weight: bold;
+      }
+      .section-4-container {
+        padding-inline-start: 2px;
+      }
+      .section-4-container-0 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        height: auto;
+        width: 225px;
+        font-size: 7px;
+    
+      }
+      .section-4-container-1 {
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+    
+      }
+      .section-4-container-2-link {
+        margin-top: 30px;
+        margin-bottom: 30px;
+      }
+      .section-4-box-container>:nth-child(1) {
+        height: 200px;
+        width: 120px;
+        padding: 0px;
+        margin-top: 40px;
+      }
+      h1 {
+        font-size: 12px!important;
+        letter-spacing: 1px!important;
+        width: auto;
+      }
+      .adamur-logo {
+        height: auto;
+        width: 80px;
+        font-size: 12px;
+      }
+
+  }
+  
+  
+  

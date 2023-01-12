@@ -21,10 +21,12 @@ const Loader = () => {
               <div className='box-container'>
                 <span className='inspire'>Inspiring the next gen tech talent</span>
                 <br></br>
-                <span>If it's uncontained, is it still content? We dance betwewn unfiltered & refined between  Morocco & Luxambourg, transscending traditon to capture calture. Founded in 2020, Lights specializes in videos, live events & immensive experiences. Our work spans the whole audiovisual gamut, from art direction to live streaming to interactive installations.</span>
+                <div className='inspire-2'>
+                <span >If it's uncontained, is it still content? We dance betwewn unfiltered & refined between  Morocco & Luxambourg, transscending traditon to capture calture. Founded in 2020, Lights specializes in videos, live events & immensive experiences. Our work spans the whole audiovisual gamut, from art direction to live streaming to interactive installations.</span>
                 <br></br>
                 <br></br>
                 <span>With each project, we strengthen the brand identity of organizations & causes-swapping skills with explore, our agency dedicated to digital branding. Light is insired by the unexpected & the deeply authentic. While pushing audiovisual limits, we keep our eyes on the human stories that connect us all. Showereel Inspired by convention didn't think so.</span>
+                </div>
                 </div>
                 <div className='box-container1'>
                 < img src={Cool} alt='Beautiful analytics to grow' />
@@ -72,7 +74,7 @@ const Loader = () => {
                         <div className='section-4-container-0'>
                         <div className='section-4-container-1'>
                               <div className='section-4-container-2'>
-                        <div className='text-delivery'>
+                        <div className='text-delivery-1'>
                   <p>Product design, UX & UI</p>
                 </div>
                             </div>
