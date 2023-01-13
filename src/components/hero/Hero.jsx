@@ -1,25 +1,12 @@
-import React from 'react'
-import Logo from '../images/logo.png';
 import './hero.css';
 import { Col1, Col2, Col3, Col4, Col5, Col6, Col7, Col8 } from '../images';
+
 
 
 const Hero = () => {
   return (
     <>
-    <div className='hero'>
-    <div className="blur hero-blur"></div>
-    <div className="header-r">
-      <ul className="header-menu">
-        <li>About Us</li>
-        <li>Programs</li>
-        <li>Cohorts</li>
-        <li>Startup care</li>
-        <li>News</li>
-      </ul>
-    </div>
     <div className='header-l'>
-      <img src= { Logo } alt="" className='logo'/>
       <div className="text">
       <span>shape your software engineering </span>
       <span>career with us!</span>
@@ -45,10 +32,7 @@ const Hero = () => {
       <img src={ Col8 } alt="" />
 </div>
 </div>
-    </div>
-    </>
-
-
+  </>
   );
 };
 
