@@ -14,7 +14,7 @@ const Loader = () => {
       <div className='body-container'> {/* start of parent div */}
             <div className='loader-container'>
               <div className='text'>
-                <span><span className='bold-t'>Bold</span> * <span className='text-c'>Thinkers</span> * Doers *</span>
+                <span><strong >Bold</strong> * <span className='text-c'>Thinkers</span> * Doers *</span>
 
               </div>
               
