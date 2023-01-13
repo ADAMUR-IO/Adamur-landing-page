@@ -1,0 +1,46 @@
+.header-menu{
+    margin-top: 1rem;
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    float: right;
+    margin-right: 6rem; 
+    color: black;
+}
+.logo{
+    margin-top: 1rem;
+    margin-left: 3rem;
+    width: 20rem;
+}
+li:hover{
+    cursor: pointer;
+    color: orangered;
+}
+.header-menu>:nth-child(1){
+color: #e20044;
+}
+
+.hero-blur{
+    width: 15rem;
+    height: 5rem;
+    right: 15rem;
+    background-color: rgba(236, 16, 16, 0.9);
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(75px);
+    z-index: -9;
+  }
+@media screen and (max-width: 768px) {
+    .header>:nth-child(2) {
+        position: fixed;
+        right: 2rem;
+        z-index: 99;
+    }
+    
+    .header-menu{
+        display: hidden;
+        flex-direction: column;
+        padding: 2rem;
+    }
+    
+    }

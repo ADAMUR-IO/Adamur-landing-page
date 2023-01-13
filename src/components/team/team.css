@@ -1,8 +1,10 @@
 .team-container{
+    position: relative;
     background-color: #D9D9D9;
     height: 36.5rem;
 }
 .team-container p{
+    position: relative;
     margin: 1.5rem;
     font-weight: 500;
     margin-left: 30rem;
@@ -12,16 +14,17 @@
     display: flex;
     background-color: black;
     width: 60rem;
-    height: 65vh;
+    height: 25rem;
     margin-bottom: 3rem;
     margin-left: 10rem;
     border-radius: 10px;
 }
 
 .left-t{
+    position: relative;
     display: flex;
-    height: 0.1rem;
-    gap: 2.5rem;
+    /* height: 0.1rem;
+    gap: 2.5rem; */
     width: 50px;
     margin-top: 1.5rem;
     margin-left: 2rem;
@@ -37,12 +40,12 @@ font-weight: 250;
 font-size: 1.5rem;
 }
 .left-t>:nth-child(4){
+    position: absolute;
     display: flex;
     flex-direction: column;
     text-transform: none;
     text-align: center;
-    line-height: 20px;
-    width: 40px;
+    line-height: 10px;
 }
 
 .arrows{
@@ -88,7 +91,7 @@ font-size: 1.5rem;
     gap: 1rem;
     position: absolute;
     bottom: 2rem;
-    margin-left: 25rem;
+    margin-left: 20rem;
 }
 .arrows>img{
     width: 1.5rem;
