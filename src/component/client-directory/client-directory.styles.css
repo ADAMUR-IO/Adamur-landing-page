@@ -1,0 +1,61 @@
+
+      .body-2 {
+        margin-top: .5rem;
+        height: auto;
+        padding: .7rem;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid;
+        background-color: black;
+        color: white;
+        position: absolute;
+        opacity: 0.9;
+        
+      }
+      .client-description {
+        width: 170px;
+        height: auto;
+
+      }
+    
+        h2 {
+          font-weight: bold;
+          margin: 0 6px 0;
+          font-size: 16px;
+          color: white;
+
+        }
+    
+        p {
+          font-weight: lighter;
+          font-size: 12px;
+        }
+        .background-image:hover{
+          cursor: pointer;
+          transform: scale(1.1);
+          transition: transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+        }
+        .background-image {
+          width: 80px;
+          height: auto;
+          background-size: cover;
+          background-position: center;
+        }
+        
+.star>:nth-child(1),
+.star>:nth-child(2),
+.star>:nth-child(3),
+.star>:nth-child(4),
+.star>:nth-child(5)
+{
+font-size: 15px;
+opacity: 9;
+align-items: center;
+display: -moz-grid-group;
+grid-row: span right;
+padding-inline-start: 0px;
+width: 18px;
+} 

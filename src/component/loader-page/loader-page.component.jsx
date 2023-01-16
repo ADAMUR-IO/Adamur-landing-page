@@ -19,7 +19,7 @@ const Loader = () => {
               </div>
               
               <div className='box-container'>
-                <span className='inspire'>Inspiring the next gen tech talent</span>
+                <span className='inspire-1'>Inspiring the next gen tech talent</span>
                 <br></br>
                 <div className='inspire-2'>
                 <span >If it's uncontained, is it still content? We dance betwewn unfiltered & refined between  Morocco & Luxambourg, transscending traditon to capture calture. Founded in 2020, Lights specializes in videos, live events & immensive experiences. Our work spans the whole audiovisual gamut, from art direction to live streaming to interactive installations.</span>
@@ -97,22 +97,7 @@ const Loader = () => {
                               <h1 className='footer-title'>Let's Talk * Ready to join our next cohort?</h1>
                               </div>
                         <footer className='footer-container-0'>
-                          <div className='footer-container-1'>
-                            <div className='adamur-logo'>
-                              <img src={''} alt="Adamur-logo" />
-                              <span className='adamur-text'>a<span className='text-c'>d</span>amur</span>
-                              <br />
-                              <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar ultricies integer blandit faucibus mattis erat. Pulvinar pharetra nullam in.</span>
-                              <br />
-                              <div className='footer-icon'>
-                              <img src={''} alt="instagram" />
-                              <img src={''} alt="youtube" />
-                              <img src={''} alt="facebook" />
-                              <img src={''} alt="twiter" />
-
-                              </div>
-                            </div>
-                          </div>
+                        
                           <div className='footer-container-2'></div>
 
                         </footer>
