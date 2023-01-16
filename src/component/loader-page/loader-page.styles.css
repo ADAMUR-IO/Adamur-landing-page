@@ -72,38 +72,7 @@
     margin-right: 300px;
     font-size: 12px;
   }
-  .section-2-container {
-    background-color: white;
-    justify-content: center;
-    display: -moz-grid-group;
-    grid-row: span right;
-    padding-inline-start: 100px;
-  }
-  .section-2-container-0>:nth-child(1) {
-    border: 0px solid;
-    align-items: center;
-    margin: 1px;
-    height: 300px;
-    width: 520px;
-    float: left;
-    margin-left: 70px;
-    margin-top: 50px;
-    font-size: 12px;
-  }
-  .section-2-container-1 {
-    background-color: rgb(2, 2, 2);
-    color: white;
-    border: 1px solid;
-    align-items: center;
-    margin: 0px;
-    margin-top: 0px;
-    height: 400px;
-    width: 656px;
-    padding: 0px;
-    float: right;
-    margin-right: 0px;
-    font-size: 20px;
-  }
+  
   .text-delivery {
     margin-top: 10px;
     margin-left: 40px;
