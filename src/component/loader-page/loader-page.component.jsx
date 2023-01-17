@@ -3,7 +3,7 @@ import './loader-page.styles.css';
 import Cool from '../../component/images/cool.png';
 import Logo from '../Logo/Logo.component';
 import Section from '../section-2-loader/section-2.component';
-import Green from '../../component/images/Rectangle.png';
+import Desktop from '../../component/images/Desktop - 1.png';
 
 
 
@@ -26,8 +26,8 @@ const Loader = () => {
                 <span>With each project, we strengthen the brand identity of organizations & causes-swapping skills with explore, our agency dedicated to digital branding. Light is insired by the unexpected & the deeply authentic. While pushing audiovisual limits, we keep our eyes on the human stories that connect us all. Showereel Inspired by convention didn't think so.</span>
                 </div>
                 </div>
-                <div className='box-container1'>
-                < img src={Cool} alt='Beautiful analytics to grow' />
+                <div className='box-container1 '>
+                < img  src={Cool} alt='Beautiful analytics to grow' />
                 </div>
               </div>
         <div>
@@ -46,14 +46,14 @@ const Loader = () => {
                             </div>
                         <span>With each project, we strengthen the brand identity of organizations & causes-swapping skills with explore, our agency dedicated to digital branding. Light is insired by the unexpected & the deeply authentic. While pushing audiovisual limits, we keep our eyes on the human stories that connect us all. Showereel Inspired by convention didn't think so.</span>
                         <div className='section-4-container-2-link'>
-                                 <div className='link-join'> 
-                                  <span onClick={''} title='Lets go join ADAMUR'>Apply for our next cohort</span>
-                                 </div>
+                        <div> 
+                                <a href='/#'><span title='Good to have you join ADAMUR' className='link-join xl:text-xl xl:mb-8'>Apply for our next cohort</span></a>
+                                </div>
                           </div>
                         </div>
                         </div>
                         <div className='section-4-box-container'>
-                          < img src={Green} alt='Beautiful analytics to grow' />
+                          < img src={Desktop} alt='Beautiful analytics to grow' />
                         </div>
                         
                         </div>{/* end of section-4-container div */}
