@@ -8,7 +8,7 @@
     display: flex;
     gap: 1rem;
     float: right;
-    margin-right: 4rem; 
+    margin-right: 1rem; 
 }
 .logo{
     margin-top: 1rem;
@@ -25,11 +25,18 @@ color: #e20044;
 .header-menu>:nth-child(1):hover{
     color: blue;
 }
+.btn{
+    width: 6rem;
+    height: 2rem;
+    border: 1px solid red;
+    border-radius: 20px;
+    margin-left: 2rem;
+}
 
 .hero-blur{
-    width: 8rem;
-    height: 4rem;
-    right: 12rem;
+    width: 9rem;
+    height: 5rem;
+    right: 20rem;
     top: 0;
     background-color: rgba(236, 16, 16, 0.9);
     position: absolute;

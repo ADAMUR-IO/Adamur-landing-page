@@ -55,6 +55,7 @@ to='news'
 span={true}
 smooth={true}><span>News</span></Link>
 </li>
+<button className='btn'>Enroll Now</button>
 </ul>
 )}   
     </div>

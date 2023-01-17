@@ -11,8 +11,10 @@ const Hero = () => {
       <div className="text">
       <span>shape your software engineering </span>
       <span>career with us!</span>
+      <p>At Adamur we inspire, shape and develop industry grade software engineers, let your career in tech soar to greater heights!  
     <div className="blur hero-blur1"></div>
-      <p>At Adamur we inspire, shape and develop industry grade software engineers, let your career in tech soar to greater heights!</p>
+      </p>
+      
       </div>
     </div>
     <div className="img-container">

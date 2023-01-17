@@ -16,11 +16,13 @@
 }
 .text>:nth-child(3){
     width: 30rem;
+    font-size: 1rem;
+    font-weight: 300;
 }
 .hero-blur1{
-    width: 4rem;
-    height: 4rem;
-    left: 8rem;
+    width: 10rem;
+    height: 8rem;
+    left: 12rem;
     background-color: #37ff42;
     position: absolute;
     border-radius: 50%;
