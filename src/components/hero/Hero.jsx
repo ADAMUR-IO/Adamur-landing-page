@@ -6,6 +6,7 @@ import { Col1, Col2, Col3, Col4, Col5, Col6, Col7, Col8 } from '../images';
 const Hero = () => {
   return (
     <>
+    <div className='hero'>
     <div className='header-l'>
       <div className="text">
       <span>shape your software engineering </span>
@@ -30,6 +31,7 @@ const Hero = () => {
     <div className="img4-container">
     <img src={ Col7 } alt="" />
       <img src={ Col8 } alt="" />
+</div>
 </div>
 </div>
   </>

@@ -1,16 +1,16 @@
 .startup1{
+    background-image: radial-gradient(rgba(100, 100, 100, 0.52), rgba(2, 2, 2, 0.73)),
+    url('../images/rectangle/Rectangle\ 6.png');
     height: 27rem;
-    background-image: radial-gradient(rgba(100, 100, 100, 0.52), rgba(10, 10, 17, 0.73)),
-    url('../../images/rectangle/Rectangle\ 6.png');
 }
 
-.startup1 span{
-    font-size: 3rem;
-    font-weight: 500;
-    width: 20px;
+.what{
+    width: 5rem;
     color: white;
     margin-left: 8rem;
-    margin-top: 2rem;
+    margin-top: 7.5rem;
+    font-size: 3rem;
+
 }
 .startup1 p{
     color: white;
@@ -29,7 +29,7 @@
     height: 8rem;
     background: #E20044;
     margin-left: 8rem;
-    margin-top: 4rem;
+    margin-top: 3.5rem;
     border-radius: 3px;
     z-index: 2;   
 }
@@ -42,11 +42,11 @@
 .card-1 sub{
     font-size: 30px;
     font-weight: 400;
-    margin-top: 1.5rem;
+    margin-top: 1rem;
 
 }
 .card-b{
-    margin-top: 5rem;
+    margin-top: 4.2rem;
     margin-left: 10rem;
     position: absolute;
     width: 8rem;
@@ -57,7 +57,7 @@
 }
 .card-c{
     position: absolute;
-    margin-top: 7rem;
+    margin-top: 6rem;
     border-radius: 3px;
     width: 8rem;
     height: 5.8rem;
@@ -66,6 +66,7 @@
 }
 .startup2{
     background-color: rgb(34, 33, 33); 
+    height: 20rem;
   }
 .top{
     display: flex;
@@ -111,6 +112,8 @@
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 15px;
     color: white;
+    width: 67rem;
+    margin-left: 12rem;
 
   }
 
@@ -145,11 +148,89 @@ label{
 
 
 @media screen and (max-width: 768px){
+.startup1{
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 20rem;
+}
+.what{
+    margin-top: 0.5rem;
+    font-size: x-large;
+    width: 20rem;
+    margin-left: 1rem;
+}
+.startup1 p{
+margin-left: 1rem;
+margin-top: 0.8rem;
+width: 20rem;
+font-size: small;
+}
+.card-1{
+width: 4rem;
+height: 4rem;
+margin-left: 3rem;
+}
+.card-1 sup{
+    font-size: x-large;
+    font-weight: 500;
+    margin-top: 1.5rem;
+    margin-left: 0.8rem;
+}
+.card-1 sub{
+    font-size: large;
+    font-weight: 400;
+    margin-top: 1rem;
+
+}
+.card-b{
+    width: 4rem;
+    height: 4rem;
+    margin-left: 4rem
+}
+.card-c{
+    width: 4rem;
+    height: 4rem;
+    margin-left: 5.5rem
+}
+.card-2{
+    margin-left: 1rem;
+    width: 2rem;
+    height: 2rem;
+}
+.card-3{
+    margin-left: 2rem;
+    width: 2rem;
+    height: 2rem;
+    margin-top: 2px;
+}
+.startup2 p{
+    margin-top: 5px;
+    margin-left: 1.5rem;
+    display: flex;
+    width: 18rem;
+    font-size: small;
+}
+.startup2 span{
+margin-top: 2.5rem;
+margin-left: 5.5rem;
+font-size: large;
+width: 18rem;
+
+}
+
     .grid5{
         display: grid;
         grid-template-columns: 1fr;
-        grid-gap: 5px;
+        grid-gap: 4px;
         color: white;
+        margin-left: 0.5rem;
+        width: 24rem;
+      }
+      .startup, .startup1, .startup2{
+        display: flex;
+        flex-direction: column;
+        padding: 5px;
+        font-size: x-large;
       }
 }
     

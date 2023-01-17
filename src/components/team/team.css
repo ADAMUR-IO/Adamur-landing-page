@@ -1,16 +1,15 @@
 .team-container{
     position: relative;
     background-color: #D9D9D9;
-    height: 36.5rem;
+    height: 34.5rem;
 }
-.team-container p{
-    position: relative;
-    margin: 1.5rem;
+.first{
     font-weight: 500;
     margin-left: 30rem;
+    padding-top: 10px;
 }
 .image-container{
-    margin-top: 3rem;
+    margin-top: 2rem;
     display: flex;
     background-color: black;
     width: 60rem;
@@ -23,21 +22,21 @@
 .left-t{
     position: relative;
     display: flex;
-    /* height: 0.1rem;
-    gap: 2.5rem; */
-    width: 50px;
-    margin-top: 1.5rem;
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 3rem;
     margin-left: 2rem;
     text-transform: lowercase;
     color: white;
+    width: 50%;
 }
 .left-t>:nth-child(1){
-    font-weight: 300;
+    font-weight: 350;
 }
 .left-t>:nth-child(2),
 .left-t>:nth-child(3){
-font-weight: 250;
-font-size: 1.5rem;
+font-weight: 400;
+font-size: 2rem;
 }
 .left-t>:nth-child(4){
     position: absolute;
@@ -52,7 +51,7 @@ font-size: 1.5rem;
     display: flex;
     gap: 1rem;
     bottom: 1rem;
-    left: 3rem;
+    left: 1rem;
 }
 .arrows>img{
     width: 1.5rem;
@@ -68,7 +67,7 @@ font-size: 1.5rem;
     height: 15rem;
     object-fit: cover;
     margin-top: 3rem;
-    margin-left: 35rem;
+    margin-left: 8rem;
     border-radius: 10px;
 
 }
@@ -91,7 +90,6 @@ font-size: 1.5rem;
     gap: 1rem;
     position: absolute;
     bottom: 2rem;
-    margin-left: 20rem;
 }
 .arrows>img{
     width: 1.5rem;
@@ -99,13 +97,60 @@ font-size: 1.5rem;
 }
 
 .link a{
-    margin-left: 40rem;
+    position: absolute;
+    margin-left: 35rem;
     font-weight: 400;
     color: orangered;
-    margin-bottom: 1.5rem;
 }
 .link a:hover{
     cursor: pointer;
     color: blue;
 }
 
+@media screen and (max-width: 768px) {
+.team-container{
+    /* display: flex; */
+    flex-direction: column;
+    
+}
+.team-container p{
+    margin-left: 7rem;
+}
+.image-container{
+  display: flex;
+  flex-direction: column;
+  width: 25rem; 
+  height: 30rem; 
+  margin-left: 0.5rem;
+  margin-top: 0.5rem;
+}
+.link a{
+margin-left: 8rem;
+bottom: 0.5rem;
+}
+.arrows{
+position: inherit;
+margin-left: 8rem;
+}
+.arrows>img{
+margin-top: 3.5rem;
+}
+.right-t{
+display: flex;
+flex-direction: column;
+}
+.right-t>img{
+position: inherit;
+width: 17rem;
+height: 10rem;
+margin-left: 3rem;
+margin-top: 18px;
+}
+.left-t{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 90%;
+    margin-left: 1rem;
+}
+}

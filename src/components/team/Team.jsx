@@ -12,7 +12,7 @@ const Team = () => {
   return (
   
     <div className="team-container">
-     <p>What our cohort says</p>
+     <p className='first'>What our cohort says</p>
      <div className="image-container">
      <div className="left-t">
             <motion.span

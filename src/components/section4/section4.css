@@ -1,0 +1,49 @@
+
+  .section-4-container {
+    align-items: stretch;
+    display: -moz-grid-group;
+    grid-row: span right;
+    padding-inline-start: 100px;
+  }
+  .section-4-container-0 {
+    background-color: black;
+    color: white;
+    border: 1px solid;
+    text-align: center;
+    align-items: center;
+    margin: 0px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    height: 300px;
+    width: 500px;
+    padding: 0px;
+    float: left;
+    margin-left: 0px;
+    font-size: 12px;
+
+  }
+  .section-4-container-1 {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: left;
+
+  }
+  .section-4-container-2 {
+    font-style: normal;
+    font-size: 25px;
+    margin-left: 0px;
+  }
+  .section-4-container-2-link {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .section-4-box-container>:nth-child(1) {
+    border: 0px solid;
+    margin: 1px;
+    height: 250px;
+    width: 500px;
+    padding: 5px;
+    margin-top: 60px;
+    font-size: 40px;
+  }

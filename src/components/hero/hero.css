@@ -1,5 +1,5 @@
 .hero{
-    height: 45rem;
+    height: 40rem;
 }
 .text{
     margin-top: 3.5rem;
@@ -17,31 +17,31 @@
 .text>:nth-child(3){
     width: 30rem;
 }
-
 .hero-blur1{
-    width: 15rem;
-    height: 5rem;
-    left: 15rem;
-    background: #37ff32;
+    width: 4rem;
+    height: 4rem;
+    left: 8rem;
+    background-color: #37ff42;
     position: absolute;
     border-radius: 50%;
-    filter: blur(75px);
+    filter: blur(70px);
     z-index: -9;
 }
 .img-container{
     display: flex;
     transform: skewY(-11deg);
+    margin: 10px;
     
 }
 .img1-container{
-    margin: 0 auto;
+    margin: 1.5rem;
 	transform: skewY(11deg);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 12rem;
-    margin-left: 3rem;
+    margin-left: 6.5rem;
     background-color: #ff1616;
     border-radius: 10rem ;     
     
@@ -52,7 +52,7 @@
 
 }
 .img2-container{
-    margin: 0 auto;
+    margin: 1.5rem;
 	transform: skewY(11deg);
     display: flex;
     flex-direction: column;
@@ -63,7 +63,7 @@
     border-radius: 10rem ;   
 }
 .img3-container{
-    margin: 0 auto;
+    margin: 1.5rem;
 	transform: skewY(11deg);
     display: flex;
     flex-direction: column;
@@ -74,7 +74,7 @@
     border-radius: 10rem ;   
 }
 .img4-container{
-    margin: 0 auto;
+    margin: 1.5rem;
 	transform: skewY(11deg);
     display: flex;
     flex-direction: column;
@@ -85,3 +85,46 @@
     border-radius: 10rem ;   
 }
 
+
+
+@media screen and (max-width: 768px) {
+.hero{
+    flex-direction: column;
+    height: auto;
+} 
+.hero-blur1{
+    width: 10px;
+    left: 10px; 
+    
+
+}
+.text{
+    flex-direction: column;
+    width: 20rem;
+    font-size: small;
+    align-self: center;
+    margin-left: 10px;
+}
+.text>:nth-child(1){
+font-size: x-large;
+}
+.img-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+	transform: skewY(-11deg);
+} 
+.img3-container{
+    margin-left: 0.5rem;
+}
+.img1-container{
+    margin-left: 0.5rem;
+}
+.img1-container, .img2-container, .img3-container, .img4-container {
+	transform: skewY(11deg);
+    width: 8rem;
+    margin: 1rem;
+}
+.img1-container>img, .img2-container>img, .img3-container>img, .img4-container>img{
+    width: 7.5rem;
+}
+}

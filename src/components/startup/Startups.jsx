@@ -1,19 +1,19 @@
 import React from 'react'
-import './startup.css'
-import { startupData } from '../startup/startupData';
-import Icon from '../../images/icon/icons8_idea.png'
+import './startups.css'
+import { startupData } from './startupData';
+import Icon from '../images/icon/icons8_idea.png'
 
 
-const Startup = () => {
+const Startups = () => {
   return (
     <div className="startup">
     <div className='startup1'>
-        <span>Let us take care of your tech needs!</span>
+        <span className='what'>Let us take care of your tech needs!</span>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lacus, ut egestas in sed enim eleifend convallis vitae.</p> 
       <div className="cards">
 <div className='card-1'><sup>01/</sup><sub>3</sub></div>
-<div className='card-b'>b</div>
-<div className='card-c'>c</div>
+<div className='card-b'></div>
+<div className='card-c'></div>
 </div>
  </div>
         <section className='startup2'>
@@ -41,7 +41,7 @@ const Startup = () => {
   )
 }
 
-export default Startup;
+export default Startups;
 
 
 
