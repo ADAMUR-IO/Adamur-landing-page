@@ -19,8 +19,8 @@ function Startup() {
   {/* start of child div container */}
   <div class="container-0">
   <div class="content-0">
-  <div class="container-1 flex md:cols-2 lg:cols-2 justify-between-2 justify-start ml-10">
-    <div className='md:flex lg:flex align-center gap-2 cols-1 grid justify-between ' >
+  <div class="container-1 flex md:cols-2 lg:cols-2 justify-between-2 justify-start ml-10 ">
+    <div className='md:flex  lg:flex align-center gap-2 cols-1 grid justify-between ' >
     <img className='image' src={Component2} alt="image1" />
     <img className='image' src={Component6} alt="image1" />
     <img className='image' src={Component5} alt="image1" />
