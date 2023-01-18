@@ -1,32 +1,40 @@
-.header{
+ nav {
+    display: flex;
+    gap: 28rem;
+ }
+ nav .header{
     display: flex;
     justify-content: space-between;
-    background-color: blur(500px);
 }
-.header-menu{
-    margin-top: 1.5rem;
+ nav .header-menu{
+    margin-top: 1rem;
     list-style: none;
+    position: relative;
     display: flex;
     gap: 1rem;
     float: right;
     margin-right: 1rem; 
 }
-.logo{
-    margin-top: 1.5rem;
+ nav .logo{
+    position: relative;
     margin-left: 3rem;
     width: 17rem;
 }
 li:hover{
     cursor: pointer;
-    color: blue;
+    color: red;
 }
-.header-menu>:nth-child(1){
+
+nav .header-menu>:nth-child(1){
 color: #e20044;
 }
-.header-menu>:nth-child(1):hover{
-    color: blue;
+nav .header-menu>:nth-child(1):hover{
+    color: black;
 }
-.btn{
+nav .active{
+    color:  red;
+}
+ nav .btn{
     width: 6rem;
     height: 1.8rem;
     border: 2px solid red;
@@ -34,7 +42,7 @@ color: #e20044;
     margin-left: 2rem;
 }
 
-.hero-blur{
+nav .hero-blur{
     width: 12rem;
     height: 7.5rem;
     right: 24rem;
