@@ -22,11 +22,13 @@
     font-size: 50px;
     font-weight: bold;
   }
-  .text {
+  .text-m {
     font-size: 70px;
     margin-top: 10px;
     margin-bottom: 10px;
     margin-left: 35px;
+    
+  
   }
   .top-text {
     display: flex;
@@ -43,7 +45,7 @@
     border: 0px solid;
     align-items: center;
     margin: 1px;
-    width: 500px;
+    width: 50%;
     height: 400px;
     padding: 0px;
     float: left;
@@ -52,24 +54,30 @@
     margin-bottom: 50px;
   }
   .inspire-1 {
-    font-size: 40px;
+    font-size: 55px;
     font-weight: bolder;
+  
+
+
+    
+    
   }
   .inspire-2 {
     margin-left: 25px;
     margin-right: 130px;
     margin-bottom: 20px;
+    
 
   }
   .box-container1>:nth-child(1) {
-    border: 0px solid;
+    border: 0px solid ;
     align-items: center;
     margin: 1px;
     height: 400px;
-    width: 300px;
+    width: 20%;
     padding: 0px;
     float: right;
-    margin-right: 300px;
+    margin-right: 200px;
     font-size: 12px;
   }
   
@@ -174,42 +182,7 @@
     margin-top: 60px;
     font-size: 40px;
   }
-  .footer-container {
-    background-color: white;
-    background-size: cover;
-
-  }
-
-  .footer-container-0 {
-    align-items: stretch;
-    display: -moz-grid-group;
-    grid-row: span right;
-    padding-inline-start: 100px;
-    background-color: black;
-    color: white;
-
-  }
-  .adamur-text {
-    margin-top: 10px;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 50px;
-    color: white;
-    letter-spacing: 5px;
-  }
-  .adamur-logo {
-    background-color: black;
-    color: white;
-    border: 0px solid;
-    align-items: center;
-    margin: 1px;
-    height: 200px;
-    width: 300px;
-    padding: 0px;
-    float: left;
-    margin-right: 10px;
-    font-size: 12px;
-  }
+  
   a {
     text-decoration: none;
     cursor: pointer;
@@ -239,127 +212,7 @@
     }
   }
   
-  /* @media only screen and (max-width: 600px) {
-    .bold-t {
-      font-size: 17px;
-    }
-    .text {
-      font-size: 22px;
-      margin-top: 10px;
-      margin-bottom: 2px;
-      margin-left: 5px;
-    }
-    .top-text {
-      margin-top: 10px;
-      margin-left: 5px;
-      font-size: 30px;
-    }
-    .box-container {
-      width: 190px;
-      height: auto;
-      margin-left: 5px;
-      font-size: 6.33px;
-      margin-bottom: 10px;
-    }
-    .inspire-1 {
-      font-size: 12px;
-    }
-    .inspire-2 {
-      margin-left: 10px;
-      margin-right: 27.33px;
-      margin-bottom: 5px;
-      font-size: 6px;
   
-    }
-    .box-container1>:nth-child(1) {
-      height: auto;
-      width: 100px;
-      margin-right: 66.33px;
-    }
-    .section-2-container-0>:nth-child(1) {
-      height: 140px;
-      width: 102px;
-      margin-left: 15px;
-      margin-top: 20px;
-    }
-    .section-2-container-1 {
-      height: auto;
-      width: 200px;
-
-    }
-    .text-delivery {
-      margin-top: 10px;
-      margin-left: 20px;
-      margin-right: 20px;
-      font-weight: bold;
-    }
-    .delivery {
-      margin-left: 30px;
-      margin-right: 40px;
-      margin-bottom: 10px;
-      font-size: 5px;
-    }
-    .link-join {
-      margin-top: 20px;
-      margin-left: 40px;
-      font-size: 12px;
-    }
-    .text-delivery-1 {
-      font-weight: bold;
-      font-size: 20px;
-    }
-    .chohort-portfolio {
-      font-weight: bold;
-      margin-top: 10px;
-      font-size: 10px;
-    }
-    .logo-haba>:nth-child(1),
-    .logo-haba>:nth-child(2)
-     {
-      margin-top: 20px;
-      padding-inline-start: 10px;
-      width: 70px;
-      margin-bottom: 20px;
-
-    }
-    .bold-t {
-      font-size: 10px;
-      font-weight: bold;
-    }
-    .section-4-container {
-      padding-inline-start: 2px;
-    }
-    .section-4-container-0 {
-      margin-top: 20px;
-      margin-bottom: 20px;
-      height: auto;
-      width: 55%;
-      font-size: 7px;
-  
-    }
-    .section-4-container-1 {
-      margin-top: 10px;
-      margin-left: 10px;
-      margin-right: 10px;
-  
-    }
-    .section-4-container-2-link {
-      margin-top: 10px;
-      margin-bottom: 20px;
-    }
-    .section-4-box-container>:nth-child(1) {
-      height: 130px;
-      width: 120px;
-      padding: 0px;
-      margin-top: 40px;
-    }
-    h1 {
-      font-size: 12px!important;
-      letter-spacing: 1px!important;
-      width: auto;
-    }
-
-  } */
   
   
   @media screen and (min-width: 320px) and (max-width:481px) {
@@ -367,7 +220,7 @@
       .bold-t {
         font-size: 17px;
       }
-      .text {
+      .text-m {
         font-size: 24px;
         margin-top: 10px;
         margin-bottom: 2px;
@@ -460,20 +313,20 @@
         margin-top: 10px;
         margin-bottom: 20px;
         height: auto;
-        width: 300px;
+        width: 290px;
         font-size: 7px;
         margin-left: 20px;
     
       }
       .section-4-container-1 {
         margin-top: 10px;
-        margin-left: 20px;
-        margin-right: 10px;
+        font-size: 12px;
+        width: 190px;
     
       }
       .section-4-box-container>:nth-child(1) {
         height: 150px;
-        width: 300px;
+        width: 290px;
         padding: 0px;
         margin-left: 20px;
 

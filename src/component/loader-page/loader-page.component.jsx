@@ -11,8 +11,8 @@ const Loader = () => {
     return (
       <div className='body-container'> {/* start of parent div */}
             <div className='loader-container'>
-              <div className='text'>
-                <span><strong >Bold</strong> * <span className='text-c'>Thinkers</span> * Doers *</span>
+              <div className='text-m'>
+                <span><strong >Bold</strong>  <span className='xl:p-4'>*</span> <span className='text-c'>Thinkers</span> <span className=' xl:p-4'>*</span> Doers <span className='xl:p-4'>*</span> </span>
 
               </div>
               
@@ -62,11 +62,6 @@ const Loader = () => {
                               <div>
                               <h1 className='footer-title'>Let's Talk * Ready to join our next cohort?</h1>
                               </div>
-                        <footer className='footer-container-0'>
-                        
-                          <div className='footer-container-2'></div>
-
-                        </footer>
 
                         </div>{/* end of footer div */}
 

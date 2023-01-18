@@ -10,9 +10,11 @@ const Logo = () => {
     <div>
       <div className='section-3-container'>{/* start of section-3-container div */}
                         <div>
-                          <span className='chohort-portfolio'>Meet Our Cohorts Portfolio</span>
+                          <span className='chohort-portf'>Meet Our Cohorts Portfolio</span>
                             <br />
-                          <span className='bold-t'>Some of the startups our cohort are working with</span>
+                          {/* <span className='bold-t'>Some of the startups our cohort are working with</span> */}
+                          <h4 className='bold-text p-2 text-center xl:text-3xl'>Some of the startups our cohort are working with</h4>
+
                         </div>
               
                             <div className='logo-haba flex md:cols-2 lg:cols-2 justify-between-5 justify-center'>

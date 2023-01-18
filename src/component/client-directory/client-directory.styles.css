@@ -1,20 +1,4 @@
 
-      .body-2 {
-        margin-top: .5rem;
-        height: auto;
-        padding: .7rem;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
-        border: 1px solid;
-        background-color: black;
-        color: white;
-        position: absolute;
-        opacity: 0.9;
-        
-      }
       .client-description {
         width: 170px;
         height: auto;
@@ -44,18 +28,103 @@
           background-size: cover;
           background-position: center;
         }
-        
-.star>:nth-child(1),
-.star>:nth-child(2),
-.star>:nth-child(3),
-.star>:nth-child(4),
-.star>:nth-child(5)
-{
-font-size: 15px;
-opacity: 9;
-align-items: center;
-display: -moz-grid-group;
-grid-row: span right;
-padding-inline-start: 0px;
-width: 18px;
-} 
+        .team-container{
+          position: relative;
+          background-color: #D9D9D9;
+          height: 36.5rem;
+      }
+      .team-container p{
+          position: relative;
+          margin: 1.5rem;
+          font-weight: 500;
+          margin-left: 30rem;
+      }
+      .image-container{
+          margin-top: 3rem;
+          display: flex;
+          background-color: black;
+          width: 60rem;
+          height: 25rem;
+          margin-bottom: 3rem;
+          margin-left: 10rem;
+          border-radius: 10px;
+      }
+      
+      .left-t{
+          position: relative;
+          display: flex;
+          width: 50px;
+          margin-top: 1.5rem;
+          margin-left: 2rem;
+          text-transform: lowercase;
+          color: white;
+      }
+      .left-t>:nth-child(1){
+          font-weight: 300;
+      }
+      .left-t>:nth-child(2),
+      .left-t>:nth-child(3){
+      font-weight: 250;
+      font-size: 1.5rem;
+      }
+      .left-t>:nth-child(4){
+          position: absolute;
+          display: flex;
+          flex-direction: column;
+          text-transform: none;
+          text-align: center;
+          line-height: 10px;
+      }
+      
+      .arrows{
+          display: flex;
+          gap: 1rem;
+          bottom: 1rem;
+          left: 3rem;
+      }
+      .arrows>img{
+          width: 1.5rem;
+          cursor: pointer;
+      }
+      .right-t{
+          position: relative;
+      }
+      
+      .right-t>img{
+          position: absolute;
+          width: 15rem;
+          height: 15rem;
+          object-fit: cover;
+          margin-top: 3rem;
+          margin-left: 35rem;
+          border-radius: 10px;
+      
+      }
+      .right-t>:nth-child(1){
+          position: absolute;
+          width: 20px;
+          height: 20rem;
+          right: 9rem;
+          top: 0.9rem;
+      }
+      .right-t>:nth-child(2){
+          position: absolute;
+          width: 20px;
+          height: 5rem;
+          top: 4rem;
+          right: 7rem;
+      }
+      .arrows{
+          display: flex;
+          gap: 1rem;
+          position: absolute;
+          bottom: 2rem;
+          margin-left: 20rem;
+      }
+      .arrows>img{
+          width: 1.5rem;
+          cursor: pointer;
+      }
+      
+      
+      
