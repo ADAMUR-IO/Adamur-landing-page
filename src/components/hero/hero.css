@@ -1,88 +1,91 @@
 .hero{
-    height: 40rem;
+    width: auto;
+    height: 72rem;
 }
 .text{
-    margin-top: 3.5rem;
-    width: 40rem;
-    margin-left: 3rem;
+    padding-top: 4.5rem;
+    width: 37rem;
+    margin-left: 3.5rem;
 }
 .text>:nth-child(1){
-    font-size: 2.5rem;
+    font-size: 3.8rem;
     font-weight: bold;
 }
 .text>:nth-child(2){
-    font-size: 1.5rem;
+    font-size: 3rem;
     font-weight: 400; 
 }
 .text>:nth-child(3){
     width: 30rem;
     font-size: 1rem;
-    font-weight: 300;
+    font-weight: 400;
 }
 .hero-blur1{
-    width: 10rem;
-    height: 8rem;
-    left: 12rem;
+    top: 14rem;
+    width: 20rem;
+    height: 20rem;
+    left: 30rem;
     background-color: #37ff42;
     position: absolute;
     border-radius: 50%;
-    filter: blur(70px);
+    filter: blur(140px);
     z-index: -9;
 }
 .img-container{
     display: flex;
-    transform: skewY(-11deg);
+    transform: skewY(-15deg);
     margin: 10px;
     
 }
 .img1-container{
     margin: 1.5rem;
-	transform: skewY(11deg);
+	transform: skewY(15deg);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 12rem;
-    margin-left: 6.5rem;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
     background-color: #ff1616;
     border-radius: 10rem ;     
     
 }
 .img1-container>img, .img2-container>img, .img3-container>img, .img4-container>img{
     padding: 0.1rem;
-    width: 11.5rem;
+    width: auto;
 
 }
 .img2-container{
     margin: 1.5rem;
-	transform: skewY(11deg);
+	transform: skewY(15deg);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 12rem;
+    width: auto;
     background-color: #19087D;
     border-radius: 10rem ;   
 }
 .img3-container{
     margin: 1.5rem;
-	transform: skewY(11deg);
+	transform: skewY(15deg);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 12rem;
+    width: auto;
     background-color: #FF7E8A    ;
     border-radius: 10rem ;   
 }
 .img4-container{
     margin: 1.5rem;
-	transform: skewY(11deg);
+	transform: skewY(15deg);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 12rem;
+    width: auto;
     background-color: #FFFFFF    ;
     border-radius: 10rem ;   
 }
@@ -110,10 +113,12 @@
 .text>:nth-child(1){
 font-size: x-large;
 }
+.text>:nth-child(3){
+    width: 20rem;
+}
 .img-container{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-	transform: skewY(-11deg);
 } 
 .img3-container{
     margin-left: 0.5rem;
@@ -122,7 +127,6 @@ font-size: x-large;
     margin-left: 0.5rem;
 }
 .img1-container, .img2-container, .img3-container, .img4-container {
-	transform: skewY(11deg);
     width: 8rem;
     margin: 1rem;
 }

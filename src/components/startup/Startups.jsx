@@ -8,7 +8,7 @@ const Startups = () => {
   return (
     <div className="startup">
     <div className='startup1'>
-        <span className='what'>Let us take care of your tech needs!</span>
+        <span className='what'>Let us take care of your startup tech needs!</span>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lacus, ut egestas in sed enim eleifend convallis vitae.</p> 
       <div className="cards">
 <div className='card-1'><sup>01/</sup><sub>3</sub></div>

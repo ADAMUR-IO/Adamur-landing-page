@@ -1,22 +1,25 @@
 .startup1{
     background-image: radial-gradient(rgba(100, 100, 100, 0.52), rgba(2, 2, 2, 0.73)),
     url('../images/rectangle/Rectangle\ 6.png');
-    height: 27rem;
+    height: 27.5rem;
 }
 
 .what{
-    width: 5rem;
+    display: flex;
+    gap: 5px;
+    width: 35rem;
     color: white;
-    margin-left: 8rem;
-    margin-top: 7.5rem;
+    margin-left: 8.5rem;
+    padding-top: 1rem;
     font-size: 3rem;
+    font-weight: 600;
 
 }
 .startup1 p{
     color: white;
     width: 28rem;
-    margin-left: 8rem;
-    margin-top: 7.5rem;
+    margin-left: 8.5rem;
+    margin-top: 3rem;
 }
 .cards{
     display: flex;
@@ -46,33 +49,32 @@
 
 }
 .card-b{
-    margin-top: 4.2rem;
+    margin-top: 4.5rem;
     margin-left: 10rem;
     position: absolute;
     width: 8rem;
-    height: 7.8rem;
+    height: 7rem;
     background-color: rgba(226, 0, 68, 0.5);
     z-index: 1;
   
 }
 .card-c{
     position: absolute;
-    margin-top: 6rem;
+    margin-top: 5.5rem;
     border-radius: 3px;
-    width: 8rem;
-    height: 5.8rem;
+    width: 7.4rem;
+    height: 5.9rem;
     margin-left: 12rem;
     background-color: rgba(226, 0, 68, 0.2);
 }
 .startup2{
     background-color: rgb(34, 33, 33); 
-    height: 20rem;
   }
 .top{
     display: flex;
 }
 .card-2{
-    margin-top: 1rem;
+    margin-top: 4.8rem;
     width: 4rem;
     height: 4rem;
     background: #8B002A;
@@ -80,7 +82,7 @@
     margin-left: 8rem;
 }
 .card-3{
-    margin-top: 0.4rem;
+    margin-top: 3.5rem;
     margin-left: 9.5rem;
     position: absolute;
     width: 4rem;
@@ -91,15 +93,16 @@
 .startup2 p{
     position: relative;
     color: white;
-    margin-left: 5rem;
-    margin-top: 1.5rem; 
+    margin-left: 4.8rem;
+    margin-top: 3.5rem; 
+    font-size: 1.5rem;
 }
 .startup2 span{
     position: absolute;
     color: white;
-    font-size: 2rem;
-    margin-top: 3rem; 
-    margin-left: 16rem;
+    font-size: 2.6rem;
+    margin-top: 5.5rem; 
+    margin-left: 15rem;
 
 }
 .container{
@@ -112,7 +115,7 @@
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 15px;
     color: white;
-    width: 67rem;
+    width: 70rem;
     margin-left: 12rem;
 
   }
@@ -133,11 +136,12 @@ label{
   .box{
     margin-left: 2rem;
     box-shadow: 0 0 5px 0 gray;
-    border-radius: 5px;
+    border-radius: 2.5px;
     text-align: center;
     cursor: pointer;
     margin: 1rem;
     padding: 30px;
+    height: 15rem;
 }
 .icon{
     height: 30px;

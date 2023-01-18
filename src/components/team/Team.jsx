@@ -48,15 +48,11 @@ const Team = () => {
             transition={transition}
             src={teamData[selected].image} alt="" />
       <div className="arrows">
-                <img 
-                onClick={() => {
-                    selected=== 0 ? setSelected(tLength - 1 ):
+    <img  onClick={() => {selected=== 0 ? setSelected(tLength - 1 ):
                     setSelected((prev) => prev -1 );
                 }}
-                src={leftArrow} alt="" />
-                <img 
-                onClick={() => {
-                    selected === tLength - 1 ? setSelected(0)
+      src={leftArrow} alt="" />
+    <img onClick={() => {selected === tLength - 1 ? setSelected(0)
                     : setSelected((prev) => prev + 1 );
                 }}
                 src={rightArrow} alt="" />                
