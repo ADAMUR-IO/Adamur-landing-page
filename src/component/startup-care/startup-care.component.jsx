@@ -1,7 +1,6 @@
 import React from 'react'
-import Component2 from '../../component/images/Component 2.png';
-import Component5 from '../../component/images/Component 5.png';
-import Component6 from '../../component/images/Component 6.png';
+import Experience from '../../component/images/Group 36699.png';
+import Group from '../../component/images/Group.png';
 import Client from '../../component/client-directory/client-directory.component';
 import Logo from '../Logo/Logo.component';
 
@@ -15,9 +14,9 @@ function Startup() {
   {/* start of child div container */}
   <div class=" flex md:cols-2 lg:cols-2 justify-between-2 justify-center mt-3 xl:mt-10">
     <div className='md:flex  lg:flex align-center gap-2 xl:gap-16 cols-1 grid justify-between ' >
-    <img className='image' src={Component2} alt="image1" />
-    <img className='image' src={Component6} alt="image1" />
-    <img className='image' src={Component5} alt="image1" />
+    <img className='image' src={Experience} alt="image1" />
+    <img className='image' src={Group} alt="image1" />
+    <img className='image' src={Group} alt="image1" />
     </div>
     </div>
     
