@@ -25,7 +25,7 @@ const Startups = () => {
           </div>
   <div className='container grid5 mtop'>
         {startupData.map((items, index) => (
-            <div className='box'key={index}>
+            <div className='grow box'key={index}>
               <img src={ Icon } alt='' className='icon'/>
                 <h4>{items.title}</h4>
                 <label>{items.review}</label>

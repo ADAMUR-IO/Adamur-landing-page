@@ -1,7 +1,6 @@
 .startup1{
-    background-image: radial-gradient(rgba(100, 100, 100, 0.52), rgba(2, 2, 2, 0.73)),
-    url('../images/rectangle/Rectangle\ 6.png');
-    height: 27.5rem;
+    background-image:  url('../images/rectangle/ben.png');
+    height: 37rem;
 }
 
 .what{
@@ -10,7 +9,7 @@
     width: 35rem;
     color: white;
     margin-left: 8.5rem;
-    padding-top: 1rem;
+    padding-top: 2rem;
     font-size: 3rem;
     font-weight: 600;
 
@@ -19,7 +18,7 @@
     color: white;
     width: 28rem;
     margin-left: 8.5rem;
-    margin-top: 3rem;
+    margin-top: 4rem;
 }
 .cards{
     display: flex;
@@ -32,7 +31,7 @@
     height: 8rem;
     background: #E20044;
     margin-left: 8rem;
-    margin-top: 3.5rem;
+    margin-top: 10.9rem;
     border-radius: 3px;
     z-index: 2;   
 }
@@ -49,8 +48,8 @@
 
 }
 .card-b{
-    margin-top: 4.5rem;
-    margin-left: 10rem;
+    margin-top: 12rem;
+    margin-left: 9rem;
     position: absolute;
     width: 8rem;
     height: 7rem;
@@ -60,15 +59,16 @@
 }
 .card-c{
     position: absolute;
-    margin-top: 5.5rem;
+    margin-top: 13rem;
     border-radius: 3px;
     width: 7.4rem;
     height: 5.9rem;
-    margin-left: 12rem;
+    margin-left: 10.5rem;
     background-color: rgba(226, 0, 68, 0.2);
 }
 .startup2{
-    background-color: rgb(34, 33, 33); 
+    background-color:  
+    rgba(17, 17, 17, 1); 
   }
 .top{
     display: flex;
@@ -106,17 +106,17 @@
 
 }
 .container{
-    background: rgb(34, 33, 33);
+    background: rgba(17, 17, 17, 1);
     padding: 30px;
 }
 
 .grid5{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 15px;
+    grid-gap: 5px;
     color: white;
-    width: 70rem;
-    margin-left: 12rem;
+    width: 68rem;
+    margin-left: 9.8rem;
 
   }
 
@@ -134,15 +134,25 @@ label{
   }
 
   .box{
-    margin-left: 2rem;
-    box-shadow: 0 0 5px 0 gray;
+    margin-left: 0.5rem;
     border-radius: 2.5px;
     text-align: center;
     cursor: pointer;
-    margin: 1rem;
+    margin: 0.2rem;
     padding: 30px;
     height: 15rem;
+    background: rgba(0, 0, 0, 1);
 }
+.box:hover{
+    box-shadow: 0 0 10px 0 gray;
+}
+.grow { 
+    transition: all .2s ease-in-out; 
+    }
+    
+.grow:hover { 
+    transform: scale(1.1); 
+    }
 .icon{
     height: 30px;
     width: 30px;

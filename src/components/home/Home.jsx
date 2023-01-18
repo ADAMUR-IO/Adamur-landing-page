@@ -1,6 +1,7 @@
 import React from 'react'
 import Hero from '../hero/Hero'
 import Team from '../team/Team'
+import Header from '../header/Header'
 // import Inspiration from '../inspiration/Inspiration'
 // import Industry from '../industry/Industry'
 // import Logo from '../Logo/Logo.component'
@@ -10,6 +11,7 @@ import Team from '../team/Team'
 const Home = () => {
   return (
     <>
+    <Header />
     <Hero />
     {/* <Inspiration /> */}
     {/* <Industry /> */}

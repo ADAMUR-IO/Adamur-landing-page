@@ -1,25 +1,19 @@
 import React, { useState } from 'react'
-import { NavLink, useLocation } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import './header.css'
-import Logo from '../../images/logo.png'
-import Bars from '../../images/bars.png'
+import Logo from '../images/logo.png'
+import Bars from '../images/bars.png'
 const Header = () => {
   const mobile = window.innerWidth<=768 ? true:false;
   const [menuOpened, setMenuOpened] =  useState(false)
   return (
-    <div className='header'>
-       <nav
-    style={{
-      background: useLocation().pathname !== "/" ? "rgba(2, 2, 2, 0.73)" : ""
-    }}
-  >
+    <nav>
     <NavLink to='/'>
      <img src={Logo} alt=""  className='logo'/>
-     </NavLink>
+     </NavLink> 
     <div className="blur hero-blur"></div>
 {menuOpened=== false && mobile===true ? (
   <div style={{backgroundColor: 'white', padding: '0.5rem', borderRadius: '5px'}}
-  
   onClick={() => setMenuOpened(true)}
   >
     <img src={Bars} alt="" className='bars' style={{ width: '1.5rem', height: '1.5rem'}}/>
@@ -68,8 +62,8 @@ smooth={true}><span>News</span></NavLink>
 <button className='btn'>Enroll Now</button>
 </ul>
 )} 
-</nav>
-    </div>
+   </nav>
+
   );
 };
 

@@ -1,5 +1,6 @@
 import './hero.css';
 import { Col1, Col2, Col3, Col4, Col5, Col6, Col7, Col8 } from '../images';
+import { motion } from 'framer-motion'
 
 
 
@@ -18,10 +19,11 @@ const Hero = () => {
       </div>
     </div>
     <div className="img-container">
-      <div className="img1-container">
+      <motion.div
+       className="img1-container">
         <img src={ Col1 } alt="" />
         <img src={ Col2 } alt="" />
-      </div>    
+      </motion.div>    
     <div className="img2-container">
       <img src={ Col3 } alt="" />
       <img src={ Col4 } alt="" />
