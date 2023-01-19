@@ -35,7 +35,7 @@ color: white;
 nav .navigation-menu>:nth-child(1):hover{
     color: red;
 }
-nav .active{
+.navigation .active{
     color:  red;
 }
 

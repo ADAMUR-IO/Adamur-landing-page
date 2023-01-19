@@ -10,7 +10,7 @@ const Navigation = () => {
   return (
     <nav className='navigation'
     style={{
-      background: useLocation().pathname !== "/" ? "rgba(0, 0, 0, 1)" : ""
+      background: useLocation().pathname !== "/" ? "#1c1b1b" : ""
     }}
     >
  <NavLink to='/'>
@@ -27,9 +27,9 @@ const Navigation = () => {
 <li> 
 <NavLink exact activeClassName="active"
 onClick={()=> setMenuOpened(false)}
-to='/about'
+to='/'
 span={true}
-smooth={true}>About Us</NavLink> 
+smooth={true}>Home</NavLink> 
 </li>
 
 <li>
@@ -51,7 +51,7 @@ smooth={true}>Cohorts</NavLink>
 <li>
 <NavLink exact activeClassName="active"
 onClick={()=> setMenuOpened(false)}
-to='/startup'
+to='/pages'
 span={true}
 smooth={true}>Startup care</NavLink>
 </li>

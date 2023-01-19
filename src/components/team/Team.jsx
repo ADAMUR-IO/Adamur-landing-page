@@ -10,7 +10,7 @@ const Team = () => {
   const  [selected, setSelected] = useState(0);
   const tLength = teamData.length;
   return (
-  
+  <div className="team">
     <div className="team-container">
      <p className='first'>What our cohort says</p>
      <div className="image-container">
@@ -64,6 +64,7 @@ const Team = () => {
      Haba App
      </a>
       </span>
+  </div>
   </div>
   )
 }

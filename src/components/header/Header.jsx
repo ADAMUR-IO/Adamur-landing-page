@@ -23,9 +23,9 @@ const Header = () => {
 <li> 
 <NavLink exact activeClassName="active"
 onClick={()=> setMenuOpened(false)}
-to='about'
+to='/'
 span={true}
-smooth={true}>About Us</NavLink> 
+smooth={true}>Home</NavLink> 
 </li>
 
 <li>

@@ -1,53 +1,39 @@
-// import React from 'react'
-// import './loader-page.styles.css';
-// import Haba from '../images/haba-logo.png';
-// import Boop from '../images/boop-logo.png';
-// import Green from '../images/rectangle.png'
+import React from 'react'
+import './loader-page.styles.css';
+import Cool from '../images/cool.png';
 
 
 
+const Loader = () => {
+    return (
+      <div className='body-container'> 
+            <div className='loader-container'>
+              <div className='text-m'>
+                <span><strong >Bold</strong>  <span className='xl:p-4'>*</span> <span className='text-c'>Thinkers</span> <span className=' xl:p-4'>*</span> Doers <span className='xl:p-4'>*</span> </span>
 
-// const Loader = () => {
-//     return (
-//       <div className="loader">
-     
+              </div>
+              
+              <div className='box-container'>
+                <span className='inspire-1'>Inspiring the next gen tech talent</span>
+                <br></br>
+                <div className='inspire-2'>
+                <span >If it's uncontained, is it still content? We dance between unfiltered & refined between  Morocco & Luxambourg, transscending traditon to capture calture. Founded in 2020, Lights specializes in videos, live events & immensive experiences. Our work spans the whole audiovisual gamut, from art direction to live streaming to interactive installations.</span>
+                <br></br>
+                <br></br>
+                <span>With each project, we strengthen the brand identity of organizations & causes-swapping skills with explore, our agency dedicated to digital branding. Light is insired by the unexpected & the deeply authentic. While pushing audiovisual limits, we keep our eyes on the human stories that connect us all. Showereel Inspired by convention didn't think so.</span>
+                </div>
+                </div>
+                <div className='box-container1 '>
+                < img  src={Cool} alt='Beautiful analytics to grow' />
+              <div className="loader-blur"></div>
+                </div>
 
+              </div>
+        <div>
+        </div>
 
-//                       
-//            
+              </div> 
+      );
+    }
 
-//                         <div className='footer-container'>{/* start of footer div */}
-//                               <div>
-//                               <h1 className='footer-title'>Let's Talk * Ready to join our next cohort?</h1>
-//                               </div>
-//                         <footer className='footer-container-0'>
-//                           <div className='footer-container-1'>
-//                             <div className='adamur-logo'>
-//                               <img src={''} alt="Adamur-logo" />
-//                               <span className='adamur-text'>a<span className='text-c'>d</span>amur</span>
-//                               <br />
-//                               <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar ultricies integer blandit faucibus mattis erat. Pulvinar pharetra nullam in.</span>
-//                               <br />
-//                               <div className='footer-icon'>
-//                               <img src={''} alt="instagram" />
-//                               <img src={''} alt="youtube" />
-//                               <img src={''} alt="facebook" />
-//                               <img src={''} alt="twiter" />
-
-//                               </div>
-//                             </div>
-//                           </div>
-//                           <div className='footer-container-2'></div>
-
-//                         </footer>
-
-//                         </div>{/* end of footer div */}
-
-
-//               {/* end of parent div */}
-//               </div> 
-//               </div>
-//       );
-//     }
-
-// export default Loader;
+export default Loader;

@@ -1,9 +1,9 @@
-.startup1{
+.startup .startup1{
     background-image:  url('../images/rectangle/ben.png');
     height: 37rem;
 }
 
-.what{
+.startup .what{
     display: flex;
     gap: 5px;
     width: 35rem;
@@ -14,16 +14,16 @@
     font-weight: 600;
 
 }
-.startup1 p{
+.startup .startup1 p{
     color: white;
     width: 28rem;
     margin-left: 8.5rem;
     margin-top: 4rem;
 }
-.cards{
+.startup .cards{
     display: flex;
 }
-.card-1{
+.startup .card-1{
     display: flex;
     align-items: center;
     justify-items: center;
@@ -35,19 +35,19 @@
     border-radius: 3px;
     z-index: 2;   
 }
-.card-1 sup{
+.startup .card-1 sup{
     font-size: 40px;
     font-weight: 500;
     margin-top: 1.5rem;
     margin-left: 1.5rem;
 }
-.card-1 sub{
+.startup .card-1 sub{
     font-size: 30px;
     font-weight: 400;
     margin-top: 1rem;
 
 }
-.card-b{
+.startup .card-b{
     margin-top: 12rem;
     margin-left: 9rem;
     position: absolute;
@@ -57,7 +57,7 @@
     z-index: 1;
   
 }
-.card-c{
+.startup .card-c{
     position: absolute;
     margin-top: 13rem;
     border-radius: 3px;
@@ -66,14 +66,14 @@
     margin-left: 10.5rem;
     background-color: rgba(226, 0, 68, 0.2);
 }
-.startup2{
+.startup .startup2{
     background-color:  
     rgba(17, 17, 17, 1); 
   }
-.top{
+.startup .top{
     display: flex;
 }
-.card-2{
+.startup .card-2{
     margin-top: 4.8rem;
     width: 4rem;
     height: 4rem;
@@ -81,7 +81,7 @@
     z-index: 1;
     margin-left: 8rem;
 }
-.card-3{
+.startup .card-3{
     margin-top: 3.5rem;
     margin-left: 9.5rem;
     position: absolute;
@@ -90,14 +90,14 @@
     background: #E20044;
 
 }
-.startup2 p{
+.startup .startup2 p{
     position: relative;
     color: white;
     margin-left: 4.8rem;
     margin-top: 3.5rem; 
     font-size: 1.5rem;
 }
-.startup2 span{
+.startup .startup2 span{
     position: absolute;
     color: white;
     font-size: 2.6rem;
@@ -105,12 +105,12 @@
     margin-left: 15rem;
 
 }
-.container{
+.startup .container{
     background: rgba(17, 17, 17, 1);
     padding: 30px;
 }
 
-.grid5{
+.startup .grid5{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 5px;
@@ -120,22 +120,22 @@
 
   }
 
-label{
+.startup label{
     color: gray;
     font-size: 14px;
     width: 25px;
   }
-  .mtop{
+  .startup .mtop{
     padding: 30px;
   }
-  h4{
+ .startup h4{
     font-weight: 500;
     margin-top: 10px;
   }
 
-  .box{
+  .startup .box{
     margin-left: 0.5rem;
-    border-radius: 2.5px;
+    border-radius: 2.8px;
     text-align: center;
     cursor: pointer;
     margin: 0.2rem;
@@ -143,17 +143,17 @@ label{
     height: 15rem;
     background: rgba(0, 0, 0, 1);
 }
-.box:hover{
-    box-shadow: 0 0 10px 0 gray;
+.startup .box:hover{
+    box-shadow: 0 0 20px 0 grey;
 }
-.grow { 
+.startup .grow { 
     transition: all .2s ease-in-out; 
     }
     
-.grow:hover { 
+.startup .grow:hover { 
     transform: scale(1.1); 
     }
-.icon{
+.startup .icon{
     height: 30px;
     width: 30px;
     color: #E20044;
@@ -162,69 +162,69 @@ label{
 
 
 @media screen and (max-width: 768px){
-.startup1{
+.startup .startup1{
     background-size: contain;
     background-repeat: no-repeat;
     height: 20rem;
 }
-.what{
+.startup .what{
     margin-top: 0.5rem;
     font-size: x-large;
     width: 20rem;
     margin-left: 1rem;
 }
-.startup1 p{
+.startup .startup1 p{
 margin-left: 1rem;
 margin-top: 0.8rem;
 width: 20rem;
 font-size: small;
 }
-.card-1{
+.startup .card-1{
 width: 4rem;
 height: 4rem;
 margin-left: 3rem;
 }
-.card-1 sup{
+.startup .card-1 sup{
     font-size: x-large;
     font-weight: 500;
     margin-top: 1.5rem;
     margin-left: 0.8rem;
 }
-.card-1 sub{
+.startup .card-1 sub{
     font-size: large;
     font-weight: 400;
     margin-top: 1rem;
 
 }
-.card-b{
+.startup .card-b{
     width: 4rem;
     height: 4rem;
     margin-left: 4rem
 }
-.card-c{
+.startup .card-c{
     width: 4rem;
     height: 4rem;
     margin-left: 5.5rem
 }
-.card-2{
+.startup .card-2{
     margin-left: 1rem;
     width: 2rem;
     height: 2rem;
 }
-.card-3{
+.startup .card-3{
     margin-left: 2rem;
     width: 2rem;
     height: 2rem;
     margin-top: 2px;
 }
-.startup2 p{
+.startup .startup2 p{
     margin-top: 5px;
     margin-left: 1.5rem;
     display: flex;
     width: 18rem;
     font-size: small;
 }
-.startup2 span{
+.startup .startup2 span{
 margin-top: 2.5rem;
 margin-left: 5.5rem;
 font-size: large;
@@ -232,7 +232,7 @@ width: 18rem;
 
 }
 
-    .grid5{
+.startup .grid5{
         display: grid;
         grid-template-columns: 1fr;
         grid-gap: 4px;
