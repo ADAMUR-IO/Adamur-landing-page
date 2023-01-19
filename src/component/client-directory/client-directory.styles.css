@@ -1,33 +1,11 @@
 
       .client-description {
-        width: 170px;
+        width: 200px;
         height: auto;
+        margin-top: 15rem;
 
       }
     
-        h2 {
-          font-weight: bold;
-          margin: 0 6px 0;
-          font-size: 16px;
-          color: white;
-
-        }
-    
-        p {
-          font-weight: lighter;
-          font-size: 12px;
-        }
-        .background-image:hover{
-          cursor: pointer;
-          transform: scale(1.1);
-          transition: transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
-        }
-        .background-image {
-          width: 80px;
-          height: auto;
-          background-size: cover;
-          background-position: center;
-        }
         .team-container{
           background-image: url(../images/backgroung.png);
           position: relative;
@@ -44,9 +22,9 @@
           display: flex;
           background-color: black;
           width: 60rem;
-          height: 25rem;
+          height: auto;
           margin-bottom: 3rem;
-          margin-left: 10rem;
+          margin-left: 1rem;
           border-radius: 10px;
       }
       
@@ -78,53 +56,53 @@
       
       .arrows{
           display: flex;
-          gap: 1rem;
-          bottom: 1rem;
-          left: 3rem;
+          gap: 40rem;
+          margin-bottom: 1rem;
+          margin-right: 4rem;
       }
       .arrows>img{
           width: 1.5rem;
           cursor: pointer;
       }
+      
       .right-t{
           position: relative;
       }
       
       .right-t>img{
-          position: absolute;
-          width: 15rem;
-          height: 15rem;
-          object-fit: cover;
-          margin-top: 3rem;
-          margin-left: 35rem;
-          border-radius: 10px;
+        width: 15rem;
+        height: 15rem;
+        object-fit: cover;
+        margin-top: 3rem;
+        margin-left: 25rem;
+        border-radius: 10px;
       
       }
-      .right-t>:nth-child(1){
+      .right-t>:nth-child(1),
+      .right-t>:nth-child(2){
           position: absolute;
-          width: 20px;
+          height: auto;
+          width: 100px;
           height: 20rem;
           right: 9rem;
           top: 0.9rem;
       }
-      .right-t>:nth-child(2){
+      /* .right-t>:nth-child(2){
           position: absolute;
           width: 20px;
           height: 5rem;
           top: 4rem;
           right: 7rem;
-      }
-      .arrows{
-          display: flex;
-          gap: 1rem;
+      } */
+      /* .arrows{
+          gap: 40rem;
           position: absolute;
           bottom: 2rem;
-          margin-left: 20rem;
       }
       .arrows>img{
-          width: 1.5rem;
+          width: 2rem;
           cursor: pointer;
-      }
+      } */
       
       
       
