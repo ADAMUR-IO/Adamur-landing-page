@@ -1,20 +1,18 @@
-import { image1, images, images3 } from "../images";
-
 export const teamData = [
     {
-    image: image1,
+    image: '../images/b.jpeg',
     review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi ipsam, ab itaque nam perferendis impedit sint ',
     name: 'leon',
     status: 'designer'
     },
     {
-        image: images,
+        image: '../images/c.jpeg',
         review: 'Lorem ipsum dolng elit. Commodi ipsam, ab itaque nam perferendis impedit sint ',
         name: 'code nerd',
         status: 'frontend'
     },
     {
-        image: images3,
+        image: '../images/col5/pic 5.png',
         review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi ipsam, ab itaque onsectetur adipisicing elit. Commodi ipsam, ab itaquenam perferendis impedit sint ',
         name: 'tom',
         status: 'fullstack'

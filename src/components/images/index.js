@@ -13,5 +13,5 @@ export const images = require('./image1/images.jpeg');
 
 export const leftArrow = require('./leftArrow/leftArrow.png');
 export const rightArrow = require('./rightArrow/rightArrow.png');
-export const rectangle = require('./rectangle/Rectangle 6.png');
+export const rectangle = require('./rectangle/ben.png');
 export const icon = require('./icon/icons8_idea.png');

@@ -10,9 +10,9 @@ const Team = () => {
   const  [selected, setSelected] = useState(0);
   const tLength = teamData.length;
   return (
-  
+  <div className="team">
     <div className="team-container">
-     <p>What our cohort says</p>
+     <p className='first'>What our cohort says</p>
      <div className="image-container">
      <div className="left-t">
             <motion.span
@@ -48,15 +48,11 @@ const Team = () => {
             transition={transition}
             src={teamData[selected].image} alt="" />
       <div className="arrows">
-                <img 
-                onClick={() => {
-                    selected=== 0 ? setSelected(tLength - 1 ):
+    <img  onClick={() => {selected=== 0 ? setSelected(tLength - 1 ):
                     setSelected((prev) => prev -1 );
                 }}
-                src={leftArrow} alt="" />
-                <img 
-                onClick={() => {
-                    selected === tLength - 1 ? setSelected(0)
+      src={leftArrow} alt="" />
+    <img onClick={() => {selected === tLength - 1 ? setSelected(0)
                     : setSelected((prev) => prev + 1 );
                 }}
                 src={rightArrow} alt="" />                
@@ -68,6 +64,7 @@ const Team = () => {
      Haba App
      </a>
       </span>
+  </div>
   </div>
   )
 }

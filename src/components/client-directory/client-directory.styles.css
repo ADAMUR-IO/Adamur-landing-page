@@ -1,0 +1,129 @@
+      .client-description {
+        width: 170px;
+        height: auto;
+
+      }
+    
+        h2 {
+          font-weight: bold;
+          margin: 0 6px 0;
+          font-size: 16px;
+          color: white;
+
+        }
+    
+        p {
+          font-weight: lighter;
+          font-size: 12px;
+        }
+        .background-image:hover{
+          cursor: pointer;
+          transform: scale(1.1);
+          transition: transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+        }
+        .background-image {
+          width: 80px;
+          height: auto;
+          background-size: cover;
+          background-position: center;
+        }
+        .client-container{
+          background-image: url(../images/background.png);
+          position: relative;
+          height: 36.5rem;
+      }
+      .client-container p{
+          position: relative;
+          margin: 1.5rem;
+          font-weight: 500;
+          margin-left: 30rem;
+      }
+      .client-container{
+          margin-top: 3rem;
+          display: flex;
+          background-color: black;
+          width: 60rem;
+          height: 25rem;
+          margin-bottom: 3rem;
+          margin-left: 10rem;
+          border-radius: 10px;
+      }
+      
+.client-container .left-t{
+          position: relative;
+          display: flex;
+          width: 50px;
+          margin-top: 1.5rem;
+          margin-left: 2rem;
+          text-transform: lowercase;
+          color: white;
+      }
+.client-container .left-t>:nth-child(1){
+          font-weight: 300;
+      }
+.client-container.left-t>:nth-child(2),
+      .left-t>:nth-child(3){
+      font-weight: 250;
+      font-size: 1.5rem;
+      }
+.client-container .left-t>:nth-child(4){
+          position: absolute;
+          display: flex;
+          flex-direction: column;
+          text-transform: none;
+          text-align: center;
+          line-height: 10px;
+      }
+      
+.client-container .arrows{
+          display: flex;
+          gap: 1rem;
+          bottom: 1rem;
+          left: 3rem;
+      }
+.client-container .arrows>img{
+          width: 1.5rem;
+          cursor: pointer;
+      }
+.client-container .right-t{
+          position: relative;
+      }
+      
+.client-container .right-t>img{
+          position: absolute;
+          width: 15rem;
+          height: 15rem;
+          object-fit: cover;
+          margin-top: 3rem;
+          margin-left: 35rem;
+          border-radius: 10px;
+      
+      }
+.client-container .right-t>:nth-child(1){
+          position: absolute;
+          width: 20px;
+          height: 20rem;
+          right: 9rem;
+          top: 0.9rem;
+      }
+.client-container .right-t>:nth-child(2){
+          position: absolute;
+          width: 20px;
+          height: 5rem;
+          top: 4rem;
+          right: 7rem;
+      }
+.client-container .arrows{
+          display: flex;
+          gap: 1rem;
+          position: absolute;
+          bottom: 2rem;
+          margin-left: 20rem;
+      }
+      .client-container .arrows>img{
+          width: 1.5rem;
+          cursor: pointer;
+      }
+      
+      
+      
