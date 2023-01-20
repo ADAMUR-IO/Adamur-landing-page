@@ -1,19 +1,18 @@
 import React, { useState } from 'react';
-import './client-directory.styles.css';
-import Star from '../../component/images/star.png';
-import { clientData } from './clientData';
+import './cohort-directory.styles.css';
+import { clientData } from './cohortData';
 import leftArrow from '../images/Arrow/leftArrow.png';
 import rightArrow from '../images/Arrow/rightArrow.png';
 import {motion} from 'framer-motion';
 
-const Client = () => {
+const Cohort = () => {
 
   const transition =  { type: 'spring', duration: 3 };
   const  [selected, setSelected] = useState(0);
   const tLength = clientData.length;
   return (
     <div className="team-container">
-     <div className='md:cols-2 lg:cols-2 text-white text-center font-bold mt-40 text-3xl'>TESTIMONIAL FROM SATISFIED CLIENTS</div>
+     <div className='md:cols-2 lg:cols-2 text-black text-center font-bold mt-40 text-3xl'>What our cohort says</div>
      <div className="flex  mt-12 bg-black item-center ml-40 mr-40 rounded-md text-center ">
      <div className="item-center w-56 flex mt-8 inline-start justify-center ml-4 text-white text-lg ">
             <motion.span
@@ -48,14 +47,6 @@ const Client = () => {
             transition={transition}
             src={clientData[selected].image} alt="images" />
 
-                  <div className=' flex place-items-start'>
-                    <img src={Star} alt="star" />
-                      <img src={Star} alt="star" />
-                       <img src={Star} alt="star" />
-                       <img src={Star} alt="star" />
-                     <img src={Star} alt="star" />
-                   </div>
-
        <div className="arrows">
                 <img
                 onClick={() => {
@@ -80,5 +71,5 @@ const Client = () => {
   
 }
 
-export default Client;
+export default Cohort;
 

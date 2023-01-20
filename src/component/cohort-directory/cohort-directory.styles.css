@@ -7,7 +7,8 @@
       }
     
         .team-container{
-          background-image: url(../images/backgroung.png);
+           background-color: rgba(217, 217, 217, 1);
+          /* background-image: url(../images/backgroung.png); */
           position: relative;
           height: 36.5rem;
       }

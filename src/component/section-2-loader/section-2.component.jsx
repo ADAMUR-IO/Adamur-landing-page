@@ -1,6 +1,6 @@
 import React from 'react';
 import Clara from '../../component/images/Clara Ujiie.png';
-
+import './Section-2-loader.css';
 
 
 const Section = () => {
@@ -8,11 +8,11 @@ const Section = () => {
     <div>
       <div className=' sm:cols-1 md:cols-2 lg:cols-2 lg:flex xl:flex justify-center'>
                 <div className=' xl:w-5/12 sm:h-72  mb-12  ml-1'>
-                  <h1 className='xl:text-base text-center mt-2 xl:ml-12 h-10 xl:mt-8' >We help You</h1>
-                < img className='item-center xl:h-96  xl:w-screen  xl:ml-24 w-3/4 ml-12 xl:mt-8' src={Clara} alt='Inspiration message' />
+                  <h1 className='xl:text-base text-center mt-2 xl:ml-32 h-10 xl:mt-8' >We help You</h1>
+                < img className='think item-center xl:h-96  xl:w-screen  xl:ml-24 w-3/4 ml-12 xl:mt-8' src={Clara} alt='Inspiration message' />
 
                 </div>
-                <div className='bg-black text-center text-white w-full xl:w-2/4 xl:ml-20 xl:h-screen'>
+                <div className='bg-black text-center text-white w-full xl:w-2/4 xl:ml-20 xl:h-screen z-20'>
                               
                 <div>
                   <p className=' font-bold text-sm text-left ml-4 xl:text-5xl xl:ml-16 xl:mt-10 xl:mb-4'>Preparing you for Industry delivery</p>

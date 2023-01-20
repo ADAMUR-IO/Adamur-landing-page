@@ -1,7 +1,6 @@
 import React from 'react'
 import Experience from '../../component/images/Group 36699.png';
 import Group from '../../component/images/Group.png';
-import Client from '../../component/client-directory/client-directory.component';
 import Logo from '../Logo/Logo.component';
 
 import './startup-care.styles.css';
@@ -25,7 +24,7 @@ function Startup() {
 
 
 <div>
-    <Client />
+    
     <Logo />
 </div>
     </div>
