@@ -1,25 +1,29 @@
-.team .team-container{
+.team-container{
+    display: flex;
+    flex-direction: column;
     position: relative;
     background-color: #D9D9D9;
     height: 34.5rem;
+    align-items: center;
+    justify-content: center;
 }
-.team .first{
+ .first{
     font-weight: 500;
-    margin-left: 30rem;
+    /* margin-left: 30rem; */
     padding-top: 10px;
 }
-.team .image-container{
-    margin-top: 2rem;
+.image-container{
+    margin-top: 1rem;
     display: flex;
     background-color: black;
-    width: 60rem;
+    width: 55rem;
     height: 25rem;
-    margin-bottom: 3rem;
-    margin-left: 10rem;
+    margin-bottom: 1rem;
+    /* margin-left: 10rem; */
     border-radius: 10px;
 }
 
-.team .left-t{
+ .left-t{
     position: relative;
     display: flex;
     flex-direction: column;
@@ -30,15 +34,15 @@
     color: white;
     width: 50%;
 }
-.team .left-t>:nth-child(1){
+.left-t>:nth-child(1){
     font-weight: 350;
 }
-.team .left-t>:nth-child(2),
-.team .left-t>:nth-child(3){
+.left-t>:nth-child(2),
+.left-t>:nth-child(3){
 font-weight: 400;
 font-size: 2rem;
 }
-.team .left-t>:nth-child(4){
+ .left-t>:nth-child(4){
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -47,62 +51,61 @@ font-size: 2rem;
     line-height: 10px;
 }
 
-.team .arrows{
+.arrows{
     display: flex;
     gap: 1rem;
     bottom: 1rem;
-    left: 1rem;
+    /* left: 1rem; */
 }
-.team .arrows>img{
+ .arrows>img{
     width: 1.5rem;
     cursor: pointer;
 }
-.team .right-t{
+.right-t{
     position: relative;
 }
 
-.team .right-t>img{
+.right-t>img{
     position: absolute;
     width: 15rem;
     height: 15rem;
     object-fit: cover;
     margin-top: 3rem;
-    margin-left: 8rem;
+    /* margin-left: 8rem; */
     border-radius: 10px;
 
 }
-.team .right-t>:nth-child(1){
+.right-t>:nth-child(1){
     position: absolute;
     width: 20px;
     height: 20rem;
-    right: 9rem;
+    /* right: 9rem; */
     top: 0.9rem;
 }
-.team .right-t>:nth-child(2){
+.right-t>:nth-child(2){
     position: absolute;
     width: 20px;
     height: 5rem;
-    top: 4rem;
-    right: 7rem;
+    top: 2rem;
+    /* right: 7rem; */
 }
-.team .arrows{
+ .arrows{
     display: flex;
     gap: 1rem;
     position: absolute;
     bottom: 2rem;
 }
-.team .arrows>img{
+ .arrows>img{
     width: 1.5rem;
     cursor: pointer;
 }
 
- .team .link a{
+ .link a{
     position: absolute;
-    margin-left: 35rem;
     font-weight: 400;
     color: orangered;
 }
-.team .link a:hover{
+.link a:hover{
     cursor: pointer;
     color: blue;
 }
@@ -120,16 +123,16 @@ font-size: 2rem;
   flex-direction: column;
   width: 25rem; 
   height: 30rem; 
-  margin-left: 0.5rem;
+  /* margin-left: 0.5rem; */
   margin-top: 0.5rem;
 }
 .link a{
-margin-left: 8rem;
+/* margin-left: 8rem; */
 bottom: 0.5rem;
 }
 .arrows{
 position: inherit;
-margin-left: 8rem;
+/* margin-left: 8rem; */
 }
 .arrows>img{
 margin-top: 3.5rem;

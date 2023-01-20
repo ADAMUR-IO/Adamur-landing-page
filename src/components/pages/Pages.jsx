@@ -1,8 +1,10 @@
 import React from 'react'
 import Navigation from '../navigation/Navigation'
 import Startups from '../startup/Startups'
-import Client from '../client-directory/client-directory.component'
 import Startup from '../startup-care/startup-care.component'
+import Cards from '../cards/Cards'
+import Logo from '../Logo/Logo.component'
+import Footer from '../common/footer/Footer'
 
 const Pages = () => {
   return (
@@ -10,7 +12,10 @@ const Pages = () => {
     <Navigation />
      <Startups />
      <Startup /> 
-     <Client />
+     <Cards />
+     <Logo />
+     <Footer />
+
     </>
   )
 }
