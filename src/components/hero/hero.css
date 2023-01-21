@@ -1,22 +1,4 @@
-.hero{
-    height: 45rem;
-}
-.text{
-    margin-top: 3.5rem;
-    width: 40rem;
-    margin-left: 3rem;
-}
-.text>:nth-child(1){
-    font-size: 2.5rem;
-    font-weight: bold;
-}
-.text>:nth-child(2){
-    font-size: 1.5rem;
-    font-weight: 400; 
-}
-.text>:nth-child(3){
-    width: 30rem;
-}
+
 
 .hero-blur1{
     width: 15rem;
@@ -28,10 +10,10 @@
     filter: blur(75px);
     z-index: -9;
 }
-.img-container{
-    display: flex;
-    transform: skewY(-11deg);
-    
+.formation{
+    transform: skewY(-11deg);   
+    align-items: flex-start;
+
 }
 .img1-container{
     margin: 0 auto;

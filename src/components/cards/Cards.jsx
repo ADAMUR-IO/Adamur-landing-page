@@ -1,6 +1,6 @@
 import React from 'react'
 import Photo from '../../components/images/pic.png'
-import Stars from '../../components/images/stars.png'
+import Stars from '../images/stars.png'
 
 
 const Cards = () => {
