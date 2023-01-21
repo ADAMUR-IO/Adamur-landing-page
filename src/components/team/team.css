@@ -1,158 +1,104 @@
 .team-container{
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    background-color: #D9D9D9;
-    height: 34.5rem;
-    align-items: center;
-    justify-content: center;
-}
- .first{
-    font-weight: 500;
-    /* margin-left: 30rem; */
-    padding-top: 10px;
-}
-.image-container{
-    margin-top: 1rem;
-    display: flex;
-    background-color: black;
-    width: 55rem;
-    height: 25rem;
-    margin-bottom: 1rem;
-    /* margin-left: 10rem; */
-    border-radius: 10px;
-}
-
- .left-t{
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
-    margin-top: 3rem;
-    margin-left: 2rem;
-    text-transform: lowercase;
-    color: white;
-    width: 50%;
-}
-.left-t>:nth-child(1){
-    font-weight: 350;
-}
-.left-t>:nth-child(2),
-.left-t>:nth-child(3){
-font-weight: 400;
-font-size: 2rem;
-}
- .left-t>:nth-child(4){
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    text-transform: none;
-    text-align: center;
-    line-height: 10px;
-}
-
-.arrows{
-    display: flex;
-    gap: 1rem;
-    bottom: 1rem;
-    /* left: 1rem; */
-}
- .arrows>img{
-    width: 1.5rem;
-    cursor: pointer;
-}
-.right-t{
-    position: relative;
-}
-
-.right-t>img{
-    position: absolute;
-    width: 15rem;
-    height: 15rem;
-    object-fit: cover;
-    margin-top: 3rem;
-    /* margin-left: 8rem; */
-    border-radius: 10px;
-
-}
-.right-t>:nth-child(1){
-    position: absolute;
-    width: 20px;
-    height: 20rem;
-    /* right: 9rem; */
-    top: 0.9rem;
-}
-.right-t>:nth-child(2){
-    position: absolute;
-    width: 20px;
-    height: 5rem;
-    top: 2rem;
-    /* right: 7rem; */
-}
- .arrows{
-    display: flex;
-    gap: 1rem;
-    position: absolute;
-    bottom: 2rem;
-}
- .arrows>img{
-    width: 1.5rem;
-    cursor: pointer;
-}
-
- .link a{
-    position: absolute;
-    font-weight: 400;
-    color: orangered;
-}
-.link a:hover{
-    cursor: pointer;
-    color: blue;
-}
-
-@media screen and (max-width: 768px) {
-.team-container{
-    flex-direction: column;
-    
+    background-color: rgba(217, 217, 217, 1);
+   position: relative;
+   height: 36.5rem;
 }
 .team-container p{
-    margin-left: 7rem;
+   position: relative;
+   margin: 1.5rem;
+   font-weight: 500;
+   margin-left: 30rem;
 }
 .image-container{
-  display: flex;
-  flex-direction: column;
-  width: 25rem; 
-  height: 30rem; 
-  /* margin-left: 0.5rem; */
-  margin-top: 0.5rem;
+   margin-top: 3rem;
+   display: flex;
+   background-color: black;
+   width: 60rem;
+   height: auto;
+   margin-bottom: 3rem;
+   margin-left: 1rem;
+   border-radius: 10px;
 }
-.link a{
-/* margin-left: 8rem; */
-bottom: 0.5rem;
-}
+
 .arrows{
-position: inherit;
-/* margin-left: 8rem; */
+   display: flex;
+   gap: 40rem;
+   margin-bottom: 1rem;
+   margin-right: 4rem;
 }
 .arrows>img{
-margin-top: 3.5rem;
+   width: 1.5rem;
+   cursor: pointer;
 }
+
 .right-t{
-display: flex;
-flex-direction: column;
+   position: relative;
 }
+
 .right-t>img{
-position: inherit;
-width: 17rem;
-height: 10rem;
-margin-left: 3rem;
-margin-top: 18px;
+ width: 15rem;
+ height: 15rem;
+ object-fit: cover;
+ margin-top: 3rem;
+ margin-left: 25rem;
+ border-radius: 10px;
+
 }
-.left-t{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    width: 90%;
+.right-t>:nth-child(1),
+.right-t>:nth-child(2){
+   position: absolute;
+   height: auto;
+   width: 100px;
+   height: 20rem;
+   right: 9rem;
+   top: 0.9rem;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+ .right-t>img{
+     width: 10rem;
+     height: auto;
+     margin-top: 2rem;
+     margin-left: 15px;
+   
+   }
+   .right-t>:nth-child(1),
+   .right-t>:nth-child(2){
+       width: 10rem;
+       height: 10rem;
+       right: 0rem;
+       top: 0.9rem;
+   }
+   .arrows{
+     gap: 10rem;
+     margin-bottom: 1rem;
+     margin-right: 1rem;
+     justify-content: center;
+ }
+ .arrows>img{
+     width: 1.5rem;
+ }
+ .team-container{
+ 
+    height: 25rem;
+}
+.team-container p{
+    margin: 1rem;
+    font-weight: 50px;
+    margin-left: 5px;
+}
+.image-container{
+    margin-top: 3rem;
+    width: auto;
+    margin-bottom: 3rem;
     margin-left: 1rem;
 }
+.description {
+ float: left;
+ min-width: fit-content;
+
+}
+
 }

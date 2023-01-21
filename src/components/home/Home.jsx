@@ -8,28 +8,22 @@ import Team from '../team/Team'
 import Section4 from '../section4/Section4'
 import Footer from '../common/footer/Footer'
 import News from '../news/News'
-// import Inspiration from '../inspiration/Inspiration'
-// import Industry from '../industry/Industry'
-// import Enroll from '../../assets/enroll/Enroll'
+
+
 const Home = () => {
   return (
     <>
     <Header />
     <Hero />
     <Loader />
-    <Section />
-    <Logo />
+    {/* <Section /> */}
+    {/* <Logo /> */}
     <Team />
-    <Section4 />
+    {/* <Section4 /> */}
     <News />
     <Footer />
 
-    {/* <Inspiration /> */}
-    {/* <Industry /> */}
-    {/* <Enroll /> */}
-
-
-    </>
+       </>
   )
 }
 

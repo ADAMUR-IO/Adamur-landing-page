@@ -3,15 +3,13 @@ import './Logo.component.css';
 import Haba from '../images/haba-logo.png';
 import Boop from '../images/boop-logo.png';
 
-
 const Logo = () => {
 
   return (
     <div>
-      <div className='section-3-container'>
-      <div className="logo-blur"></div>
+      <div className='section-3-container'>{/* start of section-3-container div */}
                         <div>
-                          <span className='chohort-portf'>Meet Our Cohorts Portfolio</span>
+                          <h2 className='chohort-portf'>Meet Our Cohorts Portfolio</h2>
                             <br />
                           {/* <span className='bold-t'>Some of the startups our cohort are working with</span> */}
                           <h4 className='bold-text p-2 text-center xl:text-3xl'>Some of the startups our cohort are working with</h4>
@@ -22,12 +20,10 @@ const Logo = () => {
                               <img src={Haba} alt="Haba logo" />
                               <img src={Boop} alt="Boop-logo" />
                             </div>
+          
                       </div>{/* end of section-3-container div */}
     </div>
   )
 }
 
 export default Logo;
-
-
-
