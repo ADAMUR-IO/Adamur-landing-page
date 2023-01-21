@@ -29,7 +29,7 @@ const Loader = () => {
                 <span>With each project, we strengthen the brand identity of organizations & causes-swapping skills with explore, our agency dedicated to digital branding. Light is insired by the unexpected & the deeply authentic. While pushing audiovisual limits, we keep our eyes on the human stories that connect us all. Showereel Inspired by convention didn't think so.</span>
                 </div>
                 </div>
-                <div className='box-container1 '>
+                <div className='box-container1 animate-bounce '>
                 < img  src={Cool} alt='Beautiful analytics to grow' />
                 </div>
               </div>

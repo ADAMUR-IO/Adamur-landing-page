@@ -13,8 +13,8 @@ const Cohort = () => {
   return (
     <div className="team-container">
      <div className='md:cols-2 lg:cols-2 text-black text-center font-bold mt-40 text-3xl'>What our cohort says</div>
-     <div className="flex  mt-12 bg-black item-center ml-40 mr-40 rounded-md text-center ">
-     <div className="item-center w-56 flex mt-8 inline-start justify-center ml-4 text-white text-lg ">
+     <div className="flex  mt-12 bg-black item-center xl:ml-40 xl:mr-40 mr-56 ml-2 rounded-md text-center ">
+     <div className="description xl:item-center xl:w-56 flex  mt-8 inline-start xl:justify-center xl:ml-4 text-white xl:text-lg text-base">
             <motion.span
             key={selected}
             initial={{ opacity: 0, x: -100 }}
