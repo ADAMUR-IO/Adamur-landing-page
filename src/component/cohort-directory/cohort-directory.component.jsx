@@ -13,8 +13,8 @@ const Cohort = () => {
   return (
     <div className="team-container">
      <div className='md:cols-2 lg:cols-2 text-black text-center font-bold mt-40 text-3xl'>What our cohort says</div>
-     <div className="flex  mt-12 bg-black item-center xl:ml-40 xl:mr-40 mr-56 ml-2 rounded-md text-center ">
-     <div className="description xl:item-center xl:w-56 flex  mt-8 inline-start xl:justify-center xl:ml-4 text-white xl:text-lg text-base">
+     <div className="main-description flex  mt-12 bg-black item-center xl:ml-40 xl:mr-40 mr-56 ml-2 rounded-md text-center ">
+     <div className="description xl:item-center xl:w-56 flex  mt-8 inline-start xl:justify-center xl:ml-4 text-white xl:text-lg text-sm text-center">
             <motion.span
             key={selected}
             initial={{ opacity: 0, x: -100 }}
@@ -24,7 +24,7 @@ const Cohort = () => {
             >{clientData[selected].review}
             </motion.span>
             <span>
-          <span className='font-extrabold text-center justify-center text-lg flex-col '>{clientData[selected].name}</span>{" "}
+          <span className='font-extrabold text-center justify-center text-lg flex'>{clientData[selected].name}</span>{" "}
                  {clientData[selected].status}
             </span>
             </div>

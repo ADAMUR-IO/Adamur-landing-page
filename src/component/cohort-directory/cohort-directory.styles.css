@@ -59,25 +59,18 @@
       
       
       @media only screen and (max-width: 600px) {
-        .right-t>img{
-            width: 10rem;
-            height: auto;
+     .right-t>img{
+            width: 12rem;
+            height: 12rem;
             margin-top: 2rem;
-            margin-left: 15px;
+            margin-left: 16px;
           
           }
-          .right-t>:nth-child(1),
-          .right-t>:nth-child(2){
-              width: 10rem;
-              height: 10rem;
-              right: 0rem;
-              top: 0.9rem;
-          }
+          
           .arrows{
             gap: 10rem;
-            margin-bottom: 1rem;
-            margin-right: 1rem;
             justify-content: center;
+            margin-top: 55px;
         }
         .arrows>img{
             width: 1.5rem;
@@ -88,19 +81,22 @@
        }
        .team-container p{
            margin: 1rem;
-           font-weight: 50px;
+           font-weight: 10px;
            margin-left: 5px;
        }
        .image-container{
-           margin-top: 3rem;
+           margin-top: 2rem;
            width: auto;
-           margin-bottom: 3rem;
-           margin-left: 1rem;
+           margin-bottom: 8rem;
+           margin-left: 2rem;
        }
        .description {
         float: left;
         min-width: fit-content;
 
+       }
+       .main-description {
+        height: 250px;
        }
 
       }
