@@ -4,7 +4,7 @@ import BgImage from '../../images/background.png'
 import {
     FaInstagram,
     FaFacebookSquare,
-    FaYoutube,
+    FaLinkedin,
     FaTwitterSquare,
   } from 'react-icons/fa';
   import { FaWhatsapp } from 'react-icons/fa'
@@ -26,7 +26,7 @@ function Footer() {
                     <FaInstagram size={30} />
                     <FaFacebookSquare size={30} />
                     <FaTwitterSquare size={30} />
-                    <FaYoutube size={30} />
+                    <FaLinkedin size={30} />
                  
                 </div>
             </div>
@@ -49,7 +49,7 @@ function Footer() {
                             <li className='py-2 text-sm'>Programs</li>
                             <li className='py-2 text-sm'>Portfolio</li>
                             <li className='py-2 text-sm'>News</li>
-                            <li className='py-2 text-sm'>Contact Us</li>
+                            <li className='py-2 text-sm'>Privacy</li>
                         </ul>
                     </div>
 

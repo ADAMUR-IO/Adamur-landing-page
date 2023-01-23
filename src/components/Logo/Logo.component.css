@@ -2,7 +2,6 @@
     justify-content: center;
     text-align: center;
     background-color: lightgrey;
-    height: auto;
   }
   .text-delivery-1 {
     font-weight: bold;
@@ -11,7 +10,7 @@
   .chohort-portf {
     color: #E20044;
     font-weight: bold;
-    padding-top: 20px;
+    margin-top: 20px;
   }
   .logo-haba>:nth-child(1),
   .logo-haba>:nth-child(2)
@@ -24,19 +23,6 @@
     padding-inline-start: 100px;
     width: 250px;
   } 
-
-  .logo-blur{
-    top: 0;
-    position: inherit;
-    width: 10rem;
-    height: 4rem;
-    float: right;
-    padding-left: 1rem;
-    background-color: rgba(236, 16, 16, 0.9);
-    border-radius: 50%;
-    filter: blur(45px);
-    z-index: -11;
-  }
   @media screen and (min-width: 320px) and (max-width:481px) {
     /* For phone: */
     .chohort-portf {

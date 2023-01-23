@@ -1,0 +1,102 @@
+
+     
+        .team-container{
+           background-color: rgba(217, 217, 217, 1);
+          position: relative;
+          height: 36.5rem;
+      }
+      .team-container p{
+          position: relative;
+          margin: 1.5rem;
+          font-weight: 500;
+          margin-left: 30rem;
+      }
+      .image-container{
+          margin-top: 3rem;
+          display: flex;
+          background-color: black;
+          width: 60rem;
+          height: auto;
+          margin-bottom: 3rem;
+          margin-left: 1rem;
+          border-radius: 10px;
+      }
+      
+      .arrows{
+          display: flex;
+          gap: 40rem;
+          margin-bottom: 1rem;
+          margin-right: 4rem;
+      }
+      .arrows>img{
+          width: 1.5rem;
+          cursor: pointer;
+      }
+      
+      .right-t{
+          position: relative;
+      }
+      
+      .right-t>img{
+        width: 15rem;
+        height: 15rem;
+        object-fit: cover;
+        margin-top: 3rem;
+        margin-left: 25rem;
+        border-radius: 10px;
+      
+      }
+      .right-t>:nth-child(1),
+      .right-t>:nth-child(2){
+          position: absolute;
+          height: auto;
+          width: 100px;
+          height: 20rem;
+          right: 9rem;
+          top: 0.9rem;
+      }
+      
+      
+      
+      @media only screen and (max-width: 600px) {
+     .right-t>img{
+            width: 12rem;
+            height: 12rem;
+            margin-top: 2rem;
+            margin-left: 16px;
+          
+          }
+          
+          .arrows{
+            gap: 10rem;
+            justify-content: center;
+            margin-top: 55px;
+        }
+        .arrows>img{
+            width: 1.5rem;
+        }
+        .team-container{
+        
+           height: 25rem;
+       }
+       .team-container p{
+           margin: 1rem;
+           font-weight: 10px;
+           margin-left: 5px;
+       }
+       .image-container{
+           margin-top: 2rem;
+           width: auto;
+           margin-bottom: 8rem;
+           margin-left: 2rem;
+       }
+       .description {
+        float: left;
+        min-width: fit-content;
+
+       }
+       .main-description {
+        height: 250px;
+       }
+
+      }

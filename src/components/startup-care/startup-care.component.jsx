@@ -1,7 +1,7 @@
 import React from 'react'
-import Experience from '../images/Group 36699.png';
-import Group from '../images/Group.png';
-
+import Image1 from '../images/1.png'
+import Image2 from '../images/2.png'
+import Image3 from '../images/3.png'
 import './startup-care.styles.css';
 
 function Startup() {
@@ -11,9 +11,9 @@ function Startup() {
     <p className='text-center scale text-black'>Helping you Scale your Web2 & 3 Development</p>
   <div class=" flex md:cols-2 lg:cols-2 justify-between-2 justify-center mt-3 xl:mt-10">
     <div className='md:flex  lg:flex align-center gap-2 xl:gap-16 cols-1 grid justify-between ' >
-    <img className='image' src={Experience} alt="image1" />
-    <img className='image' src={Group} alt="image1" />
-    <img className='image' src={Group} alt="image1" />
+    <img className='image' src={Image1} alt="" />
+    <img className='image' src={Image2} alt="" />
+    <img className='image' src={Image3} alt="" />
     </div>
     </div>
     
