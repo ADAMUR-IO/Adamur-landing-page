@@ -67,7 +67,7 @@ transition: 0.3s ease;
     flex-direction: column;
     top: 5vh;
     width: 40%;
-    height: 90vh;
+    height: 50vh;
     right: 0;
     border-bottom-left-radius: 5px;
     transform: translateX(100%);

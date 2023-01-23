@@ -5,6 +5,7 @@ import Logo from '../Logo/Logo.component';
 import Section from '../section-2-loader/section-2.component';
 import Cohort from '../cohort-directory/cohort-directory.component';
 import Desktop from '../images/Desktop - 1.png';
+import News from '../news/News'
 
 import Footer from '../common/footer/Footer'
 
@@ -68,6 +69,7 @@ const Loader = () => {
                               <div>
                               <h1 className='footer-title'>Let's Talk * Ready to join our next cohort?</h1>
                               </div>
+                              <div><News /></div>
 <div><Footer /></div>
                         </div>{/* end of footer div */}
 
