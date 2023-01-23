@@ -135,12 +135,10 @@
     width: 250px;
   } 
   .section-4-container {
-    display: flex;
-    height: auto;
-    /* align-items: stretch; */
-    /* display: -moz-grid-group; */
-    /* grid-row: span right; */
-    /* padding-inline-start: 100px; */
+    align-items: stretch;
+    display: -moz-grid-group;
+    grid-row: span right;
+    padding-inline-start: 100px;
   }
   .section-4-container-0 {
     background-color: black;
@@ -181,7 +179,7 @@
     height: 250px;
     width: 500px;
     padding: 5px;
-    padding-top: 10px;
+    margin-top: 60px;
     font-size: 40px;
   }
   

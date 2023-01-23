@@ -6,8 +6,7 @@ import { Col1, Col2, Col3, Col4, Col5, Col6, Col7, Col8 } from '../images';
 const Hero = () => {
  
   return (
-    <>  
-   
+    <div className='hero'>  
     <div className='header-l min-h-screen sm:justify-baseline  pl-4'>
       <div className="text max-w-[1200px] mt-[44px] w-full  mx-auto lg:ml-24 flex flex-col justify-start">
       <p className='text-5xl font-bold'>shape your software<br/>engineering <span className='text-5xl font-light' >Career <br/> with us!</span></p>
@@ -35,7 +34,7 @@ const Hero = () => {
 </div>
 </div>
     </div>
-  </>
+  </div>
   );
 };
 

@@ -1,31 +1,31 @@
 import React, { useState } from 'react';
-import './team.css';
-import { teamData } from './teamData';
+import './cohort-directory.styles.css';
+import { clientData } from './cohortData';
 import leftArrow from '../images/leftArrow/leftArrow.png';
 import rightArrow from '../images/rightArrow/rightArrow.png';
 import {motion} from 'framer-motion';
 
-const Team = () => {
+const Cohort = () => {
 
   const transition =  { type: 'spring', duration: 3 };
   const  [selected, setSelected] = useState(0);
-  const tLength = teamData.length;
+  const tLength = clientData.length;
   return (
     <div className="team-container">
      <div className='md:cols-2 lg:cols-2 text-black text-center font-bold mt-40 text-3xl'>What our cohort says</div>
-     <div className="flex  mt-12 bg-black item-center xl:ml-40 xl:mr-40 mr-56 ml-2 rounded-md text-center ">
-     <div className="description xl:item-center xl:w-56 flex  mt-8 inline-start xl:justify-center xl:ml-4 text-white xl:text-lg text-base">
+     <div className="main-description flex  mt-12 bg-black item-center xl:ml-40 xl:mr-40 mr-56 ml-2 rounded-md text-center ">
+     <div className="description xl:item-center xl:w-56 flex  mt-8 inline-start xl:justify-center xl:ml-4 text-white xl:text-lg text-sm text-center">
             <motion.span
             key={selected}
             initial={{ opacity: 0, x: -100 }}
             animate={{ opacity: 1, x: 0 }}
             exit={{ opacity: 0, x: 100 }}
             transition={transition}
-            >{teamData[selected].review}
+            >{clientData[selected].review}
             </motion.span>
             <span>
-          <span className='font-extrabold text-center justify-center text-lg flex-col '>{teamData[selected].name}</span>{" "}
-                 {teamData[selected].status}
+          <span className='font-extrabold text-center justify-center text-lg flex'>{clientData[selected].name}</span>{" "}
+                 {clientData[selected].status}
             </span>
             </div>
       <div className="right-t">
@@ -45,7 +45,7 @@ const Team = () => {
             animate={{ opacity: 1, x: 0 }}
             exit={{ opacity: 0, x: -100 }}
             transition={transition}
-            src={teamData[selected].image} alt="images" />
+            src={clientData[selected].image} alt="images" />
 
        <div className="arrows">
                 <img
@@ -71,4 +71,5 @@ const Team = () => {
   
 }
 
-export default Team;
+export default Cohort;
+

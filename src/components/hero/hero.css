@@ -1,5 +1,6 @@
-
-
+.hero{
+    height: 60rem;
+}
 .hero-blur1{
     width: 15rem;
     height: 5rem;
@@ -13,6 +14,7 @@
 .formation{
     transform: skewY(-11deg);   
     align-items: flex-start;
+    margin-top: 1rem;
 
 }
 .img1-container{
@@ -22,15 +24,15 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 12rem;
-    margin-left: 3rem;
+    width: auto;
+    margin-left: auto;
     background-color: #ff1616;
     border-radius: 10rem ;     
     
 }
 .img1-container>img, .img2-container>img, .img3-container>img, .img4-container>img{
     padding: 0.1rem;
-    width: 11.5rem;
+    width: auto;
 
 }
 .img2-container{
@@ -40,7 +42,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 12rem;
+    width: auto;
     background-color: #19087D;
     border-radius: 10rem ;   
 }
@@ -51,7 +53,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 12rem;
+    width: auto;
     background-color: #FF7E8A    ;
     border-radius: 10rem ;   
 }
@@ -62,7 +64,19 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 12rem;
+    width: auto;
     background-color: #FFFFFF    ;
     border-radius: 10rem ;   
+}
+@media screen and (max-width: 768px) {
+.hero{
+    height: auto;
+}
+    .hero-blur1{
+    width: 4rem;
+    height: 4rem;
+    position: relative;
+    margin-left: 3rem;
+}
+    
 }

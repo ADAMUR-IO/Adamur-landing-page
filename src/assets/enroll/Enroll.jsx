@@ -1,6 +1,6 @@
 import React from 'react';
 import Elogo from '../../components/images/elogo.png'
-import Header from '../../components/header/Header'
+import Navbar from '../../components/navbar/Navbar'
 import News from '../../components/news/News'
 import Footer from '../../components/common/footer/Footer'
 
@@ -9,7 +9,7 @@ import Footer from '../../components/common/footer/Footer'
 const EnrollForm = () => {
   return (
 <>
-<Header />
+<Navbar />
    <div  style={{marginBottom: '1rem'}}class='enroll bg-black'>
        <div className=' pt-1 md:ml-20 lg:ml-20  mt-1 '>
                 <img src= { Elogo } alt="" className='elogo w-44 mt-1' />

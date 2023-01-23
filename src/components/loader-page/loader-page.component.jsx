@@ -3,9 +3,10 @@ import './loader-page.styles.css';
 import Cool from '../images/cool.png';
 import Logo from '../Logo/Logo.component';
 import Section from '../section-2-loader/section-2.component';
-// import Cohort from '../../component/cohort-directory/cohort-directory.component';
+import Cohort from '../cohort-directory/cohort-directory.component';
 import Desktop from '../images/Desktop - 1.png';
 
+import Footer from '../common/footer/Footer'
 
 
 
@@ -60,13 +61,14 @@ const Loader = () => {
                         
                         </div>{/* end of section-4-container div */}
                         <div>
-                        {/* <Cohort /> */}
+                        <Cohort />
                         </div>
 
                         <div className='footer-container'>{/* start of footer div */}
                               <div>
                               <h1 className='footer-title'>Let's Talk * Ready to join our next cohort?</h1>
                               </div>
+<div><Footer /></div>
                         </div>{/* end of footer div */}
 
 

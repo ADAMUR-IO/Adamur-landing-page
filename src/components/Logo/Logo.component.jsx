@@ -3,6 +3,7 @@ import './Logo.component.css';
 import Haba from '../images/haba-logo.png';
 import Boop from '../images/boop-logo.png';
 
+
 const Logo = () => {
 
   return (
@@ -27,3 +28,6 @@ const Logo = () => {
 }
 
 export default Logo;
+
+
+
