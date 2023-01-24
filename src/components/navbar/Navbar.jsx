@@ -41,7 +41,7 @@ const Navbar = () => {
                     )}
                 <FormButton />
             </ul>
-            <div className={toggleIcon} onClick={onToggle}>
+            <div className={toggleIcon }  onClick={onToggle}>
                 <div className="line-1"></div>
                 <div className="line-2"></div>
                 <div className="line-3"></div>

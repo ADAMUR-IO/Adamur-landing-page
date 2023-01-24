@@ -3,8 +3,8 @@ import './loader-page.styles.css';
 import Cool from '../images/cool.png';
 import Logo from '../Logo/Logo.component';
 import Section from '../section-2-loader/section-2.component';
-import Cohort from '../cohort-directory/cohort-directory.component';
 import Desktop from '../images/Desktop - 1.png';
+import Team from '../team/Team'
 import News from '../news/News'
 
 import Footer from '../common/footer/Footer'
@@ -62,7 +62,7 @@ const Loader = () => {
                         
                         </div>{/* end of section-4-container div */}
                         <div>
-                        <Cohort />
+                        <Team />
                         </div>
 
                         <div className='footer-container'>{/* start of footer div */}
