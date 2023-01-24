@@ -9,9 +9,9 @@ const Cards = () => {
 
    
    <div style={{backgroundImage: `url(${BackGround})`}} className="client w-full min-h-screen bg-gray-700  text-white">
-      <h5 className='text-white text-center md:text-2xl md:mt-12 mb-4'>What our clients say</h5>
+      <h5 className='text-red-500 text-center md:text-2xl md:mt-12 mb-4'>Are our clients happy?</h5>
       <h2 className='text-3xl ml-4 w-92 mx-auto leading-normal font-bold text-center '>
-        What they have to say
+       TESTIMONIAL FROM SATISFIED CLIENTS
       </h2>
 
           {/* cards */}

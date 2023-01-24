@@ -76,6 +76,11 @@ transition: 0.3s ease;
     
   }
 }
+@media screen and (max-width: 320px) {
+  .toggler-icon{
+  display: block;
+  }
+}
 
 .nav-collapse{
   transform: translateX(0%);
