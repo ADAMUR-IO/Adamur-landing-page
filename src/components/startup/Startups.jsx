@@ -2,14 +2,17 @@ import React from 'react'
 import './startups.css'
 import { startupData } from './startupData';
 import Icon from '../images/icon/icons8_idea.png'
+import Navigation from '../navigation/Navigation'
+
 
 
 const Startups = () => {
   return (
     <div className="startup">
+<Navigation />
     <div className='startup1'>
         <span className='what'>Let us take care of your startup tech needs!</span>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lacus, ut egestas in sed enim eleifend convallis vitae.</p> 
+      <p>Software is our business and business is good, We are not just an IT company, we are a think-tank.</p> 
       <div className="cards">
 <div className='card-1'><sup>01/</sup><sub>3</sub></div>
 <div className='card-b'></div>
