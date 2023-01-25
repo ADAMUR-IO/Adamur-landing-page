@@ -61,8 +61,8 @@
     position: absolute;
     margin-top: 13rem;
     border-radius: 3px;
-    width: 7.4rem;
-    height: 5.9rem;
+    width: 8rem;
+    height: 7rem;
     margin-left: 10.5rem;
     background-color: rgba(226, 0, 68, 0.2);
 }
@@ -72,6 +72,7 @@
   }
 .startup .top{
     display: flex;
+    /* flex-wrap: wrap; */
 }
 .startup .card-2{
     margin-top: 4.8rem;
@@ -162,15 +163,56 @@
 
 
 @media screen and (max-width: 768px){
-.startup{
-    position: relative;
-    height: auto;
-    background-position: fixed;
-    background-size: contain;
+.startup1{
+    height: 15rem;
 }
-.startup .what{
+    .startup .what{
+font-size: xx-large;
+margin: auto;
+}
+.startup .startup1 p{
+margin: auto;
+}
+.startup .card-1{
+position: relative;
+margin-top: 18.5rem;
+margin-left: 2rem;
+height: 7.5rem;
+}
+.startup .card-b{
+margin-left: 3.5rem;
+margin-top: 20rem;
+height: 6rem;
+}
+.startup .card-c{
+margin-top: 21rem;
+height: 5rem;    
+margin-left: 5rem;
+}
+.startup .card-2{
+margin-left: 1rem;
+}
+.startup .card-3{
+margin-left: 1.5rem;
+}
+.startup .startup2 p{
 font-size: large;
+margin-left: 1.5rem;
 }
-
+.startup .startup2 span{
+font-size: x-large;
+margin-left: 7rem;
+width: auto;
+}
+.startup .container{
+width: auto;
+}
+.startup .grid5{
+margin-left: auto;
+width: auto;
+}
+.startup label{
+font-size: 1rem;
+}
 }
     
