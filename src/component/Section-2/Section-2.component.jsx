@@ -1,6 +1,7 @@
 import React from 'react'
 import Dot from '../images/dot.png'
 import { Puzzle1, Puzzle2, Puzzle3, Puzzle4 } from './Section-2';
+import './section-2.css'
 
 function Section() {
   return (
@@ -26,13 +27,13 @@ function Section() {
                                     <p className='pt-8 xl:pt-16'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu sed suspendisse in pulvinar. Amet, amet, eleifend lacinia consectetur. In.</p>
                                     </div>
                                     <div className=' w-28 space-x-0 ml-32 gap-10 xl:w-40 xl:float-right xl:mr-80 '>
-                                        <div className='relative flex'>
-                                        <img className='animate-bounce delay-75 object-fill scale-50 ' src={Puzzle1} alt="second" />
-                                        <img className='animate-bounce delay-150 ' src={Puzzle2} alt="third" />
-                                        </div>
-                                        <div className=' relative flex '>
-                                        <img className='animate-bounce animate-pulse object-fill' src={Puzzle3} alt="first" />
-                                        <img className='animate-bounce delay-100' src={Puzzle4} alt="forth" />
+                                        <div className='container form-image'>
+                                        <img  src={Puzzle1} alt="second" />
+                                        <img src={Puzzle2} alt="third" />
+                                        
+                                        
+                                        <img  src={Puzzle3} alt="first" />
+                                        <img  src={Puzzle4} alt="forth" />
                                         </div>
                                         <p className='text-sm xl:text-lg'>Nothing great is made alone</p>
                                     </div>

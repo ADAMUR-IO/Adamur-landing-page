@@ -1,6 +1,4 @@
-
-     
-        .team-container{
+      .team-container{
            background-color: rgba(217, 217, 217, 1);
           position: relative;
           height: 36.5rem;
@@ -55,6 +53,10 @@
           right: 9rem;
           top: 0.9rem;
       }
+      .status {
+        font-weight: bold;
+        color: dimgrey;
+      }
       
       
       
@@ -93,6 +95,7 @@
        .description {
         float: left;
         min-width: fit-content;
+
 
        }
        .main-description {

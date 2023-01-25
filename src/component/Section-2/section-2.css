@@ -1,0 +1,23 @@
+.container {
+    position: relative;
+  }
+  
+  .container img {
+    position: absolute;
+  }
+  
+  .form-image {
+    animation: formImage 3s ease-in-out;
+  }
+  
+  @keyframes formImage {
+    0% {
+      /* Initial positions of the 4 images */
+      animation-iteration-count: infinite;
+      position: 0;
+    }
+    100% {
+      /* Final positions of the 4 images */
+    }
+  }
+  

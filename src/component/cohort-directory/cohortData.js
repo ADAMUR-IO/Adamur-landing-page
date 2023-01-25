@@ -9,26 +9,31 @@ export const clientData = [
     {
     image: Lornah,
     review: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. A fringilla at gravida justo, felis risus ullamcorper augue tempus. Nam hac.',
-    name: 'Lornah'
+    name: 'Lornah',
+    status: 'UxDesigner'
     },
     {
         image: Robin,
         review: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. A fringilla at gravida justo, felis risus ullamcorper augue tempus. Nam hac.',
-    name: 'Robin'
+    name: 'Robin',
+    status: 'Fullstack Engineer'
     },
     {
         image: Group,
         review: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. A fringilla at gravida justo, felis risus ullamcorper augue tempus. Nam hac. ',
-        name: 'Client 3'
+        name: 'Cohort',
+        status: '?'
     },
     {
         image: Group,
         review: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. A fringilla at gravida justo, felis risus ullamcorper augue tempus. Nam hac. ',
-        name: 'Client 4'
+        name: 'Cohort',
+        status: '?'
     },
     {
         image: Group,
         review: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. A fringilla at gravida justo, felis risus ullamcorper augue tempus. Nam hac.',
-    name: 'Client 5'
+        name: 'Cohort -',
+        status: '?'
     }
 ];

@@ -25,7 +25,7 @@ const Cohort = () => {
             </motion.span>
             <span>
           <span className='font-extrabold text-center justify-center text-lg flex'>{clientData[selected].name}</span>{" "}
-                 {clientData[selected].status}
+                 <span className='status'>{clientData[selected].status}</span>
             </span>
             </div>
       <div className="right-t">

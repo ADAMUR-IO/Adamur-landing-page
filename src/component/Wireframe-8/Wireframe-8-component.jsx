@@ -1,9 +1,8 @@
 import React from 'react'
 import Train from '../images/train.png';
-import { motion } from 'framer-motion';
+import './wireframe-8.css'
 
 const  Wireframe8 = () => {
-  const { transition } = { type: 'spring', duration: 1}
   return (
     <div>
       <div className='text-white bg-black min-h-screen xl:h-fit w-fit xl:w-screen'>
@@ -27,17 +26,13 @@ const  Wireframe8 = () => {
                                     <p className='text-sm pt-8 xl:pt-16 xl:text-xl'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu sed suspendisse in pulvinar. Amet, amet, eleifend lacinia consectetur. In.</p>
                                     </div>
                                     <div>
- <motion.img 
-initial={{ left: '2rem'}}
-whileInView={{ left: '10rem' }}
-transition={transition}
-src={Train} alt="Train" className='md:mt-8 lg: mt-32' />
+ <img src={Train} alt="Train" className='move-right md:mt-8 lg: mt-32' />
 </div>
                                     </div>
                                     
        
         </div>
-        <div className='w-full text-start pl-6 pt-8 text-2xl xl:text-7xl xl:pl-12 xl:mb-8'>
+        <div className='w-full text-start pl-6 pt-8 text-2xl xl:text-7xl xl:pl-32 xl:mb-8'>
                                     <span><span className='font-bolder'>Bold</span>  <span className='xl:p-6 p-2'>*</span> <span className='text-red-600'>Thinkers</span> <span className=' xl:p-6 p-2'>*</span> Doers <span className='xl:p-6 p-2'>*</span> </span>
                                     </div>
                 
