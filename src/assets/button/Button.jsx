@@ -10,7 +10,7 @@ function FormButton() {
   
     return (
       <div>
-        <button style={{width: '6.5rem', height: '1.9rem', borderRadius: '20px', marginRight: '10px', border: '2px solid red', marginLeft: '5px'}} onClick={handleClick}>Enroll Now</button>
+        <button style={{width: '6.5rem', height: '1.9rem', borderRadius: '12px', marginRight: '10px', borderTop: '2px solid red', borderBottom: '2px solid black', marginLeft: '5px'}} onClick={handleClick}>Enroll Now</button>
         {showForm && <form action="enroll-form" target=""></form>}
       </div>
     );

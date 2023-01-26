@@ -39,7 +39,9 @@ const Navbar = () => {
                 </a>
                </li>
                     )}
-                <FormButton />
+            <div className="nav-btn">
+            <FormButton />
+            </div>
             </ul>
             <div className={toggleIcon }  onClick={onToggle}>
                 <div className="line-1"></div>

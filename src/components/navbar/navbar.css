@@ -10,13 +10,16 @@ li{
   margin-left: auto;
   margin-right: auto;
   justify-content: space-between;
-  gap: 20rem;
+  margin-top: 1rem;
 }
 
 @media screen and (max-width: 960px) {
   .container{
     padding-left: 15px;
     padding-right: 15px;
+  }
+  .nav-menu{
+    font-size: 15px;
   }
   
 }
@@ -31,7 +34,7 @@ li{
   justify-content: space-between;
 }
 .logo{
-  width: 16.5rem;
+  width: 15rem;
 }
 .nav-menu{
   display: flex;
@@ -65,11 +68,17 @@ transition: 0.3s ease;
     position: fixed;
     background: rgb(170, 235, 235);
     flex-direction: column;
-    top: 5vh;
+    top: 6vh;
     width: 40%;
-    height: 50vh;
+    height: 55vh;
     right: 0;
-    border-bottom-left-radius: 5px;
+    border-top: 2.5px solid black;
+    border-radius: 5px;
+    border-left: 2.5px solid red;
+    border-right: 2.5px solid black;
+    border-bottom: 2.5px solid red;
+
+
     transform: translateX(100%);
     transition: 0.5s ease;
     z-index: 5;
