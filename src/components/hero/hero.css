@@ -2,19 +2,21 @@
     height: 60rem;
 }
 .hero-blur1{
+    position: relative;
     width: 8rem;
-    height: 5rem;
-    left: 10rem;
+    height: 6rem;
+    margin: auto;
+    top: 3rem;
     background: #37ff32;
-    position: absolute;
     border-radius: 50%;
     filter: blur(75px);
-    z-index: -9;
+    z-index: -12;
 }
 .formation{
     transform: skewY(-11deg);   
     align-items: flex-start;
-    margin-top: 1rem;
+    margin-top: 2rem;
+    margin-left: 0;
 
 }
 .img1-container{
@@ -25,7 +27,6 @@
     align-items: center;
     justify-content: center;
     width: auto;
-    /* margin-left: auto; */
     background-color: #ff1616;
     border-radius: 10rem ;     
     

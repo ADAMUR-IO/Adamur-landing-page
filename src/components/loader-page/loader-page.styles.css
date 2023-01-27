@@ -65,7 +65,7 @@
   .inspire-2 {
     margin-left: 25px;
     margin-right: 130px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     
 
   }
@@ -340,4 +340,30 @@
       }
       
 
+  }
+
+  @media screen and  (max-width: 768px) {
+    .text-m {
+      display: flex;
+      font-size: xx-large;
+    }
+    .inspire-1{
+      font-size: x-large;
+      width: auto;
+      margin-top: auto;
+    }
+    .inspire-2{
+      display: flex;
+      flex-direction: column;
+      font-size: 0.8rem;
+      width: 16rem;
+      margin-left: auto;
+      /* gap: 1px; */
+    }
+  .box-container1>:nth-child(1) {
+      height: 9rem;
+      width: 8rem;
+      margin-right: 0;
+      margin-top: 5rem;
+    }
   }
