@@ -6,8 +6,8 @@ import Navbar from '../../components/navbar/Navbar'
 const EnrollForm = () => {
   return (
     <>
-<div style={{backgroundColor: 'whitesmoke'}}className='form '>
     <Navbar />
+<div style={{backgroundColor: 'whitesmoke'}}className='form '>
     <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}className='enroll sm: flex align-center justify-center '>
    <div  style={{display: 'flex', flexDirection: 'column', gap: '0.2rem', marginTop: '2rem', width: '40rem', height: '45rem', borderLeft: '2px solid red', borderTop: '2px solid red', borderRight: '2px solid black', borderBottom: '2px solid black', borderRadius: '5px', alignItems: 'center', justifyContent: 'center'}} class='enroll bg-white '>
        <div className=' pt-1 md:ml-20 lg:ml-4  mt-1 items-center '>

@@ -7,7 +7,7 @@ import BackGround from '../images/client.png'
 const Cards = () => {
   return (
 
-   <div className="cards" style={{height: '33rem'}}>
+   <div className="cards">
    <div style={{backgroundImage: `url(${BackGround})`}} className="client w-full min-h-screen bg-gray-700  text-white">
       <h5 className='text-red-500 text-center md:text-2xl md:mt-12 mb-4'>Are our clients happy?</h5>
       <h2 className='text-3xl ml-4 w-92 mx-auto leading-normal font-bold text-center '>

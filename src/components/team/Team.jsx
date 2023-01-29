@@ -19,7 +19,7 @@ const Team = () => {
           <span>{teamData[selected].name}</span>{" "}
                 - {teamData[selected].status}
             </span>
-            <motion.span
+            <motion.span 
             key={selected}
             initial={{ opacity: 0, x: -100 }}
             animate={{ opacity: 1, x: 0 }}

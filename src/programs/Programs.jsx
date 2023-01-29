@@ -1,12 +1,13 @@
 import React from 'react'
 import Navbar from '../components/navbar/Navbar'
+import './programs.css'
 
 const Programs = () => {
   return (
     <>
     <Navbar />
-    <div className='programs' style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
-      <span style={{fontSize: '4rem', padding: '10px', textTransform: 'uppercase',fontWeight: '500'}}>coming soon!</span>
+    <div className='programs'>
+      <span data-text="coming soon">coming soon!</span>
     </div>
     </>
   )

@@ -15,7 +15,7 @@ const Hero = () => {
       <p>At Adamur we inspire, shape and develop industry grade software <br/>engineers,let your career in tech soar to greater heights!</p>
       </div>
 
-      <div className="formation justify-cente sm:align-middle pl-2 mt-[4px] flex lg:cols-2 md:col-span-1 md:cols-2 gap-2  md:mr-4 lg:ml-20 m  pt-2">
+      <div className="formation justify-center sm:align-middle pl-2 mt-[4px] flex lg:cols-2 md:col-span-1 md:cols-2 gap-2  md:mr-4 lg:ml-20 m  pt-2">
       <div className="img1-container">
         <img src={ Col1 } alt="" />
         <img src={ Col2 } alt="" />

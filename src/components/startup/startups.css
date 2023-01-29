@@ -1,6 +1,7 @@
 .startup .startup1{
     background-image:  url('../images/rectangle/ben.png');
-    height: 37rem;
+    height: auto;
+    width: 100%;
 }
 
 .startup .what{
@@ -72,7 +73,7 @@
   }
 .startup .top{
     display: flex;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
 }
 .startup .card-2{
     margin-top: 4.8rem;
@@ -118,6 +119,7 @@
     color: white;
     width: 68rem;
     margin-left: 9.8rem;
+    flex-wrap: wrap;
 
   }
 
@@ -125,6 +127,8 @@
     color: gray;
     font-size: 14px;
     width: 25px;
+    flex-wrap: wrap;
+
   }
   .startup .mtop{
     padding: 30px;
@@ -143,6 +147,7 @@
     padding: 30px;
     height: 15rem;
     background: rgba(0, 0, 0, 1);
+    flex-wrap: wrap;
 }
 .startup .box:hover{
     box-shadow: 0 0 20px 0 grey;
@@ -164,48 +169,53 @@
 
 @media screen and (max-width: 768px){
 .startup1{
-    height: 15rem;
+    height: auto;
 }
     .startup .what{
-font-size: xx-large;
-margin: auto;
+font-size: x-large;
+margin-left: 5px;
+width: auto;
 }
 .startup .startup1 p{
-margin: auto;
+margin-left: 5px;
+font-size: small;
+width: auto;
+padding: auto;
+margin-bottom: 2rem;
 }
-.startup .card-1{
-position: relative;
-margin-top: 18.5rem;
-margin-left: 2rem;
-height: 7.5rem;
-}
-.startup .card-b{
-margin-left: 3.5rem;
-margin-top: 20rem;
-height: 6rem;
-}
-.startup .card-c{
-margin-top: 21rem;
-height: 5rem;    
-margin-left: 5rem;
+.startup .card-1, .startup .card-b, .startup .card-c {
+    display: none;
 }
 .startup .card-2{
-margin-left: 1rem;
+margin: 1rem;
+width: 2rem;
+height: 2rem;
 }
 .startup .card-3{
-margin-left: 1.5rem;
+margin: 1.5rem;
+width: 2rem;
+height: 2rem;
+}
+.startup2 .top{
+    display: flex;
 }
 .startup .startup2 p{
-font-size: large;
-margin-left: 1.5rem;
+  font-size: 11px;
+  /* margin-left: 1.5rem; */
+  margin: 1rem;
+
 }
 .startup .startup2 span{
-font-size: x-large;
-margin-left: 7rem;
+font-size: large;
 width: auto;
+margin-left: 3.7rem;
+margin-top: 2rem;
 }
 .startup .container{
+    display: flex;
+    flex-direction: column;
 width: auto;
+flex-wrap: wrap;
 }
 .startup .grid5{
     width: auto;

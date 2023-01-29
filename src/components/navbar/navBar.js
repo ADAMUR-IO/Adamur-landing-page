@@ -22,7 +22,7 @@ const topNav = [
     {
         id: 5, 
         label: 'News',
-        href: '/news'
+        href: '/updates'
     },
     
 ];

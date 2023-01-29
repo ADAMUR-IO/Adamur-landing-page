@@ -24,7 +24,7 @@ const Section = () => {
                 <span>With each project, we strengthen the brand identity of organizations & causes-swapping skills with explore, our agency dedicated to digital branding. Light is insired by the unexpected & the deeply authentic. While pushing audiovisual limits, we keep our eyes on the human stories that connect us all. Showereel Inspired by convention didn't think so.</span>
                                 </div>
                                 <div> 
-                                <a href='/#'><span title='Good to have you join ADAMUR' className='link-join xl:text-xl mb-8 xl:mb-16 mr-10 text-xl'>Join our next cohort</span></a>
+                                <a href='/enroll-form'><span title='Good to have you join ADAMUR' className='link-join xl:text-xl mb-8 xl:mb-16 mr-10 text-xl' style={{padding: '2px'}}>Join our next cohort</span></a>
                                 </div>
 
                 </div>

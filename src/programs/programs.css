@@ -1,0 +1,43 @@
+.programs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: whitesmoke;
+    height: 100vh;
+}
+.programs span{
+    position: relative;
+    font-size: 5rem;
+    color: whitesmoke;
+    -webkit-text-stroke: 0.3vw black;
+    text-transform: uppercase;
+}
+.programs span::before{
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    color: red;
+    -webkit-text-stroke: 0vw black;
+    border-right: 2px solid red;
+    overflow: hidden;
+    animation: animate 4s linear infinite;
+}
+@keyframes animate {
+0%,10%,100%
+{
+    width: 0;
+}    
+70%,90%
+{
+    width: 100%;
+}
+}
+@media screen and (max-width: 768px) {
+.programs span{
+font-size: 2.5rem;
+}
+
+}
