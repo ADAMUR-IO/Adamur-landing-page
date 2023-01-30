@@ -73,7 +73,6 @@
   }
 .startup .top{
     display: flex;
-    flex-wrap: wrap;
 }
 .startup .card-2{
     margin-top: 4.8rem;
@@ -119,15 +118,13 @@
     color: white;
     width: 68rem;
     margin-left: 9.8rem;
-    flex-wrap: wrap;
 
   }
 
 .startup label{
     color: gray;
-    font-size: 14px;
+    font-size: large;
     width: 25px;
-    flex-wrap: wrap;
 
   }
   .startup .mtop{
@@ -169,7 +166,8 @@
 
 @media screen and (max-width: 768px){
 .startup1{
-    height: auto;
+    padding: 2rem;
+    background-size: cover;
 }
     .startup .what{
 font-size: x-large;
@@ -180,8 +178,7 @@ width: auto;
 margin-left: 5px;
 font-size: small;
 width: auto;
-padding: auto;
-margin-bottom: 2rem;
+margin: 1rem;
 }
 .startup .card-1, .startup .card-b, .startup .card-c {
     display: none;
@@ -201,7 +198,6 @@ height: 2rem;
 }
 .startup .startup2 p{
   font-size: 11px;
-  /* margin-left: 1.5rem; */
   margin: 1rem;
 
 }
@@ -209,20 +205,40 @@ height: 2rem;
 font-size: large;
 width: auto;
 margin-left: 3.7rem;
-margin-top: 2rem;
+margin-top: 2.5rem;
 }
 .startup .container{
     display: flex;
     flex-direction: column;
-width: auto;
-flex-wrap: wrap;
+    width: auto;
 }
 .startup .grid5{
-    width: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     margin-left: 1px;
 }
 .startup label{
-font-size: 1rem;
+font-size: 0.8rem;
 }
+}
+
+@media screen and (max-width: 500px){
+    .startup1{
+        background-size: cover;
+    }
+    .startup .grid5{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .startup label{
+        font-size: small;
+    }
+    .startup h4{
+        font-size: small;
+        width: 100%;
+    }
+    .icon{
+        font-size: small;
+    }
 }
     
