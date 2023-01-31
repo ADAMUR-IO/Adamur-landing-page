@@ -1,13 +1,14 @@
 import React from 'react';
 import Logo from '../../images/flogo.png';
 import BgImage from '../../images/background.png'
+import WhatsAppButton from '../../../assets/whatsapp/WhatsApp'
+import { Link } from 'react-router-dom'
 import {
     FaInstagram,
     FaFacebookSquare,
     FaLinkedin,
     FaTwitterSquare,
   } from 'react-icons/fa';
-  import { FaWhatsapp } from 'react-icons/fa'
 function Footer() {
   return (
 
@@ -15,7 +16,7 @@ function Footer() {
   <div className='footer m-1 p-1 '>
          <div className=' ml-4 text-center ml-88 justify-end mr-36 mt-4 gap-20 flex sm:flex items-center 2'>
             <h6 className='font-medium text-gray-400  lg:mt-4 md:mt-4 lg:mb-2 md:mb-2'>Ready to join our next cohort?</h6>
-            <button className='bg-green-600 py-2 px-4 rounded w-56 h-12 flex'><FaWhatsapp size={30} class='ml-2 text-white '/><h2 className=' text-center text-sm md:text-lg lg:text-lg ml-2 text-white '>Whatsapp Us</h2></button>
+            <WhatsAppButton />
         </div>
 
      <div className='  grid lg:cols-2 md:col-span-1 md:cols-2 gap-8 lg:flex space-x-20 md:flex  md:ml-4p0 lg:ml-24 m  pt-1'>
@@ -49,7 +50,11 @@ function Footer() {
                             <li className='py-2 text-sm'>Programs</li>
                             <li className='py-2 text-sm'>Portfolio</li>
                             <li className='py-2 text-sm'>News</li>
-                            <li className='py-2 text-sm'>Privacy</li>
+                            <Link 
+                            to='privacy'
+                            span={true}
+                            smooth={true} 
+                            className='py-2 text-sm'>Privacy Policy</Link>
                         </ul>
                     </div>
 

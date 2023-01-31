@@ -1,43 +1,77 @@
-.programs{
+.programs span{
     display: flex;
-    align-items: center;
-    justify-content: center;
-    background: whitesmoke;
-    height: 100vh;
+    font-size: 3rem;
+    width: 35rem;
+    margin: 3rem;
+    font-weight: 600;
 }
-.programs span{
-    position: relative;
-    font-size: 5rem;
-    color: whitesmoke;
-    -webkit-text-stroke: 0.3vw black;
-    text-transform: uppercase;
+.programs p{
+    font-size: 1.5rem;
+    font-weight: 350;
+    margin: 3.5rem;
 }
-.programs span::before{
-    content: attr(data-text);
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 0;
-    height: 100%;
-    color: red;
-    -webkit-text-stroke: 0vw black;
-    border-right: 2px solid red;
-    overflow: hidden;
-    animation: animate 4s linear infinite;
-}
-@keyframes animate {
-0%,10%,100%
-{
-    width: 0;
-}    
-70%,90%
-{
-    width: 100%;
-}
-}
-@media screen and (max-width: 768px) {
-.programs span{
-font-size: 2.5rem;
+.circles{
+    display: flex;
+    grid-template-columns: 5fr;
+    margin: 1rem;
+    width: auto;
 }
 
+.circles p{
+    font-size: 0.8rem;
+    width: auto;
+}
+.who{
+    color: #E20044;
+    font-size: 2rem;
+}
+.list li{
+    font-weight: 380;
+    list-style: disc;
+    gap: 0.5rem;
+}
+.list{
+    margin-bottom: 1rem;
+}
+
+
+@media screen and (max-width: 768px){
+    .programs{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+.programs span{
+font-size: xx-large;
+}
+.programs p{
+font-size: large;
+margin: auto;
+padding-bottom: 1rem;
+}
+.programs div{
+    margin: auto;
+}
+.list li{
+font-size: small;
+}
+}
+
+@media screen and (max-width: 500px){
+    .programs{
+        display: flex;
+        flex-direction: column;
+    }
+.programs span{
+font-size: large;
+width: auto;
+}
+.programs .who{
+    font-size: x-large;
+}
+.list li{
+font-size: small;
+list-style: disc;
+}
 }

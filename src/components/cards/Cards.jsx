@@ -1,5 +1,4 @@
 import React from 'react'
-import Photo from '../images/pic.png'
 import Stars from '../images/stars.png'
 import BackGround from '../images/client.png'
 
@@ -17,33 +16,30 @@ const Cards = () => {
           {/* cards */}
       <div className="flex flex-wrap justify-center">
         <div className='flex-col bg-gray-600 rounded-lg shadow-md w-full m-6 sm:w-52'>
-        <img src= { Photo } alt="" className='h-20 m-6 mx-auto' />
+        <img src="" alt="" className='h-20 m-6 mx-auto' />
         <h4 className='uppercase text-center font-bold'>Jackson</h4>
         <p className='text-center px-2'>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Et vitae 
-          voluptatibus quo repudiandae incidunt delectus similique minus debitis, 
+          
         </p>
         <img src= { Stars } alt="" className='mx-auto p-4' />
         </div>
 
         <div className='flex-col bg-gray-600 rounded-lg shadow-md w-full m-6 sm:w-52'>
-        <img src= { Photo } alt="" className='h-20 m-6 mx-auto' />
+        <img src="" alt="" className='h-20 m-6 mx-auto' />
         <h4 className='uppercase text-center font-bold'>Wendy</h4>
         <p className='text-center px-2'>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Et vitae 
-          voluptatibus quo repudiandae incidunt delectus similique minus debitis, 
+           
         </p>
         <img src= { Stars } alt="" className='mx-auto p-4' />
         </div>
 
         <div className='flex-col bg-gray-600 rounded-lg shadow-md w-full m-6 sm:w-52'>
-        <img src= { Photo } alt="" className='h-20 m-6 mx-auto' />
+        <img src="" alt="" className='h-20 m-6 mx-auto' />
         <h4 className='uppercase text-center font-bold'>vincent</h4>
         <p className='text-center px-2'>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Et vitae 
-          voluptatibus quo repudiandae incidunt delectus similique minus debitis, 
+          
         </p>
-        <img src= { Stars } alt="" className='mx-auto p-4'  />
+        <img src= { Stars } alt="" className='mx-auto p-4' />
         </div>
 
    </div>

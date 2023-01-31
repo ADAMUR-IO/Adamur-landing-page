@@ -6,6 +6,8 @@ import EnrollForm from './assets/enroll/Enroll'
 import Programs from './programs/Programs';
 import Updates from '../src/components/updates/Updates'
 import Cohort from './components/cohort/Cohort';
+import Privacy from './assets/privacy/Privacy';
+
 
 
 function App ()  {
@@ -18,7 +20,9 @@ function App ()  {
     <Route path='/programs' element={<Programs />} />
     <Route path='/updates' element={<Updates />} />  
     <Route path='/cohort' element={<Cohort />} />    
-    <Route path='/enroll-form' element={<EnrollForm />}  />  
+    <Route path='/enroll-form' element={<EnrollForm />}  /> 
+    <Route path='/privacy' element={<Privacy />}  />  
+
     </Routes>
     </Router>         
     </>
