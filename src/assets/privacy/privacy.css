@@ -1,0 +1,34 @@
+body{
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.privacy-policy{
+    background: '#ffffff';
+    margin: 0 10rem;
+
+}
+table {
+    width: 80%;
+    border-collapse: collapse;
+}
+
+td,
+th {
+    border: 1px solid black;
+    text-align: left;
+    padding:8px;
+}
+
+@media screen and (min-width: 320px) and (max-width:481px) {
+    
+    .privacy-policy {
+        margin: 0 1rem;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width:961px) {
+    
+    .privacy-policy {
+            margin: 0 2rem;
+        }
+}

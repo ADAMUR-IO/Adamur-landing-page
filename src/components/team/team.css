@@ -3,13 +3,11 @@
    flex-direction: column;
    position: relative;
    background-color: rgba(217, 217, 217, 1);
-   height: fit-content;
    align-items: center;
-   height: 36.5rem;
    justify-content: center;
 }
 .image-container{
-   margin-top: 1rem;
+   margin: 0.5rem;
     display: flex;
     background-color: black;
     width: 55rem;
@@ -22,15 +20,15 @@
    position: relative;
    display: flex;
    flex-direction: column;
-   gap: 50px;
+   gap: 10px;
    margin-top: 1rem;
    margin-left: 2rem;
    color: white;
    width: 50%;
 }
 .left-t>:nth-child(1){
-   font-size: 2rem;
-   font-weight: bold;
+   font-size: 1.5rem;
+   font-weight: 500;
 
 }
 .arrows{
@@ -42,6 +40,7 @@
    width: 1.5rem;
    cursor: pointer;
 }
+
 .right-t{
    position: relative;
 }
@@ -50,25 +49,18 @@
    width: 15rem;
    height: 15rem;
    object-fit: cover;
-   margin-top: 3rem;
-   margin-left: 2rem;
-   border-radius: 10px;
+   margin-top: 0.5rem;
+   margin-left: 3rem;
 
-}
-.right-t>:nth-child(1),
-.right-t>:nth-child(2){
-   position: absolute;
-   height: auto;
-   width: 100px;
-   height: 20rem;
-   right: 9rem;
-   top: 0.9rem;
 }
 .arrows{
    display: flex;
-   gap: 15rem;
+   align-items: center;
+   justify-content: center;
+   gap: 2rem;
    position: absolute;
    bottom: 2rem;
+
 }
 .arrows>img{
    width: 2rem;
@@ -79,10 +71,10 @@
 @media screen and (max-width: 768px) {
 .team-container{
    flex-direction: column;
-    gap: 1rem;   
+    gap: 0.1rem;   
 }
-.team-container p{
-   margin-left: 7rem;
+.team-container>:nth-child(1){
+   font-size: x-large;
 }
 .image-container{
  display: flex;
@@ -91,7 +83,6 @@
  justify-content: center;
  width: auto; 
  height: auto; 
- margin-top: 0.5rem;
 }
 
 .arrows{
@@ -99,7 +90,7 @@ position: inherit;
 
 }
 .arrows>img{
-margin-top: 3.5rem;
+margin-top: 3rem;
 }
 .right-t{
 display: flex;
@@ -115,5 +106,11 @@ margin-left: 3rem;
    gap: 20px;
    width: 90%;
    margin-left: 1rem;
+}
+.left-t>:nth-child(1){
+font-size: x-large;
+}
+.left-t>:nth-child(2){
+   font-size: small;
 }
 }

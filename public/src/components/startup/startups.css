@@ -1,0 +1,218 @@
+.startup .startup1{
+    background-image:  url('../images/rectangle/ben.png');
+    height: 37rem;
+}
+
+.startup .what{
+    display: flex;
+    gap: 5px;
+    width: 35rem;
+    color: white;
+    margin-left: 8.5rem;
+    padding-top: 2rem;
+    font-size: 3rem;
+    font-weight: 600;
+
+}
+.startup .startup1 p{
+    color: white;
+    width: 28rem;
+    margin-left: 8.5rem;
+    margin-top: 4rem;
+}
+.startup .cards{
+    display: flex;
+}
+.startup .card-1{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    width: 8rem;
+    height: 8rem;
+    background: #E20044;
+    margin-left: 8rem;
+    margin-top: 10.9rem;
+    border-radius: 3px;
+    z-index: 2;   
+}
+.startup .card-1 sup{
+    font-size: 40px;
+    font-weight: 500;
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
+}
+.startup .card-1 sub{
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 1rem;
+
+}
+.startup .card-b{
+    margin-top: 12rem;
+    margin-left: 9rem;
+    position: absolute;
+    width: 8rem;
+    height: 7rem;
+    background-color: rgba(226, 0, 68, 0.5);
+    z-index: 1;
+  
+}
+.startup .card-c{
+    position: absolute;
+    margin-top: 13rem;
+    border-radius: 3px;
+    width: 8rem;
+    height: 7rem;
+    margin-left: 10.5rem;
+    background-color: rgba(226, 0, 68, 0.2);
+}
+.startup .startup2{
+    background-color:  
+    rgba(17, 17, 17, 1); 
+  }
+.startup .top{
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+.startup .card-2{
+    margin-top: 4.8rem;
+    width: 4rem;
+    height: 4rem;
+    background: #8B002A;
+    z-index: 1;
+    margin-left: 8rem;
+}
+.startup .card-3{
+    margin-top: 3.5rem;
+    margin-left: 9.5rem;
+    position: absolute;
+    width: 4rem;
+    height: 4rem;
+    background: #E20044;
+
+}
+.startup .startup2 p{
+    position: relative;
+    color: white;
+    margin-left: 4.8rem;
+    margin-top: 3.5rem; 
+    font-size: 1.5rem;
+}
+.startup .startup2 span{
+    position: absolute;
+    color: white;
+    font-size: 2.6rem;
+    margin-top: 5.5rem; 
+    margin-left: 15rem;
+
+}
+.startup .container{
+    background: rgba(17, 17, 17, 1);
+    padding: 30px;
+}
+
+.startup .grid5{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+    color: white;
+    width: 68rem;
+    margin-left: 9.8rem;
+
+  }
+
+.startup label{
+    color: gray;
+    font-size: 14px;
+    width: 25px;
+  }
+  .startup .mtop{
+    padding: 30px;
+  }
+ .startup h4{
+    font-weight: 500;
+    margin-top: 10px;
+  }
+
+  .startup .box{
+    margin-left: 0.5rem;
+    border-radius: 2.8px;
+    text-align: center;
+    cursor: pointer;
+    margin: 0.2rem;
+    padding: 30px;
+    height: 15rem;
+    background: rgba(0, 0, 0, 1);
+}
+.startup .box:hover{
+    box-shadow: 0 0 20px 0 grey;
+}
+.startup .grow { 
+    transition: all .2s ease-in-out; 
+    }
+    
+.startup .grow:hover { 
+    transform: scale(1.1); 
+    }
+.startup .icon{
+    height: 30px;
+    width: 30px;
+    color: #E20044;
+    padding-left: 5px;
+}
+
+
+@media screen and (max-width: 768px){
+.startup1{
+    height: 15rem;
+}
+    .startup .what{
+font-size: xx-large;
+margin: auto;
+}
+.startup .startup1 p{
+margin: auto;
+}
+.startup .card-1{
+position: relative;
+margin-top: 18.5rem;
+margin-left: 2rem;
+height: 7.5rem;
+}
+.startup .card-b{
+margin-left: 3.5rem;
+margin-top: 20rem;
+height: 6rem;
+}
+.startup .card-c{
+margin-top: 21rem;
+height: 5rem;    
+margin-left: 5rem;
+}
+.startup .card-2{
+margin-left: 1rem;
+}
+.startup .card-3{
+margin-left: 1.5rem;
+}
+.startup .startup2 p{
+font-size: large;
+margin-left: 1.5rem;
+}
+.startup .startup2 span{
+font-size: x-large;
+margin-left: 7rem;
+width: auto;
+}
+.startup .container{
+width: auto;
+}
+.startup .grid5{
+    width: auto;
+    margin-left: 1px;
+}
+.startup label{
+font-size: 1rem;
+}
+}
+    

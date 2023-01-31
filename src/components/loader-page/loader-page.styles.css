@@ -105,8 +105,9 @@
     text-align: center;
     text-decoration: double;
     border-radius: 50px 50px 50px 50px;
-    border: 1px solid red;
+    border: 2px solid red;
     width: 40%;
+    padding: 5px;
   }
   .section-3-container {
     justify-content: center;

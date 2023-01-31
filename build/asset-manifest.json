@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.20e682d6.css",
-    "main.js": "/static/js/main.bb84769a.js",
+    "main.css": "/static/css/main.8d9a7f52.css",
+    "main.js": "/static/js/main.47fe81d1.js",
     "static/js/787.73529bfe.chunk.js": "/static/js/787.73529bfe.chunk.js",
     "static/media/ben.png": "/static/media/ben.e976e1edeb4539166fa9.png",
     "static/media/pic 8.png": "/static/media/pic 8.8fde0982bd397655c874.png",
@@ -24,14 +24,17 @@
     "static/media/3.png": "/static/media/3.03ba7897f320717206b4.png",
     "static/media/haba-logo.png": "/static/media/haba-logo.8044100b65de91de3b8c.png",
     "static/media/boop-logo.png": "/static/media/boop-logo.be15d83d50ca67f607ec.png",
-    "static/media/pic.png": "/static/media/pic.cd187fd295f5964ecd03.png",
+    "static/media/six.png": "/static/media/six.71ba2cf6c6f3a965fc07.png",
+    "static/media/two.png": "/static/media/two.7180a81189f82dcf7440.png",
+    "static/media/one.png": "/static/media/one.54ee4dedd98a991b24ce.png",
+    "static/media/three.png": "/static/media/three.5eb909990a00172cf04d.png",
     "index.html": "/index.html",
-    "main.20e682d6.css.map": "/static/css/main.20e682d6.css.map",
-    "main.bb84769a.js.map": "/static/js/main.bb84769a.js.map",
+    "main.8d9a7f52.css.map": "/static/css/main.8d9a7f52.css.map",
+    "main.47fe81d1.js.map": "/static/js/main.47fe81d1.js.map",
     "787.73529bfe.chunk.js.map": "/static/js/787.73529bfe.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.20e682d6.css",
-    "static/js/main.bb84769a.js"
+    "static/css/main.8d9a7f52.css",
+    "static/js/main.47fe81d1.js"
   ]
 }

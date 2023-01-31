@@ -1,5 +1,5 @@
 .hero{
-    height: 60rem;
+    height: 66rem;
 }
 .hero-blur1{
     position: relative;
@@ -15,8 +15,7 @@
 .formation{
     transform: skewY(-11deg);   
     align-items: flex-start;
-    margin-top: 2rem;
-    margin-left: 0;
+    margin: auto;
 
 }
 .img1-container{
