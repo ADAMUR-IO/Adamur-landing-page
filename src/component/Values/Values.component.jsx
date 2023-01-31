@@ -18,17 +18,22 @@ const Values = () => {
     <div className='rounded-r-full rounded-l-full bg-black border-2 w-6 h-6'></div>
 </div>
 <div></div>
-<div className='p-4 lg:ml-10 scale-75'>
-        <div className='items-center justify-evenly flex ml-32 mr-28' >
+<div className=' relative p-8 lg:p-6 lg:ml-14 lg:scale-50'>
+        <div className='items-center justify-evenly flex ml-32 mr-28 absolute lg:space-x-14 space-x-4' >
             
-            <img className='w-28 h-28 z-50 lg:w-52 lg:h-52' src={team} alt="Team work" />
-            <img className='w-28 h-28 z-10 lg:w-52 lg:h-52'  src={team} alt="Team work back" />
-            <img className='w-28 h-28 z-50 lg:w-52 lg:h-52'  src={Growth} alt=" Growth" />
-            <img className='w-28 h-28 z-30 lg:w-52 lg:h-52'  src={innovation} alt="Innovation back" />
-            <img className='w-28 h-28 z-10 lg:w-52 lg:h-52 '  src={Growth} alt="Innovation" />
+            <img className=' z-50 ' src={team} alt="Team work" />
             
+            <img className=' z-50 '  src={Growth} alt=" Growth" />
+            <img className=' z-50  origin-bottom-right'  src={innovation} alt="Innovation back" />
             
+            <div className='bg-left absolute flex lg:space-x-32 space-x-6'>
+            <div>
+            <img className=' z-10  origin-bottom-left'  src={team} alt="Team work back" />
+            </div>
+            <div><img className=' z-10  '  src={innovation} alt="Innovation" /></div>
+            </div>
 
+            
         </div>
         </div>
         </div>
