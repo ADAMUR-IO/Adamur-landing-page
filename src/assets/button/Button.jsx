@@ -5,13 +5,13 @@ function FormButton() {
   
     const handleClick = () => {
       setShowForm(true);
-      window.open('enroll-form', '_blank');
+      window.open('https://forms.gle/kHYC6wT26tRu9bF7A', '_blank');
     }
   
     return (
       <div>
         <button style={{width: '6.5rem', height: '1.9rem', borderRadius: '12px', marginRight: '10px', borderTop: '2px solid red', borderBottom: '2px solid black', marginLeft: '5px'}} onClick={handleClick}>Enroll Now</button>
-        {showForm && <form action="enroll-form" target=""></form>}
+        {showForm && <form action="https://forms.gle/kHYC6wT26tRu9bF7A " target=""></form>}
       </div>
     );
   }
