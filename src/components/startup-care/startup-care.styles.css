@@ -1,0 +1,39 @@
+.care{
+  height: auto;
+}
+.care .inspire {
+  margin-left: 10px;
+  font-size: 1.9rem;
+}
+.care .scale {
+  font-weight: bold;
+}
+
+.care .red-text {
+  color: rgba(255, 22, 22, 1);
+}
+
+.care .image {
+background-color: black;
+z-index: 2;
+width: 15rem;
+height: auto;
+}
+.care .image:hover{
+  cursor: pointer;
+  transform: scale(1.01);
+  transition: transform 5s cubic-bezier(0.20, 0.30, 0.30, 0.70);
+}
+@media only screen and (min-width: 992px) {
+  .care .inspire {
+    font-size: 6rem;
+    margin-left: 3rem;
+  }
+  .care .scale {
+    font-size: 2rem;
+    margin-top: .5rem;
+  }
+  .care .image {
+  width: rem;
+  }
+}
