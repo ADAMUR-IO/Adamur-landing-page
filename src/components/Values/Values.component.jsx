@@ -19,16 +19,16 @@ const Values = () => {
 <div className=' relative p-8 lg:ml-14  lg:scale-50'>
         <div className='items-center justify-evenly flex ml-24 mr-32 absolute lg:space-x-14 space-x-6' >
             
-            <img className=' z-50 ' src={team} alt="Team work" />
+            <img className=' z-30 ' src={team} alt="Team work" />
             
-            <img className=' z-50 '  src={Growth} alt=" Growth" />
-            <img className=' z-50 '  src={innovation} alt="Innovation back" />
+            <img className=' z-30 '  src={Growth} alt=" Growth" />
+            <img className=' z-30 '  src={innovation} alt="Innovation back" />
             
-            <div className='bg-left absolute flex gap-x-24 lg:gap-x-36'>
+            <div className='bg-left absolute flex gap-x-36 lg:gap-x-36'>
             <div>
-            <img className=' z-10 '  src={team} alt="Team work back" />
+            <img src={team} alt="Team work back" />
             </div>
-            <div><img className=' z-10 '  src={innovation} alt="Innovation" /></div>
+            <div><img  src={innovation} alt="Innovation" /></div>
             </div>
 
         </div>
