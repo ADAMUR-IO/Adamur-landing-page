@@ -16,15 +16,15 @@ const Values = () => {
     <div className='rounded-r-full rounded-l-full bg-rose-700 border-2 w-6 h-6'></div>
     <div className='rounded-r-full rounded-l-full bg-black border-2 w-6 h-6'></div>
 </div>
-<div className=' relative p-8 lg:ml-14  lg:scale-50'>
-        <div className='items-center justify-evenly flex ml-24 mr-32 absolute lg:space-x-14 space-x-6' >
+<div className=' relative p-8 lg:ml-14 sm:ml-24 sm:mr-28  lg:scale-50 '>
+        <div className='items-center justify-evenly flex ml-28 mr-32 absolute lg:space-x-14 space-x-6' >
             
             <img className=' z-30 ' src={team} alt="Team work" />
             
             <img className=' z-30 '  src={Growth} alt=" Growth" />
             <img className=' z-30 '  src={innovation} alt="Innovation back" />
             
-            <div className='bg-left absolute flex gap-x-36 lg:gap-x-36'>
+            <div className='bg-left absolute flex sm:gap-x-8 lg:gap-x-36'>
             <div>
             <img src={team} alt="Team work back" />
             </div>

@@ -13,9 +13,9 @@ const AboutUs = () => {
             <div className='text-xs  text-red-600  text-center pt-1 lg:text-3xl'>
             <span>About Us</span>
             </div>
-<div className='justify-center items-center p-6 lg:p-24 lg:ml-12'>
+<div className='justify-center items-center p-6 lg:p-24 lg:ml-12 text-center'>
             <span className='text-2xl w-full font-extrabold text-center mt-10 ml-2 lg:text-6xl'>Our Philosophy is Simple...</span>
-            <div className='pt-4 text-sm pl-7 w-72 lg:text-2xl lg:w-9/12 lg:pl-28'>
+            <div className='pt-4 text-sm pl-7 w-72 lg:text-2xl lg:w-9/12 lg:pl-8 sm:ml-36 text-left'>
             <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lacus, ut egestas in sed enim eleifend convallis vitae. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lacus, ut egestas in sed enim eleifend convallis vitae. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lacus, ut egestas in sed enim eleifend convallis vitae. </span>
             </div>
             </div>
