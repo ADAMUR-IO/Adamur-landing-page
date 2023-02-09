@@ -7,6 +7,7 @@ import Programs from './programs/Programs';
 import Updates from '../src/components/updates/Updates'
 import Cohort from './components/cohort/Cohort';
 import Privacy from './assets/privacy/Privacy';
+import Wireframe8 from './components/Wireframe8/Wireframe-8-component';
 
 
 
@@ -21,7 +22,9 @@ function App ()  {
     <Route path='/updates' element={<Updates />} />  
     <Route path='/cohort' element={<Cohort />} />    
     <Route path='/enroll-form' element={<EnrollForm />}  /> 
-    <Route path='/privacy' element={<Privacy />}  />  
+    <Route path='/privacy' element={<Privacy />}  />
+    <Route path='/frame' element={<Wireframe8 />}  />  
+
 
     </Routes>
     </Router>         

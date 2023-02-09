@@ -1,8 +1,0 @@
-.move-right {
-    animation: moveRight 1s ease-in-out infinite;
-  }
-  
-  @keyframes moveRight {
-    from { transform: translateX(0); }
-    to { transform: translateX(10px); }
-  }

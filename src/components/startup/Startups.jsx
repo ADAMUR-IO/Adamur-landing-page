@@ -2,23 +2,14 @@ import React from 'react'
 import './startups.css'
 import { startupData } from './startupData';
 import Icon from '../images/icon/icons8_idea.png'
-import Navbar from '../navbar/Navbar'
 
 
 const Startups = () => {
+  
   return (
     <>
-<Navbar />
+
     <div className="startup">
-    <div className='startup1'>
-        <span className='what'>Let us take care of your startup tech needs!</span>
-      <p>We let you focus on building the business while we help you create an effective product that has the vision and impact you want it to have.</p> 
-      <div className="cards">
-<div className='card-1'><sup>01/</sup><sub>3</sub></div>
-<div className='card-b'></div>
-<div className='card-c'></div>
-</div>
- </div>
         <section className='startup2'>
           <div className="top">
 <div className='card-2'></div>
