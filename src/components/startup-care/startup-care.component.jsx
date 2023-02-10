@@ -17,7 +17,7 @@ function Startup() {
     </div>
     </div>
     
-<p className='inspire mt-20 xl:mb-40 mb-10'><strong >Bold</strong>  <span className='xl:p-4'>*</span> <span className='text-c'>Thinkers</span> <span className=' xl:p-4'>*</span> Doers <span className='xl:p-4'>*</span> </p>
+<p className='inspire mt-20 xl:mb-40 mb-10 sm:pl-24'><strong >Bold</strong>  <span className='xl:p-4 sm:p-5'>*</span> <span className='text-c'>Thinkers</span> <span className=' xl:p-4 sm:p-5'>*</span> Doers <span className='xl:p-4 sm:p-5'>*</span> </p>
 
 
 <div>
