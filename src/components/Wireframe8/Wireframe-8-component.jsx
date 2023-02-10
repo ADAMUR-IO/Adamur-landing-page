@@ -19,12 +19,12 @@ const  Wireframe8 = () => {
 <Navbar/>
       <div className='text-white bg-black '>
         
-        <div className='text-white items-center justify-between p-2 xl:p-6'>
+        <div className='text-white items-center justify-between p-2 xl:p-4 sm:p-4'>
 
-        <div className='flex space-x-4 justify-center'>
+        <div className='flex xl:space-x-0 space-x-4 justify-center'>
                     
                     <div className='flex justify-center mt-2'>
-                    <div className='z-50'><div className='bg-pink-900 rounded  h-12 w-12 xl:w-20 xl:h-20 ml-2 mt-2'></div></div>
+                    <div className='z-50'><div className='bg-pink-900 rounded  h-12 w-12 xl:w-20 xl:h-20 ml-2 mt-2 sm:ml-0'></div></div>
                     <div className='bg-right'><div className='bg-pink-700 w-12 h-12  rounded  xl:w-20 xl:h-20 xl:mr-20'></div></div>
                     
                                     
@@ -34,18 +34,18 @@ const  Wireframe8 = () => {
                                     </div>
                                     <div className='flex justify-between'>
                                     <div>
-<Link className='float-left lg:ml-10 mt-44 mr-2 lg:mt-32 text-white items-center  text-2xl lg:text-3xl' to='/pages'><FaChevronLeft/></Link>
+<Link className='float-left mt-44 mr-2 lg:mt-32 text-white items-center  text-2xl lg:text-3xl' to='/pages'><FaChevronLeft/></Link>
 
   <Outlet />
 </div>
-                                    <div className='text-start xl:ml-36 xl:w-96 xl:mt-16 py-8 xl:py-1'>
+                                    <div className='text-start xl:ml-24 xl:w-96 xl:mt-16 py-8 xl:py-1 sm:w-80'>
                                     <p className='pb-2 text-2xl xl:text-5xl'>Welcome on</p>
                                     <span className='text-2xl xl:text-5xl'>Board</span>
                                     
-                                    <p className='text-sm pt-8 xl:pt-16 xl:text-xl'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu sed suspendisse in pulvinar. Amet, amet, eleifend lacinia consectetur. In.</p>
+                                    {/* <p className='text-sm pt-8 xl:pt-16 xl:text-xl sm:text-base'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu sed suspendisse in pulvinar. Amet, amet, eleifend lacinia consectetur. In.</p> */}
                                     </div>
                                     <div>
- <img src={Train} alt="Train" className='move-right md:mt-8 lg: mt-32' />
+ <img src={Train} alt="Train" className='move-right md:mt-8 lg: mt-32 sm:mt-24' />
 </div>
 
                                     </div>
@@ -59,7 +59,7 @@ const  Wireframe8 = () => {
 <div className='card-c'></div>
 </div>
 </div>
-        <div className='w-full text-start pl-6 pt-8 text-2xl xl:text-7xl xl:pl-32'>
+        <div className='w-full text-start pl-6 pt-8 text-2xl xl:text-8xl xl:pl-20 sm:text-5xl'>
                                     <span><span className='font-bolder'>Bold</span>  <span className='xl:p-6 p-2'>*</span> <span className='text-red-600'>Thinkers</span> <span className=' xl:p-6 p-2'>*</span> Doers <span className='xl:p-6 p-2'>*</span> </span>
                                     </div>
                 

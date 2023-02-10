@@ -9,7 +9,7 @@ const Values = () => {
         <div className='text-center items-center min-h-screen'>
 <div className='font-extrabold text-lg p-6 text-rose-700 lg:p-10 lg:text-2xl'>Our Values<span></span></div>
 <div className='text-sm w-11/12 pl-10 text-left lg:text-lg lg:w-9/12 lg:pl-72'>
-    <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lacus, ut egestas in sed enim eleifend convallis vitae. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lacus, ut egestas in sed enim eleifend convallis vitae. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lacus, ut egestas in sed enim eleifend convallis vitae. </span>
+    {/* <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lacus, ut egestas in sed enim eleifend convallis vitae. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lacus, ut egestas in sed enim eleifend convallis vitae. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lacus, ut egestas in sed enim eleifend convallis vitae. </span> */}
 </div>
 <div className='flex space-x-5 justify-center p-10 transition-all lg:p-20 lg:space-x-12'>
     <div className='rounded-r-full rounded-l-full bg-gray-700 border-2 w-6 h-6'></div>
