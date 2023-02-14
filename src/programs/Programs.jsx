@@ -16,7 +16,7 @@ const Programs = () => {
     <Navbar />
     <div className='programs'>
       <span>The destination for tech leaders who seek to change the world </span>
-      <p>Cohort 2.0 Application ongoing...</p>
+      <p>Cohort 3.0 Application ongoing...</p>
       <div style={{marginLeft: '10rem', height: '10rem'}}>
       <FormButton />
       </div>
