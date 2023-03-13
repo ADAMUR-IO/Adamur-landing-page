@@ -16,12 +16,12 @@ const Loader = () => {
       <div className='body-container'> {/* start of parent div */}
             <div className='loader-container'>
               <div className='text-m'>
-                <span><strong >Bold</strong>  <span className='xl:p-4'>*</span> <span className='text-c'>Thinkers</span> <span className=' xl:p-4'>*</span> Doers <span className='xl:p-4'>*</span> </span>
+                <span className='flex gap-8 text-center justify-center'><strong >Bold</strong> <span className='xl:p-4'>*</span> <span className='text-c'>Thinkers</span> <span className=' xl:p-4'>*</span> Doers <span className='xl:p-4'>*</span> </span>
 
               </div>
               
-              <div className='box-container'>
-                <span className='inspire-1'>Inspiring the next gen tech talent</span>
+              <div className='box-container flex items-center justify-between px-7'>
+                <span className='inspire-1 w-1/2 pt-4'>Inspiring the next gen tech talent</span>
                 <br></br>
                 {/* <div className='inspire-2'>
                 <span >If it's uncontained, is it still content? We dance betwewn unfiltered & refined between  Morocco & Luxambourg, transscending traditon to capture calture. Founded in 2020, Lights specializes in videos, live events & immensive experiences. Our work spans the whole audiovisual gamut, from art direction to live streaming to interactive installations.</span>
@@ -29,10 +29,11 @@ const Loader = () => {
                 <br></br>
                 <span>With each project, we strengthen the brand identity of organizations & causes-swapping skills with explore, our agency dedicated to digital branding. Light is insired by the unexpected & the deeply authentic. While pushing audiovisual limits, we keep our eyes on the human stories that connect us all. Showereel Inspired by convention didn't think so.</span>
                 </div> */}
-                </div>
                 <div className='box-container1 animate-bounce '>
                 < img  src={Cool} alt='Beautiful analytics to grow' />
                 </div>
+                </div>
+
               </div>
         <div>
         <Section />        
@@ -40,7 +41,7 @@ const Loader = () => {
         </div>
 
                       
-                        <div className='section-4-container'> {/* start of section-4-container div */}
+                        <div className='section-4-container flex items-center justify-center'> {/* start of section-4-container div */}
                         <div className='section-4-container-0'>
                         <div className='section-4-container-1'>
                               <div className='section-4-container-2'>
@@ -67,7 +68,7 @@ const Loader = () => {
 
                         <div className='footer-container'>{/* start of footer div */}
                               <div>
-                              <h1 className='footer-title'>Let's Talk * Ready to join our next cohort?</h1>
+                              <h1 className='footer-title text-center '>Let's Talk * Ready to join our next cohort?</h1>
                               </div>
                               <div><News /></div>
 <div><Footer /></div>

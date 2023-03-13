@@ -6,7 +6,7 @@ import './startup-care.styles.css';
 
 function Startup() {
   return (
-    <div className='care'>
+    <div className='care text-center'>
     <p className=' text-red-600 text-center'>Scaling Development</p>
     <p className='text-center scale text-black'>Helping you Scale your Web2 & 3 Development</p>
   <div class=" flex md:cols-2 lg:cols-2 justify-between-2 justify-center mt-3 xl:mt-10">

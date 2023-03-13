@@ -5,14 +5,14 @@ import './section-2-loader.css';
 
 const Section = () => {
   return (
-    <div>
+    <div className='section2 flex items-center justify-center -px-3 h-[40rem]'>
       <div className=' sm:cols-1 md:cols-2 lg:cols-2 lg:flex xl:flex justify-center'>
-                <div className=' xl:w-5/12 sm:h-72  mb-12  ml-1'>
-                  <h1 className='xl:text-base text-center mt-2 xl:ml-32 h-10 xl:mt-8' >We help You</h1>
-                < img className='think item-center xl:h-96  xl:w-screen  xl:ml-24 w-3/4 ml-12 xl:mt-8' src={Clara} alt='Inspiration message' />
+                <div className=' xl:w-5/12 sm:h-72  mb-4  ml-1'>
+                  <h1 className=' text-center mt-2 xl:ml-24  xl:mt-4' >We help You</h1>
+                < img className='think items-center   xl:w-screen    xl:mt-6' src={Clara} alt='Inspiration message' />
 
                 </div>
-                <div className='bg-black text-center text-white w-3/4 ml-11 xl:w-2/4 xl:ml-20 xl:h-screen z-20 h-fit'>
+                <div className='bg-black h-[41rem] text-center text-white  z-20 '>
                               
                 <div>
                   <p className=' font-bold text-lg text-left ml-4 xl:text-5xl xl:ml-16 xl:mt-10 xl:mb-4'>Preparing you for Industry delivery</p>

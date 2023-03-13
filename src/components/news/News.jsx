@@ -2,7 +2,7 @@ import React from 'react'
 
 function News() {
   return (
-    <div class='enroll bg-black w-auto '>
+    <div class='items-center justify-center bg-black '>
         <h5 className='text-white text-4xl font-semibold text-center '>Join our Career Newsletters</h5>
         <h3 className='text-white  text-center  mt-16 lg:mt-4 md:mt-4 lg:mb-2 md:mb-2'>Be the first to know what happens at Adamur</h3>
 

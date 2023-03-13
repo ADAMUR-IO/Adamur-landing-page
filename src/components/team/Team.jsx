@@ -1,12 +1,12 @@
 import React, { useState } from 'react'
 import './team.css';
 import { teamData } from '../team/teamData'
-import { leftArrow, rightArrow } from '../images';
+import {  rightArrow, leftArrow } from '../images';
 import {motion} from 'framer-motion';
 
 
 const Team = () => {
-  const transition =  { type: 'spring', duration: 3 };
+  const transition =  { type: 'spring', duration: 4 };
   const  [selected, setSelected] = useState(0);
   const tLength = teamData.length;
   return (
@@ -52,11 +52,13 @@ const Team = () => {
     <img  onClick={() => {selected === 0 ? setSelected(tLength - 1 ):
                     setSelected((prev) => prev -1 );
                 }}
-      src={leftArrow} alt="" />
+                src={leftArrow} alt=""
+       />
     <img onClick={() => {selected === tLength - 1 ? setSelected(0)
                     : setSelected((prev) => prev + 1 );
                 }}
-                src={rightArrow} alt="" />                
+                
+                 src={rightArrow} alt="" />                
             </div>
   </div>
   </div>

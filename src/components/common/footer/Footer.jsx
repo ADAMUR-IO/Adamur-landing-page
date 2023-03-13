@@ -19,8 +19,8 @@ function Footer() {
             <WhatsAppButton />
         </div>
 
-     <div className='  grid lg:cols-2 md:col-span-1 md:cols-2 gap-8 lg:flex space-x-20 md:flex  md:ml-4p0 lg:ml-24 m  pt-1'>
-            <div className=' pt-1 md:ml-20 lg:ml-20  grid lg:flex-cols-2  mt-1 '>
+     <div className='  grid lg:cols-2 md:col-span-1 md:cols-2 gap-8 lg:flex space-x-16 md:flex  md:ml-4p0 lg:ml-24 m  pt-1'>
+            <div className=' pt-1 md:ml-16 lg:ml-16  grid lg:flex-cols-2  mt-1 '>
                 <img src= { Logo } alt="" className='flogo w-44 mt-2 ' />
                 <p className='py-2  text-gray-400'>With each project <br/> We strengthen the brand identity <br/> of organizations.</p>
                 <div className='flex justify-between md:w-[70%] p-4 pt-1 text-white md:gap-1 lg:gap-2'>
