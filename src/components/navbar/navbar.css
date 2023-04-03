@@ -11,6 +11,7 @@ li{
   align-items: center;
   justify-content: space-between;
   width: 100%;
+  padding-left: 1rem;
 }
 
 @media screen and (max-width: 960px) {
@@ -30,6 +31,8 @@ li{
 /* Navbar */
 .nav-wrapper{
   background: transparent;
+  border-bottom: 2px solid whitesmoke;
+
 }
 .nav{
   display: flex;
@@ -67,6 +70,7 @@ transition: 0.3s ease;
 @media screen and (max-width: 768px) {
   .toggler-icon{
     display: block;
+    z-index: 10;
   }
   .logo{
     width: 12rem;
@@ -75,17 +79,13 @@ transition: 0.3s ease;
     position: fixed;
     background: rgb(170, 235, 235);
     flex-direction: column;
-    top: 6vh;
-    width: 40%;
-    height: 55vh;
+    align-items: center;
+    justify-content: space-evenly;
+    top: 0;
+    width: 80%;
+    height: 50%;
     right: 0;
-    border-top: 2.5px solid black;
     border-radius: 5px;
-    border-left: 2.5px solid red;
-    border-right: 2.5px solid black;
-    border-bottom: 2.5px solid red;
-
-
     transform: translateX(100%);
     transition: 0.5s ease;
     z-index: 5;

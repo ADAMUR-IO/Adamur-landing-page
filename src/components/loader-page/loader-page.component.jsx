@@ -3,11 +3,11 @@ import './loader-page.styles.css';
 import Cool from '../images/cool.png';
 import Logo from '../Logo/Logo.component';
 import Section from '../section-2-loader/section-2.component';
-import Desktop from '../images/Desktop - 1.png';
 import Team from '../team/Team'
 import News from '../news/News'
 
 import Footer from '../common/footer/Footer'
+import Section4 from '../section4/Section4';
 
 
 
@@ -16,12 +16,12 @@ const Loader = () => {
       <div className='body-container'> {/* start of parent div */}
             <div className='loader-container'>
               <div className='text-m'>
-                <span className='flex gap-8 text-center justify-center'><strong >Bold</strong> <span className='xl:p-4'>*</span> <span className='text-c'>Thinkers</span> <span className=' xl:p-4'>*</span> Doers <span className='xl:p-4'>*</span> </span>
+                <span className='flex gap-2 text-center justify-center xl:justify-evenly'><strong >Bold</strong> <span className=''>*</span> <span className='text-c'>Thinkers</span> <span className=' '>*</span> Doers <span className=''>*</span> </span>
 
               </div>
               
-              <div className='box-container flex items-center justify-between px-7'>
-                <span className='inspire-1 w-1/2 pt-4'>Inspiring the next gen tech talent</span>
+              <div className=' flex items-center justify-evenly px-7'>
+                <span className='inspire-1 w-1/2 '>Inspiring the next gen tech talent</span>
                 <br></br>
                 {/* <div className='inspire-2'>
                 <span >If it's uncontained, is it still content? We dance betwewn unfiltered & refined between  Morocco & Luxambourg, transscending traditon to capture calture. Founded in 2020, Lights specializes in videos, live events & immensive experiences. Our work spans the whole audiovisual gamut, from art direction to live streaming to interactive installations.</span>
@@ -36,39 +36,18 @@ const Loader = () => {
 
               </div>
         <div>
-        <Section />        
+         <Section />        
         <Logo />
+        <Section4 /> 
         </div>
 
-                      
-                        <div className='section-4-container flex items-center justify-center'> {/* start of section-4-container div */}
-                        <div className='section-4-container-0'>
-                        <div className='section-4-container-1'>
-                              <div className='section-4-container-2'>
-                        <div className='text-delivery-1'>
-                  <p>Product design, UX & UI</p>
-                </div>
-                            </div>
-                        <span>We are focused on quality results and attention to detail.</span>
-                        <div className='section-4-container-2-link'>
-                        <div> 
-                                <a href='/#'><span title='Good to have you join ADAMUR' className='link-join xl:text-xl xl:mb-8' style={{padding: '3px'}}>Apply for our next cohort</span></a>
-                                </div>
-                          </div>
-                        </div>
-                        </div>
-                        <div className='section-4-box-container'>
-                          < img src={Desktop} alt='Beautiful analytics to grow' style={{marginBottom: '1rem'}} />
-                        </div>
-                        
-                        </div>{/* end of section-4-container div */}
                         <div>
                         <Team />
                         </div>
 
                         <div className='footer-container'>{/* start of footer div */}
                               <div>
-                              <h1 className='footer-title text-center '>Let's Talk * Ready to join our next cohort?</h1>
+                              <h1 className='footer-title text-center justify-center '>Let's Talk * Ready to join our next cohort?</h1>
                               </div>
                               <div><News /></div>
 <div><Footer /></div>

@@ -1,7 +1,8 @@
 import React, { useState } from 'react'
 import './team.css';
 import { teamData } from '../team/teamData'
-import {  rightArrow, leftArrow } from '../images';
+import  leftArrow  from '../images/leftArrow/leftArrow.png';
+import rightArrow  from '../images/rightArrow/rightArrow.png';
 import {motion} from 'framer-motion';
 
 

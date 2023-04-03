@@ -12,9 +12,9 @@ import {
 function Footer() {
   return (
 
-<div class="bg-fixed" style={{backgroundImage: `url(${BgImage})`}}>
+<div className="bg-fixed items-center justify-center" style={{backgroundImage: `url(${BgImage})`}}>
   <div className='footer m-1 p-1 '>
-         <div className=' ml-4 text-center ml-88 justify-end mr-36 mt-4 gap-20 flex sm:flex items-center 2'>
+         <div className=' ml-4 text-center ml-88 justify-end mr-32 mt-4 gap-16 flex sm:flex items-center '>
             <h6 className='font-medium text-gray-400  lg:mt-4 md:mt-4 lg:mb-2 md:mb-2'>Ready to join our next cohort?</h6>
             <WhatsAppButton />
         </div>
@@ -24,10 +24,18 @@ function Footer() {
                 <img src= { Logo } alt="" className='flogo w-44 mt-2 ' />
                 <p className='py-2  text-gray-400'>With each project <br/> We strengthen the brand identity <br/> of organizations.</p>
                 <div className='flex justify-between md:w-[70%] p-4 pt-1 text-white md:gap-1 lg:gap-2'>
-                    <FaInstagram size={30} />
-                    <FaFacebookSquare size={30} />
-                    <FaTwitterSquare size={30} />
-                    <FaLinkedin size={30} />
+               <a href="/">
+               <FaInstagram size={30} className="hover:text-orange-700" /> 
+               </a>
+                <a href="/">
+                <FaFacebookSquare size={30} className="hover:text-blue-900"/>
+                </a>
+                <a href="/">
+                <FaTwitterSquare size={30} className="hover:text-blue-900"/>
+                </a> 
+                <a href="/">
+                <FaLinkedin size={30} className="hover:text-blue-900"/>
+                </a> 
                  
                 </div>
             </div>
@@ -54,7 +62,7 @@ function Footer() {
                             to='privacy'
                             span={true}
                             smooth={true} 
-                            className='py-2 text-sm'>Privacy Policy</Link>
+                            className='py-2 text-sm hover:text-[red]'>Privacy Policy</Link>
                         </ul>
                     </div>
 
