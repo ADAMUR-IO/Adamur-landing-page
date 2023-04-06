@@ -1,7 +1,6 @@
 .body-container {
   background-color: #F5F5F5;
   background-attachment: fixed;
-  margin: 0px;
   width: 100%;
   height: auto;
   background-size: cover;
@@ -184,7 +183,7 @@
       }
     
       .inspire-1 {
-        font-size: 15px;
+        font-size: 10px;
       }
       .inspire-2 {
         margin-left: 10px;
@@ -271,12 +270,6 @@
       font-size: x-large;
       width: auto;
     }
-    /* .inspire-2{
-      display: flex;
-      flex-direction: column;
-      font-size: 0.8rem;
-      width: 16rem;
-      margin-left: auto;
-    } */
+   
  
   }
