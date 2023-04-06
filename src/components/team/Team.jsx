@@ -15,8 +15,8 @@ const Team = () => {
     <span className='md:cols-2 lg:cols-2 text-black text-center font-bold mt-5 text-3xl'>What our cohort says</span>
 
      <div className="image-container">
-     <div className="left-t">
-     <span>
+     <div className="left-t mb-24">
+     <span className="">
           <span>{teamData[selected].name}</span>{" "}
                 - {teamData[selected].status}
             </span>
