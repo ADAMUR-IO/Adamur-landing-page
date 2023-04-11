@@ -4,6 +4,7 @@ import Loader from '../loader-page/loader-page.component'
 import Navbar from '../navbar/Navbar'
 
 
+
 const Home = () => {
   return (
     <>
