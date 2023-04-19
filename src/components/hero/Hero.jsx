@@ -45,7 +45,7 @@ const Hero = () => {
  animate={{ opacity: 1, x: 0 }}
  transition={transition}
 >
-      <div className="flex -skew-y-12 items-center justify-center mt-2 gap-2 px-2 md:px-8">
+      <div className="flex -skew-y-12 items-center justify-center mt-2 gap-2 px-1 md:px-6">
       <div className="items-center justify-center md:p-1 rounded-full flex-col  skew-y-12 bg-red-600">
         <img src={ Col1 } alt="" />
         <img src={ Col2 } alt="" />

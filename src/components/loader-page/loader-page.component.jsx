@@ -16,12 +16,13 @@ const Loader = () => {
       <div className='body-container'> {/* start of parent div */}
             <div className='loader-container'>
               <div className='text-m'>
-                <span className='flex gap-2 text-center justify-center xl:justify-evenly'><strong >Bold</strong> <span className=''>*</span> <span className='text-c'>Thinkers</span> <span className=' '>*</span> Doers <span className=''>*</span> </span>
+                
+                <span className='flex items-center justify-evenly'><strong >Bold</strong><span className=''>*</span> <span className='text-c'>Thinkers</span> <span className=' '>*</span> Doers <span className=''>*</span></span>
 
               </div>
               
-              <div className='flex items-center justify-evenly'>
-                <span className='inspire-1 w-1/2'>Inspiring the next gen tech talent</span>
+              <div className='flex items-center justify-evenly px-1'>
+                <span className='inspire-1 w-1/2 mb-12'>Inspiring the next gen tech talent</span>
                 <br></br>
                 {/* <div className='inspire-2'>
                 <span >If it's uncontained, is it still content? We dance betwewn unfiltered & refined between  Morocco & Luxambourg, transscending traditon to capture calture. Founded in 2020, Lights specializes in videos, live events & immensive experiences. Our work spans the whole audiovisual gamut, from art direction to live streaming to interactive installations.</span>
