@@ -6,10 +6,23 @@ import Programs from './programs/Programs';
 import Updates from '../src/components/updates/Updates'
 import Cohort from './components/cohort/Cohort';
 import Privacy from './assets/privacy/Privacy';
+import Lenis from '@studio-freight/lenis'
 
 
 
 function App ()  {
+  const lenis = new Lenis()
+
+lenis.on('scroll', (e) => {
+  console.log(e)
+})
+
+function raf(time) {
+  lenis.raf(time)
+  requestAnimationFrame(raf)
+}
+
+requestAnimationFrame(raf)
   return (
       <>
    <Router>

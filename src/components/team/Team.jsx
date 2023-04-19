@@ -14,7 +14,7 @@ const Team = () => {
 
      <div className="flex flex-col items-center md:justify-evenly bg-black md:w-[58rem] h-96 mb-4 pb-2  rounded-lg">
       <div className='flex flex-col md:flex-row items-center md:gap-28 justify-center'>
-     <div className="flex flex-col gap-5 text-white w-96 p-2 md:pl-4">
+     <div className="flex flex-col items-center justify-center md:gap-5 text-white w-96 px-4 md:pl-4">
      <span className="font-bold">
           <span>{teamData[selected].name}</span>{" "}
                 - {teamData[selected].status}
@@ -28,7 +28,7 @@ const Team = () => {
             >{teamData[selected].review}
             </motion.span>
             
-            </div>
+    </div>
 
       <div className="md:-mt-24">
             <motion.div
