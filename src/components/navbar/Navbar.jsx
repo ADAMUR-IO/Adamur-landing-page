@@ -26,8 +26,7 @@ const Navbar = () => {
     };
 
   return (
-    <div className="nav-wrapper">
-        <div className="container">
+    <div className="flex items-center justify-between px-4">
         <a href="/" className="logo">
                 <img src={ Logo } alt="" />
             </a>
@@ -49,7 +48,6 @@ const Navbar = () => {
         </nav>
 
 
-    </div>
     
     </div>
   )
