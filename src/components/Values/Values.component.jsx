@@ -6,7 +6,7 @@ import innovation from '../images/values/innovation.png'
 const Values = () => {
   return (
     <div>
-        <div className='text-center items-center min-h-screen'>
+        <div className='text-center items-center justify-center min-h-screen'>
 <div className='font-extrabold text-lg p-6 text-rose-700 lg:p-10 lg:text-2xl'>Our Values<span></span></div>
 <div className='text-sm w-11/12 pl-10 text-left lg:text-lg lg:w-9/12 lg:pl-72'>
     {/* <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lacus, ut egestas in sed enim eleifend convallis vitae. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lacus, ut egestas in sed enim eleifend convallis vitae. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lacus, ut egestas in sed enim eleifend convallis vitae. </span> */}

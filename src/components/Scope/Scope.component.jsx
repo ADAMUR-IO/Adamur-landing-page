@@ -2,7 +2,7 @@ import React from 'react'
 
 const Scope = () => {
   return (
-    <div className='flex justify-center text-white p-2 text-lg space-x-2 lg:space-x-24 lg:p-16'>
+    <div className='flex items-center justify-center text-white p-2 text-lg space-x-2 lg:space-x-24 lg:p-16'>
       
         <div className='bg-zinc-800 text-center w-32 p-5 lg:w-72 lg:h-44 lg:p-14 sm:w-44'>
         <span className='f-bolder text-xl '>100+</span>

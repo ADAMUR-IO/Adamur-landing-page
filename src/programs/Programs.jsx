@@ -20,7 +20,7 @@ const Programs = () => {
       <div style={{marginLeft: '10rem', height: '10rem'}}>
       <FormButton />
       </div>
-      <div className="circles">
+      <div className="circles flex items-center justify-center">
         <div className="one">
           <img src={One} alt="" />
           <p></p>

@@ -10,7 +10,7 @@ const AboutUs = () => {
       <Navbar/>
         <div className='bg-black text-white pt-3 pl-1 items-center justify-center min-w-full lg:p-10'>
             
-            <div className='text-xs  text-red-600  text-center pt-1 lg:text-3xl'>
+            <div className='text-xs text-red-600  text-center pt-1 lg:text-3xl'>
             <span>About Us</span>
             </div>
 <div className='justify-center items-center p-6 lg:p-24 lg:ml-12 text-center'>

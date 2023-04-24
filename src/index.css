@@ -18,3 +18,33 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.blur{
+  background: rgba(211, 31, 18, 0.801);
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(60px);
+  z-index: -9;
+
+}
+.blur-1{
+  margin-top: 10rem;
+  margin-left: 28rem;
+  background: rgba(39, 197, 7, 0.801);
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(60px);
+  z-index: -9;
+}
+@media screen and (max-width: 768px) {
+  .blur-1{
+    margin-left: 24rem;
+  }
+  
+}
+@media screen and (max-width: 600px) {
+  .blur-1{
+    margin-left: 14rem;
+  }
+  
+}

@@ -35,7 +35,7 @@ const Hero = () => {
       exit={{ opacity: 0, x: 300 }}
       transition={transition}
       className='text-3xl md:text-5xl font-light'>with us!</motion.span>
-    <div>    </div>
+    <div className='blur-1 md:w-40 md:h-24 w-20 h-16'></div>
 
     <span className='text-lg flex flex-col px-1 py-2'>At Adamur we inspire, shape and develop industry grade software <br/>engineers,let your career in tech soar to greater heights!</span>
 

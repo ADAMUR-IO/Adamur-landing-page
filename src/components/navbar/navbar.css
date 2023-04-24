@@ -6,19 +6,10 @@ li{
   list-style: none;
 }
 
-.container{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 100%;
-  padding-left: 1rem;
-}
+
 
 @media screen and (max-width: 960px) {
-  .container{
-    padding-left: 15px;
-    padding-right: 15px;
-  }
+  
   .nav-menu{
     display: flex;
     font-size: 15px;
@@ -84,7 +75,7 @@ transition: 0.3s ease;
     justify-content: center;
     top: 0;
     width: 22rem;
-    height: 50%;
+    height: 40rem;
     right: 0;
     border-radius: 5px;
     transform: translateX(100%);
@@ -107,6 +98,7 @@ transition: 0.3s ease;
 @media screen and (max-width: 600px){
   .nav-menu{
     width: 15rem;
+    height: 35rem;
   }
 }
 
