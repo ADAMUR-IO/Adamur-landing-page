@@ -36,7 +36,6 @@ const Navbar = () => {
                 <li key={item.id}className="nav-item">
                 <a href={item.href} className="nav-link">{item.label}
                 </a>
-                <div className='blur w-24 h-12'></div>
                </li>
                     )}
                 <FormButton />

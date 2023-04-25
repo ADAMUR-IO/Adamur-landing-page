@@ -17,7 +17,7 @@ const Loader = () => {
             <div className='loader-container'>
               <div className='text-m'>
                 
-                <span className='flex items-center justify-evenly'><strong >Bold</strong><span className=''>*</span> <span className='text-c'>Thinkers</span> <span className=' '>*</span> Doers <span className=''>*</span></span>
+                <span className='flex items-center justify-center gap-24'><strong >Bold</strong><span className=''>*</span> <span className='text-c'>Thinkers</span> <span className=' '>*</span> Doers <span className=''>*</span></span>
 
               </div>
               

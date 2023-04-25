@@ -28,7 +28,7 @@ function Footer() {
             <WhatsAppButton />
         </div>
 
-     <div className='  grid lg:cols-2 md:col-span-1 md:cols-2 gap-8 lg:flex space-x-16 md:flex  md:ml-4p0 lg:ml-24 m  pt-1'>
+     <div className='grid lg:cols-2 md:col-span-1 md:cols-2 gap-8 lg:flex md:flex items-center justify-center pt-1'>
             <div className=' pt-1 md:ml-16 lg:ml-16  grid lg:flex-cols-2  mt-1 '>
                 <img src= { Logo } alt="" className='flogo w-44 mt-2 ' />
                 <p className='py-2  text-gray-400'>With each project <br/>We strengthen the brand identity <br/> of organizations.</p>
@@ -57,9 +57,9 @@ function Footer() {
                         <li className='py-2 text-sm'>Waiyaki way</li>
                         <button className='py-2 text-sm hover:text-[red]'
                          onClick={handleEmailClick}>info@adamur.io</button> 
-                        <div className='flex items-center justify-center gap-1'>
+                        <div className='flex items-center gap-2'>
                             <FiPhoneCall />
-                        <a href='tel:0740516899' className='py-2 text-sm hover:text-blue-600'>+254(0)740 516 899</a>
+                        <a href='tel:0740516899' className='py-2 text-sm hover:text-blue-600'>0740 516899</a>
                         </div>
                     </ul>
                 </div>

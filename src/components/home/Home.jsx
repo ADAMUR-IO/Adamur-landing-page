@@ -1,7 +1,11 @@
 import React from 'react'
 import Hero from '../hero/Hero'
-import Loader from '../loader-page/loader-page.component'
+// import Loader from '../loader-page/loader-page.component'
 import Navbar from '../navbar/Navbar'
+import Team from '../team/Team'
+import Logo from '../Logo/Logo.component'
+import Footer from '../common/footer/Footer'
+import News from '../news/News'
 
 
 
@@ -10,7 +14,11 @@ const Home = () => {
     <>
     <Navbar />
     <Hero />
-    <Loader />
+    <Logo />
+    <Team />
+    <News />
+    <Footer />
+    {/* <Loader /> */}
     
        </>
   )
