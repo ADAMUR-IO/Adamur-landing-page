@@ -59,7 +59,7 @@ function Footer() {
                          onClick={handleEmailClick}>info@adamur.io</button> 
                         <div className='flex items-center gap-2'>
                             <FiPhoneCall />
-                        <a href='tel:0740516899' className='py-2 text-sm hover:text-blue-600'>0740 516899</a>
+                        <a href='tel:0794658105' className='py-2 text-sm hover:text-blue-600'>+2547 9465 8105</a>
                         </div>
                     </ul>
                 </div>
