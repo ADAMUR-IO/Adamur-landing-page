@@ -14,13 +14,13 @@ const Programs = () => {
   return (
     <>
     <Navbar />
-    <div className='programs'>
+    <div className='programs items-center justify-center'>
       <span>The destination for tech leaders who seek to change the world </span>
-      <p>Cohort 2.0 Application ongoing...</p>
+      <p>Cohort 3.0 Application ongoing...</p>
       <div style={{marginLeft: '10rem', height: '10rem'}}>
       <FormButton />
       </div>
-      <div className="circles">
+      <div className="circles flex items-center justify-center">
         <div className="one">
           <img src={One} alt="" />
           <p></p>

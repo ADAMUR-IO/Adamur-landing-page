@@ -6,7 +6,7 @@ const WhatsAppButton = () => {
     
     const handleClick = () => {
         const encodedMessage = encodeURIComponent('Thank you for reaching out to ADAMUR, How may we assist you?');
-        const waUrl = `https://wa.me/${254791047501}?text=${encodedMessage}`;
+        const waUrl = `https://wa.me/${254794658105}?text=${encodedMessage}`;
         window.open(waUrl);
     };
   return (

@@ -6,19 +6,15 @@ li{
   list-style: none;
 }
 
-.container{
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-}
+
 
 @media screen and (max-width: 960px) {
-  .container{
-    padding-left: 15px;
-    padding-right: 15px;
-  }
+  
   .nav-menu{
+    display: flex;
     font-size: 15px;
+    align-items: center;
+  justify-content: space-between;
   }
   
 }
@@ -26,6 +22,8 @@ li{
 /* Navbar */
 .nav-wrapper{
   background: transparent;
+  border-bottom: 2px solid whitesmoke;
+
 }
 .nav{
   display: flex;
@@ -55,37 +53,38 @@ color: red;
 .toggler-icon div{
 width: 25px;
 height: 2px;
-background: teal;
+background: gray;
 margin: 5px 0px;
 transition: 0.3s ease;
 }
 
 @media screen and (max-width: 768px) {
+  
   .toggler-icon{
     display: block;
+    z-index: 10;
   }
   .logo{
     width: 12rem;
   }
   .nav-menu{
     position: fixed;
-    background: rgb(170, 235, 235);
+    background: rgba(0, 12, 12, 0.747);
     flex-direction: column;
-    top: 6vh;
-    width: 40%;
-    height: 55vh;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    width: 22rem;
+    height: 40rem;
     right: 0;
-    border-top: 2.5px solid black;
     border-radius: 5px;
-    border-left: 2.5px solid red;
-    border-right: 2.5px solid black;
-    border-bottom: 2.5px solid red;
-
-
     transform: translateX(100%);
     transition: 0.5s ease;
     z-index: 5;
     
+  }
+  .nav-link{
+    color: white;
   }
 }
 @media screen and (max-width: 320px) {
@@ -94,6 +93,12 @@ transition: 0.3s ease;
   }
   .logo{
     width: 10rem;
+  }
+}
+@media screen and (max-width: 600px){
+  .nav-menu{
+    width: 15rem;
+    height: 35rem;
   }
 }
 

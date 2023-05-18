@@ -1,40 +1,68 @@
-import './hero.css';
+import React from 'react'
 import { Col1, Col2, Col3, Col4, Col5, Col6, Col7, Col8 } from '../images';
+import { motion } from 'framer-motion'
+
 
 
 
 const Hero = () => {
+  const transition =  { type: 'spring', duration: 8 };
+  
+ 
  
   return (
-    <div className='hero'>  
-    <div className='header-l min-h-screen sm:justify-baseline  pl-4'>
-      <div className="text max-w-[1200px] mt-[36px] w-full  mx-auto lg:ml-12 flex flex-col justify-start">
-      <p className='text-5xl font-bold'>shape your software<br/>engineering <span className='text-5xl font-light' >Career <br/> with us!</span></p>
-     
-    <div className="blur hero-blur1"></div>
-      <p>At Adamur we inspire, shape and develop industry grade software <br/>engineers,let your career in tech soar to greater heights!</p>
+    <div className="lg:h-[66rem] md:h-[46rem] h-[30rem] flex flex-col justify-start">  
+
+     <div className="flex flex-col p-2 md:p-8 md:text-left ">
+      <div className='flex flex-col text-3xl md:text-5xl'>
+     <motion.span 
+      initial={{ opacity: 0, x: -100 }}
+      whileInView={{ opacity: 1, x: 0 }}
+      exit={{ opacity: 0, x: 100 }}
+      transition={transition}
+     className='font-bold'>Shape your software</motion.span>
+
+     <motion.span 
+      initial={{ opacity: 0, x: -200 }}
+      whileInView={{ opacity: 1, x: 0 }}
+      exit={{ opacity: 0, x: 200 }}
+      transition={transition}
+     className='flex gap-2 font-bold'>engineering<span className='font-light'>career</span></motion.span>
+
+     <motion.span
+      initial={{ opacity: 0, x: -300 }}
+      whileInView={{ opacity: 1, x: 0 }}
+      exit={{ opacity: 0, x: 300 }}
+      transition={transition}
+      className='text-3xl md:text-5xl font-light'>with us!</motion.span>
+
+    <span className='text-lg flex flex-col px-1 py-2'>At Adamur we inspire, shape and develop industry grade software <br/>engineers,let your career in tech soar to greater heights!</span>
+
       </div>
 
-      <div className="formation justify-center sm:align-middle pl-2 mt-[4px] flex lg:cols-2 md:col-span-1 md:cols-2 gap-2  md:mr-4 lg:ml-20 m  pt-2">
-      <div className="img1-container">
-        <img src={ Col1 } alt="" />
-        <img src={ Col2 } alt="" />
-      </div>    
-    <div className="img2-container ">
-      <img src={ Col3 } alt="" />
-      <img src={ Col4 } alt="" />
-    </div>  
-    <div className="img3-container">
-      <img src={ Col5 } alt="" />
-      <img src={ Col6 } alt="" />
+
       </div>
-    <div className="img4-container">
-    <img src={ Col7 } alt="" />
-      <img src={ Col8 } alt="" />
+<div>
+      <div className="flex -skew-y-12 items-center justify-center mt-2 gap-2 px-1 md:px-6">
+      <div className="items-center justify-center md:p-1 rounded-full flex-col  skew-y-12 bg-red-600">
+        <img src={ Col1 } alt="" className='w-80'/>
+        <img src={ Col2 } alt="" className='w-80'/>
+      </div>    
+    <div className="items-center justify-center md:p-1 rounded-full flex-col bg-blue-900 skew-y-12">
+      <img src={ Col3 } alt="" className='w-80'/>
+      <img src={ Col4 } alt="" className='w-80'/>
+    </div>  
+    <div className="items-center justify-center md:p-1 flex-col rounded-full skew-y-12 bg-red-300">
+      <img src={ Col5 } alt="" className='w-80'/>
+      <img src={ Col6 } alt="" className='w-80'/>
+      </div>
+    <div className="items-center justify-center md:p-1 rounded-full flex-col skew-y-12 bg-slate-50 ">
+    <img src={ Col7 } alt="" className='w-80'/>
+      <img src={ Col8 } alt="" className='w-80'/>
+</div>
 </div>
 </div>
     </div>
-  </div>
   );
 };
 

@@ -18,3 +18,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.blur{
+  background: rgba(211, 31, 18, 0.801);
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(60px);
+  z-index: -9;
+
+}
+
+

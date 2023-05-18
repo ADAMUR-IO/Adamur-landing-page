@@ -26,8 +26,7 @@ const Navbar = () => {
     };
 
   return (
-    <div className="nav-wrapper">
-        <div className="container">
+    <div className="flex items-center justify-between px-4">
         <a href="/" className="logo">
                 <img src={ Logo } alt="" />
             </a>
@@ -39,9 +38,7 @@ const Navbar = () => {
                 </a>
                </li>
                     )}
-            <div className="nav-btn">
-            <FormButton />
-            </div>
+                <FormButton />
             </ul>
             <div className={toggleIcon }  onClick={onToggle}>
                 <div className="line-1"></div>
@@ -51,7 +48,6 @@ const Navbar = () => {
         </nav>
 
 
-    </div>
     
     </div>
   )

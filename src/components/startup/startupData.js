@@ -27,12 +27,12 @@ export const startupData = [
 {
     icon: "../../images/icon/icons8_idea.png",
     title: "Creative Marketing & Advertsing",
-    review: " ",
+    review: "Join Adamur Tribe for creative services, brand identity and more engagements to captivate your audience.",
     },
 {
     icon: "../../images/icon/icons8_idea.png",
     title: "Technical Orientation & Yellow Paper Generation",
-    review: " ",
+    review: "We are committed to the acquisition of creative, fresh and developed techniques to offer development of fresh procedures for digital products and our services.",
     },
 {
     icon: "../../images/icon/icons8_idea.png",
